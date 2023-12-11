@@ -8,7 +8,7 @@
 
 21. **Tipo bool (boolean) - Introdução aos tipos de dados ->** *[aula21](aula20.py)*
 
-22. **Coerção de tipos (convertendo um tipo para outro) ->** *[aula22](aula22.py)*
+22. **Coerção de tipos (convertendo um tipo para outro) ->**  *[aula22](aula22.py)*
 
 23. **Introdução às variáveis em Python ->** *[aula23](aula23.py)*
 
