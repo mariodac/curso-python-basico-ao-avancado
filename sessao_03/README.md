@@ -13,4 +13,4 @@
 - 27 - **Concatenação (+) e repetição (\*) com operadores aritméticos** *[aula27](aula27.py)*
 - 28 - **Precedência entre os operadores aritméticos** *[aula28](aula28.py)*
 - 29 - **Exercício de programação - Cálculo do IMC (Índice de Massa Corpórea) + Ellipsis** *[aula29](aula29.py)*
-- 30 - **Solução de Exercício**
+- 30 = **Solução de Exercício**
