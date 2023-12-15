@@ -1,6 +1,6 @@
 # Seção 3: Iniciando na programação com Python (Lógica de programação básica)
 
-- 15. **Criando meu primeiro módulo Python (*.py)**. 16. **O interpretador do Python + comentários de códigos**. 17. **Docstrings como comentários ->**  *[aula15](aula15.py)*
+- 15 - **Criando meu primeiro módulo Python (*.py)**. 16. **O interpretador do Python + comentários de códigos**. 17. **Docstrings como comentários ->**  *[aula15](aula15.py)*
 - 18. **A função print ->** *[aula18](aula18.py)*
 - 19. **Tipo str (string) - Introdução aos tipos de dados ->** *[aula19](aula19.py)*
 - 20. **Tipo int e float (números) - Introdução aos tipos de dados ->** *[aula20](aula20.py)*
