@@ -9,8 +9,10 @@
 - 23 - **Introdução às variáveis em Python ->** *[aula23](aula23.py)*
 - 24 - **Exercício com variáveis e tipos de dados ->** *[aula24](aula24.py)*
 - 25 = **Solução de Exercício**
-- 26 - **Introdução aos operadores aritméticos (matemática)** *[aula26](aula26.py)*
-- 27 - **Concatenação (+) e repetição (\*) com operadores aritméticos** *[aula27](aula27.py)*
-- 28 - **Precedência entre os operadores aritméticos** *[aula28](aula28.py)*
-- 29 - **Exercício de programação - Cálculo do IMC (Índice de Massa Corpórea) + Ellipsis** *[aula29](aula29.py)*
+- 26 - **Introdução aos operadores aritméticos (matemática) ->** *[aula26](aula26.py)*
+- 27 - **Concatenação (+) e repetição (\*) com operadores aritméticos ->** *[aula27](aula27.py)*
+- 28 - **Precedência entre os operadores aritméticos ->** *[aula28](aula28.py)*
+- 29 - **Exercício de programação - Cálculo do IMC (Índice de Massa Corpórea) + Ellipsis ->** *[aula29](aula29.py)*
 - 30 = **Solução de Exercício**
+- 31 - **Uma introdução às f-strings (formatação de strings) ->** *[aula31](aula31.py)*
+- 32 - **Formatação de strings com o método format ->** *[aula32](aula32.py)*
