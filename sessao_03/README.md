@@ -16,3 +16,12 @@
 - 30 = **Solução de Exercício**
 - 31 - **Uma introdução às f-strings (formatação de strings) ->** *[aula31](aula31.py)*
 - 32 - **Formatação de strings com o método format ->** *[aula32](aula32.py)*
+- 33 -  **Usando a função input para coletar dados do usuário** *[aula33](aula33.py)*
+- 34 - **Introdução aos blocos de código + if / elif / else (condicionais)** *[aula34](aula34.py)*
+- 35 - **if, elif e else: entendendo o fluxo do interpretador em condicionais** *[aula35](aula35.py)*
+- 37 - **Operadores relacionais (de comparação) em Python** *[aula37](aula37.py)*
+- 38 - **Exercício de programação com if e comparação** *[aula38](aula38.py)*
+- 40 - **Operador Lógico "and"** *[aula40](aula40.py)*
+- 41 - **Operador Lógico "or"** *[aula41](aula41.py)*
+- 42 - **Operador lógico "not"** *[aula42](aula42.py)*
+- 43 - **Operadores in e not in** *[aula43](aula43.py)*
