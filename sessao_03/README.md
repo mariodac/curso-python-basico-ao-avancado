@@ -21,7 +21,15 @@
 - 35 - **if, elif e else: entendendo o fluxo do interpretador em condicionais** *[aula35](aula35.py)*
 - 37 - **Operadores relacionais (de comparação) em Python** *[aula37](aula37.py)*
 - 38 - **Exercício de programação com if e comparação** *[aula38](aula38.py)*
+- 39-  **Solução - Exercício de programação com if e comparação**
 - 40 - **Operador Lógico "and"** *[aula40](aula40.py)*
 - 41 - **Operador Lógico "or"** *[aula41](aula41.py)*
 - 42 - **Operador lógico "not"** *[aula42](aula42.py)*
 - 43 - **Operadores in e not in** *[aula43](aula43.py)*
+- 44 - **Interpolação de string com % em Python** [aula44](aula44.py)
+- 45 - **Formatação de strings com f-strings** [aula45](aula45.py)
+- 46 - **Fatiamento de strings e a função len** [aula46](aula46.py)
+- 47 - **Exercício: teste seu conhecimento até aqui** [aula47](aula47.py)
+- 48 - **Solução - Exercício: teste seu conhecimento até aqui**
+- 49 - **Introdução ao try e except para capturar erros (exceptions)** [aula49](aula49.py)
+- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código** [aula50](aula50.py)
