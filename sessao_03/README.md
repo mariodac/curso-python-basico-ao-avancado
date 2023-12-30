@@ -33,3 +33,6 @@
 - 48 - **Solução - Exercício: teste seu conhecimento até aqui**
 - 49 - **Introdução ao try e except para capturar erros (exceptions)** [aula49](aula49.py)
 - 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código** [aula50](aula50.py)
+- 52 - **id - A identidade do valor que está na memória** [aula52](aula52.py)
+- 53 - **Flags, is, is not e None** [aula53](aula53.py)
+- 54 - **Exercícios - Enunciados** [aula54](aula54.py)
