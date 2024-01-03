@@ -36,3 +36,7 @@
 - 52 - **id - A identidade do valor que está na memória** [aula52](aula52.py)
 - 53 - **Flags, is, is not e None** [aula53](aula53.py)
 - 54 - **Exercícios - Enunciados** [aula54](aula54.py)
+- 55 - **Solução 1 dos Exercícios - Enunciados** [solução](https://github.com/luizomf/cursopython2023/commit/52994846438aaad92d40788260fb12522aa3082a#diff-f0d7b69208694cb2f748d0f32c56dc9fa1cd49ecfccaf6b26353026a3e7e6bbe)
+- 56 - **Solução 2 dos Exercícios - Enunciados** [solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)
+- 57 - **Solução 3 dos Exercícios - Enunciados** [soolução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)
+- 58 - **Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string**
