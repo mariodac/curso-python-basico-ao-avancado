@@ -26,24 +26,30 @@
 - 41 - **Operador Lógico "or"** *[aula41](aula41.py)*
 - 42 - **Operador lógico "not"** *[aula42](aula42.py)*
 - 43 - **Operadores in e not in** *[aula43](aula43.py)*
-- 44 - **Interpolação de string com % em Python** [aula44](aula44.py)
-- 45 - **Formatação de strings com f-strings** [aula45](aula45.py)
-- 46 - **Fatiamento de strings e a função len** [aula46](aula46.py)
-- 47 - **Exercício: teste seu conhecimento até aqui** [aula47](aula47.py)
+- 44 - **Interpolação de string com % em Python** *[aula44](aula44.py)*
+- 45 - **Formatação de strings com f-strings** *[aula45](aula45.py)*
+- 46 - **Fatiamento de strings e a função len** *[aula46](aula46.py)*
+- 47 - **Exercício: teste seu conhecimento até aqui** *[aula47](aula47.py)*
 - 48 - **Solução - Exercício: teste seu conhecimento até aqui**
-- 49 - **Introdução ao try e except para capturar erros (exceptions)** [aula49](aula49.py)
-- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código** [aula50](aula50.py)
-- 52 - **id - A identidade do valor que está na memória** [aula52](aula52.py)
-- 53 - **Flags, is, is not e None** [aula53](aula53.py)
-- 54 - **Exercícios - Enunciados** [aula54](aula54.py)
-- 55 - **Solução 1 dos Exercícios - Enunciados** [solução](https://github.com/luizomf/cursopython2023/commit/52994846438aaad92d40788260fb12522aa3082a#diff-f0d7b69208694cb2f748d0f32c56dc9fa1cd49ecfccaf6b26353026a3e7e6bbe)
-- 56 - **Solução 2 dos Exercícios - Enunciados** [solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)
-- 57 - **Solução 3 dos Exercícios - Enunciados** [solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)
-- 58 - **Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string** [aula58](aula58.py)
-- 59 - **while e break - Estrutura de repetição (Parte 1)** [aula59](aula59.py)
-- 60 - **while - Condição em detalhes** [aula60](aula60.py)
-- 61 - **Operadores de atribuição com operadores aritméticos** [aula61](aula61.py)
-- 62 - **while + continue - pulando alguma repetição** [aula62](aula62.py)
-- 63 - **while + while (laços internos)** [aula63](aula63.py)
-- 64 - **Exercício guiado com while** [aula64](aula64.py)
-- 65 - **Solução do exercício guiado com while** [solução](https://github.com/luizomf/cursopython2023/blob/7b48465a80068aaab91073c3b7f4f9a77dff50fc/aula39.py)
+- 49 - **Introdução ao try e except para capturar erros (exceptions)** *[aula49](aula49.py)*
+- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código** *[aula50](aula50.py)*
+- 52 - **id - A identidade do valor que está na memória** *[aula52](aula52.py)*
+- 53 - **Flags, is, is not e None** *[aula53](aula53.py)*
+- 54 - **Exercícios - Enunciados** *[aula54](aula54.py)*
+- 55 - **Solução 1 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/commit/52994846438aaad92d40788260fb12522aa3082a#diff-f0d7b69208694cb2f748d0f32c56dc9fa1cd49ecfccaf6b26353026a3e7e6bbe)*
+- 56 - **Solução 2 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
+- 57 - **Solução 3 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
+- 58 - **Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string** *[aula58](aula58.py)*
+- 59 - **while e break - Estrutura de repetição (Parte 1)** *[aula59](aula59.py)*
+- 60 - **while - Condição em detalhes** *[aula60](aula60.py)*
+- 61 - **Operadores de atribuição com operadores aritméticos** *[aula61](aula61.py)*
+- 62 - **while + continue - pulando alguma repetição** *[aula62](aula62.py)*
+- 63 - **while + while (laços internos)** *[aula63](aula63.py)*
+- 64 - **Exercício guiado com while** *[aula64](aula64.py)*
+- 65 - **Solução do exercício guiado com while** *[solução](https://github.com/luizomf/cursopython2023/blob/7b48465a80068aaab91073c3b7f4f9a77dff50fc/aula39.py)*
+- 66 - **Exercício guiado - Calculadora - Parte 1** *[aula66](aula66.py)*
+- 67 - **Exercício guiado - Calculadora - Parte2**  *[solução](https://github.com/luizomf/cursopython2023/blob/9fbb8ff8837c12618365ad7b3ac4728e1f1c3b38/aula40.py)*
+- 68 - **Exercício guiado - Calculadora - Parte 3**
+- 69 - **while / else (recurso peculiar do Python)** *[aula69](https://github.com/luizomf/cursopython2023/blob/69b7c76071902625f03beaffc10ba3b514b382c6/aula41.py)*
+- 70 - **while - Qual letra apareceu mais vezes na frase? (Iterando strings com while)** *[aula70](aula70.py)*
+- 71 - **DEBUGGER: while - Qual letra apareceu mais vezes na frase?** *[solução](https://github.com/luizomf/cursopython2023/blob/054eb06240cf90f5b8a13471d602ce384b513b0c/aula42.py)*
