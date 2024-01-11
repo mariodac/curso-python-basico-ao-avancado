@@ -53,3 +53,11 @@
 - 69 - **while / else (recurso peculiar do Python)** *[aula69](https://github.com/luizomf/cursopython2023/blob/69b7c76071902625f03beaffc10ba3b514b382c6/aula41.py)*
 - 70 - **while - Qual letra apareceu mais vezes na frase? (Iterando strings com while)** *[aula70](aula70.py)*
 - 71 - **DEBUGGER: while - Qual letra apareceu mais vezes na frase?** *[solução](https://github.com/luizomf/cursopython2023/blob/054eb06240cf90f5b8a13471d602ce384b513b0c/aula42.py)*
+- 72 - **Introdução ao for / in - estrutura de repetição para coisas** *[aula72](aula72.py)*
+- 73 - **range + for para usar intervalos de números** *[aula73.py](aula73.py)*
+- 74 - **Como o for funciona por baixo dos panos? (next, iter, iterável e iterador)** *[aula74.py](aula74.py)*
+- 75 - **O que aprendemos com while também funciona no for (continue, break, else, etc)** [aula75](aula75.py)
+- 76 - **Exercício - Jogo da palavra secreta** *[aula76.py](aula76.py)*
+- 77 - **Sobre exercícios - não saber é normal**
+- 78 - **(Parte 1) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/952acfec22dedad81c42b1305ab2564d3da3c021/aula47.py)*
+- 79 - **(Parte 2) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/06714511609940c132648e7ffecb2bb06ec36f0b/aula47.py)*
