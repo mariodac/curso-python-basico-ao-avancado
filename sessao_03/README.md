@@ -61,3 +61,15 @@
 - 77 - **Sobre exercícios - não saber é normal**
 - 78 - **(Parte 1) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/952acfec22dedad81c42b1305ab2564d3da3c021/aula47.py)*
 - 79 - **(Parte 2) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/06714511609940c132648e7ffecb2bb06ec36f0b/aula47.py)*
+- 80 - **Tipo list - Introdução às listas mutáveis em Python** *[aula80](aula80.py)*
+- 81  **Alterando uma lista com índices, del, append e pop (Tipo list)** *[aula81](aula81.py)*
+- 82 - **Inserindo itens em qualquer índice da lista com insert (Tipo list)** *[aula82](aula82.py)*
+- 83 - **Concatenando e estendendo listas em Python** *[aula83](aula83.py)*
+- 84 - **Cuidados com tipos de dados mutáveis - list e copy** *[aula84](aula82.py)*
+- 85 - **for in com tipo list** *[aula85](aula85.py)*
+- 86 - **Exercício - exiba os índices da lista (aula com solução)** *[aula86](aula86.py)*
+- 87 - **Introdução ao empacotamento e desempacotamento** *[aula87](aula87.py)*
+- 88 - **Tipo tuple (tuplas)** *[aula88](aula88.py)*
+- 89 - **enumerate para enumerar valores de iteráveis (pegar índices)** *[aula89](aula89.py)*
+- 90 - **Exercício - crie uma lista de compras com listas** *[aula90](aula90.py)*
+- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)
