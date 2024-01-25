@@ -67,21 +67,21 @@
 - 83 - **Concatenando e estendendo listas em Python ->** *[aula83](aula83.py)*
 - 84 - **Cuidados com tipos de dados mutáveis - list e copy ->** *[aula84](aula82.py)*
 - 85 - **for in com tipo list** *[aula85](aula85.py)*
-- 86 - **Exercício - exiba os índices da lista (aula com solução) ->** *[aula86](aula86.py)*
-- 87 - **Introdução ao empacotamento e desempacotamento ->** *[aula87](aula87.py)*
-- 88 - **Tipo tuple (tuplas) ->** *[aula88](aula88.py)*
-- 89 - **enumerate para enumerar valores de iteráveis (pegar índices) ->** *[aula89](aula89.py)*
-- 90 - **Exercício - crie uma lista de compras com listas ->** *[aula90](aula90.py)*
-- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except) ->** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)*
-- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal ->** *[aula92](aula92.py)*
-- 93 - **split, join e strip são métodos muito úteis da str ->** *[aula93](aula93.py)*
-- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis) ->** *[aula94](aula94.py)*
-- 95 - **Detalhes sobre o interpretador do Python ->** *[aula95](aula95.py)*
-- 96 - **Desempacotamento em chamadas de funções ->** *[aula96](aula96.py)*
-- 97 - **Operação ternária com Python (if e else de uma linha) ->** *[aula97](aula97.py)*
-- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python ->** *[aula98](aula98.py)*
-- 99 - **Solução do exercício - Gerar o primeiro dígito de um CPF com Python ->**
-- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python ->** *[aula100](aula100.py)*
-- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python ->** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
-- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF ->** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
-- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python ->** *[aula103](aula103.py)
+- 86 - **Exercício - exiba os índices da lista (aula com solução)** *[aula86](aula86.py)*
+- 87 - **Introdução ao empacotamento e desempacotamento** *[aula87](aula87.py)*
+- 88 - **Tipo tuple (tuplas)** *[aula88](aula88.py)*
+- 89 - **enumerate para enumerar valores de iteráveis (pegar índices)** *[aula89](aula89.py)*
+- 90 - **Exercício - crie uma lista de compras com listas** *[aula90](aula90.py)*
+- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)*
+- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal** *[aula92](aula92.py)*
+- 93 - **split, join e strip são métodos muito úteis da str** *[aula93](aula93.py)*
+- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis)** *[aula94](aula94.py)*
+- 95 - **Detalhes sobre o interpretador do Python** *[aula95](aula95.py)*
+- 96 - **Desempacotamento em chamadas de funções** *[aula96](aula96.py)*
+- 97 - **Operação ternária com Python (if e else de uma linha)** *[aula97](aula97.py)*
+- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python** *[aula98](aula98.py)*
+- 99 - **Solução do exercício - Gerar o primeiro dígito de um CPF com Python**
+- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python** *[aula100](aula100.py)*
+- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
+- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
+- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python** *[aula103](aula103.py)*
