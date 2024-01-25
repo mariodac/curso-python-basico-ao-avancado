@@ -16,72 +16,72 @@
 - 30 = **Solução de Exercício**
 - 31 - **Uma introdução às f-strings (formatação de strings) ->** *[aula31](aula31.py)*
 - 32 - **Formatação de strings com o método format ->** *[aula32](aula32.py)*
-- 33 -  **Usando a função input para coletar dados do usuário** *[aula33](aula33.py)*
-- 34 - **Introdução aos blocos de código + if / elif / else (condicionais)** *[aula34](aula34.py)*
-- 35 - **if, elif e else: entendendo o fluxo do interpretador em condicionais** *[aula35](aula35.py)*
-- 37 - **Operadores relacionais (de comparação) em Python** *[aula37](aula37.py)*
-- 38 - **Exercício de programação com if e comparação** *[aula38](aula38.py)*
+- 33 -  **Usando a função input para coletar dados do usuário ->** *[aula33](aula33.py)*
+- 34 - **Introdução aos blocos de código + if / elif / else (condicionais) ->** *[aula34](aula34.py)*
+- 35 - **if, elif e else: entendendo o fluxo do interpretador em condicionais ->** *[aula35](aula35.py)*
+- 37 - **Operadores relacionais (de comparação) em Python ->** *[aula37](aula37.py)*
+- 38 - **Exercício de programação com if e comparação ->** *[aula38](aula38.py)*
 - 39-  **Solução - Exercício de programação com if e comparação**
-- 40 - **Operador Lógico "and"** *[aula40](aula40.py)*
-- 41 - **Operador Lógico "or"** *[aula41](aula41.py)*
-- 42 - **Operador lógico "not"** *[aula42](aula42.py)*
-- 43 - **Operadores in e not in** *[aula43](aula43.py)*
-- 44 - **Interpolação de string com % em Python** *[aula44](aula44.py)*
-- 45 - **Formatação de strings com f-strings** *[aula45](aula45.py)*
-- 46 - **Fatiamento de strings e a função len** *[aula46](aula46.py)*
-- 47 - **Exercício: teste seu conhecimento até aqui** *[aula47](aula47.py)*
+- 40 - **Operador Lógico "and" ->** *[aula40](aula40.py)*
+- 41 - **Operador Lógico "or" ->** *[aula41](aula41.py)*
+- 42 - **Operador lógico "not" ->** *[aula42](aula42.py)*
+- 43 - **Operadores in e not in ->** *[aula43](aula43.py)*
+- 44 - **Interpolação de string com % em Python ->** *[aula44](aula44.py)*
+- 45 - **Formatação de strings com f-strings ->** *[aula45](aula45.py)*
+- 46 - **Fatiamento de strings e a função len ->** *[aula46](aula46.py)*
+- 47 - **Exercício: teste seu conhecimento até aqui ->** *[aula47](aula47.py)*
 - 48 - **Solução - Exercício: teste seu conhecimento até aqui**
-- 49 - **Introdução ao try e except para capturar erros (exceptions)** *[aula49](aula49.py)*
-- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código** *[aula50](aula50.py)*
-- 52 - **id - A identidade do valor que está na memória** *[aula52](aula52.py)*
-- 53 - **Flags, is, is not e None** *[aula53](aula53.py)*
-- 54 - **Exercícios - Enunciados** *[aula54](aula54.py)*
-- 55 - **Solução 1 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/commit/52994846438aaad92d40788260fb12522aa3082a#diff-f0d7b69208694cb2f748d0f32c56dc9fa1cd49ecfccaf6b26353026a3e7e6bbe)*
-- 56 - **Solução 2 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
-- 57 - **Solução 3 dos Exercícios - Enunciados** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
-- 58 - **Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string** *[aula58](aula58.py)*
-- 59 - **while e break - Estrutura de repetição (Parte 1)** *[aula59](aula59.py)*
-- 60 - **while - Condição em detalhes** *[aula60](aula60.py)*
-- 61 - **Operadores de atribuição com operadores aritméticos** *[aula61](aula61.py)*
-- 62 - **while + continue - pulando alguma repetição** *[aula62](aula62.py)*
-- 63 - **while + while (laços internos)** *[aula63](aula63.py)*
+- 49 - **Introdução ao try e except para capturar erros (exceptions) ->** *[aula49](aula49.py)*
+- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de códigov** *[aula50](aula50.py)*
+- 52 - **id - A identidade do valor que está na memória ->** *[aula52](aula52.py)*
+- 53 - **Flags, is, is not e None ->** *[aula53](aula53.py)*
+- 54 - **Exercícios - Enunciados ->** *[aula54](aula54.py)*
+- 55 - **Solução 1 dos Exercícios - Enunciados ->** *[solução](https://github.com/luizomf/cursopython2023/commit/52994846438aaad92d40788260fb12522aa3082a#diff-f0d7b69208694cb2f748d0f32c56dc9fa1cd49ecfccaf6b26353026a3e7e6bbe)*
+- 56 - **Solução 2 dos Exercícios - Enunciados ->** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
+- 57 - **Solução 3 dos Exercícios - Enunciados ->** *[solução](https://github.com/luizomf/cursopython2023/blob/33faded61e80444b18a8210d9403d40592bd9bc3/aula32.py)*
+- 58 - **Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string ->** *[aula58](aula58.py)*
+- 59 - **while e break - Estrutura de repetição (Parte 1) ->** *[aula59](aula59.py)*
+- 60 - **while - Condição em detalhes ->** *[aula60](aula60.py)*
+- 61 - **Operadores de atribuição com operadores aritméticos ->** *[aula61](aula61.py)*
+- 62 - **while + continue - pulando alguma repetição ->** *[aula62](aula62.py)*
+- 63 - **while + while (laços internos) ->** *[aula63](aula63.py)*
 - 64 - **Exercício guiado com while** *[aula64](aula64.py)*
-- 65 - **Solução do exercício guiado com while** *[solução](https://github.com/luizomf/cursopython2023/blob/7b48465a80068aaab91073c3b7f4f9a77dff50fc/aula39.py)*
-- 66 - **Exercício guiado - Calculadora - Parte 1** *[aula66](aula66.py)*
-- 67 - **Exercício guiado - Calculadora - Parte2**  *[solução](https://github.com/luizomf/cursopython2023/blob/9fbb8ff8837c12618365ad7b3ac4728e1f1c3b38/aula40.py)*
+- 65 - **Solução do exercício guiado com while ->** *[solução](https://github.com/luizomf/cursopython2023/blob/7b48465a80068aaab91073c3b7f4f9a77dff50fc/aula39.py)*
+- 66 - **Exercício guiado - Calculadora - Parte 1 ->** *[aula66](aula66.py)*
+- 67 - **Exercício guiado - Calculadora - Parte2 ->**  *[solução](https://github.com/luizomf/cursopython2023/blob/9fbb8ff8837c12618365ad7b3ac4728e1f1c3b38/aula40.py)*
 - 68 - **Exercício guiado - Calculadora - Parte 3**
-- 69 - **while / else (recurso peculiar do Python)** *[aula69](https://github.com/luizomf/cursopython2023/blob/69b7c76071902625f03beaffc10ba3b514b382c6/aula41.py)*
-- 70 - **while - Qual letra apareceu mais vezes na frase? (Iterando strings com while)** *[aula70](aula70.py)*
-- 71 - **DEBUGGER: while - Qual letra apareceu mais vezes na frase?** *[solução](https://github.com/luizomf/cursopython2023/blob/054eb06240cf90f5b8a13471d602ce384b513b0c/aula42.py)*
-- 72 - **Introdução ao for / in - estrutura de repetição para coisas** *[aula72](aula72.py)*
-- 73 - **range + for para usar intervalos de números** *[aula73.py](aula73.py)*
-- 74 - **Como o for funciona por baixo dos panos? (next, iter, iterável e iterador)** *[aula74.py](aula74.py)*
-- 75 - **O que aprendemos com while também funciona no for (continue, break, else, etc)** [aula75](aula75.py)
-- 76 - **Exercício - Jogo da palavra secreta** *[aula76.py](aula76.py)*
+- 69 - **while / else (recurso peculiar do Python) ->** *[aula69](https://github.com/luizomf/cursopython2023/blob/69b7c76071902625f03beaffc10ba3b514b382c6/aula41.py)*
+- 70 - **while - Qual letra apareceu mais vezes na frase? (Iterando strings com while) ->** *[aula70](aula70.py)*
+- 71 - **DEBUGGER: while - Qual letra apareceu mais vezes na frase? ->** *[solução](https://github.com/luizomf/cursopython2023/blob/054eb06240cf90f5b8a13471d602ce384b513b0c/aula42.py)*
+- 72 - **Introdução ao for / in - estrutura de repetição para coisas ->** *[aula72](aula72.py)*
+- 73 - **range + for para usar intervalos de números ->** *[aula73.py](aula73.py)*
+- 74 - **Como o for funciona por baixo dos panos? (next, iter, iterável e iterador) ->** *[aula74.py](aula74.py)*
+- 75 - **O que aprendemos com while também funciona no for (continue, break, else, etc) ->** [aula75](aula75.py)
+- 76 - **Exercício - Jogo da palavra secreta ->** *[aula76.py](aula76.py)*
 - 77 - **Sobre exercícios - não saber é normal**
-- 78 - **(Parte 1) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/952acfec22dedad81c42b1305ab2564d3da3c021/aula47.py)*
-- 79 - **(Parte 2) Solução do exercício - Jogo da palavra secreta** *[solução](https://github.com/luizomf/cursopython2023/blob/06714511609940c132648e7ffecb2bb06ec36f0b/aula47.py)*
-- 80 - **Tipo list - Introdução às listas mutáveis em Python** *[aula80](aula80.py)*
-- 81  **Alterando uma lista com índices, del, append e pop (Tipo list)** *[aula81](aula81.py)*
-- 82 - **Inserindo itens em qualquer índice da lista com insert (Tipo list)** *[aula82](aula82.py)*
-- 83 - **Concatenando e estendendo listas em Python** *[aula83](aula83.py)*
-- 84 - **Cuidados com tipos de dados mutáveis - list e copy** *[aula84](aula82.py)*
+- 78 - **(Parte 1) Solução do exercício - Jogo da palavra secreta ->** *[solução](https://github.com/luizomf/cursopython2023/blob/952acfec22dedad81c42b1305ab2564d3da3c021/aula47.py)*
+- 79 - **(Parte 2) Solução do exercício - Jogo da palavra secreta ->** *[solução](https://github.com/luizomf/cursopython2023/blob/06714511609940c132648e7ffecb2bb06ec36f0b/aula47.py)*
+- 80 - **Tipo list - Introdução às listas mutáveis em Python ->** *[aula80](aula80.py)*
+- 81  **Alterando uma lista com índices, del, append e pop (Tipo list) ->** *[aula81](aula81.py)*
+- 82 - **Inserindo itens em qualquer índice da lista com insert (Tipo list) ->** *[aula82](aula82.py)*
+- 83 - **Concatenando e estendendo listas em Python ->** *[aula83](aula83.py)*
+- 84 - **Cuidados com tipos de dados mutáveis - list e copy ->** *[aula84](aula82.py)*
 - 85 - **for in com tipo list** *[aula85](aula85.py)*
-- 86 - **Exercício - exiba os índices da lista (aula com solução)** *[aula86](aula86.py)*
-- 87 - **Introdução ao empacotamento e desempacotamento** *[aula87](aula87.py)*
-- 88 - **Tipo tuple (tuplas)** *[aula88](aula88.py)*
-- 89 - **enumerate para enumerar valores de iteráveis (pegar índices)** *[aula89](aula89.py)*
-- 90 - **Exercício - crie uma lista de compras com listas** *[aula90](aula90.py)*
-- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)*
-- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal** *[aula92](aula92.py)*
-- 93 - **split, join e strip são métodos muito úteis da str** *[aula93](aula93.py)*
-- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis)** *[aula94](aula94.py)*
-- 95 - **Detalhes sobre o interpretador do Python** *[aula95](aula95.py)*
-- 96 - **Desempacotamento em chamadas de funções** *[aula96](aula96.py)*
-- 97 - **Operação ternária com Python (if e else de uma linha)** *[aula97](aula97.py)*
-- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python** *[aula98](aula98.py)*
-- 99 - **Solução do exercício - Gerar o primeiro dígito de um CPF com Python**
-- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python** *[aula100](aula100.py)*
-- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
-- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
-- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python** *[aula103](aula103.py)
+- 86 - **Exercício - exiba os índices da lista (aula com solução) ->** *[aula86](aula86.py)*
+- 87 - **Introdução ao empacotamento e desempacotamento ->** *[aula87](aula87.py)*
+- 88 - **Tipo tuple (tuplas) ->** *[aula88](aula88.py)*
+- 89 - **enumerate para enumerar valores de iteráveis (pegar índices) ->** *[aula89](aula89.py)*
+- 90 - **Exercício - crie uma lista de compras com listas ->** *[aula90](aula90.py)*
+- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except) ->** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)*
+- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal ->** *[aula92](aula92.py)*
+- 93 - **split, join e strip são métodos muito úteis da str ->** *[aula93](aula93.py)*
+- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis) ->** *[aula94](aula94.py)*
+- 95 - **Detalhes sobre o interpretador do Python ->** *[aula95](aula95.py)*
+- 96 - **Desempacotamento em chamadas de funções ->** *[aula96](aula96.py)*
+- 97 - **Operação ternária com Python (if e else de uma linha) ->** *[aula97](aula97.py)*
+- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python ->** *[aula98](aula98.py)*
+- 99 - **Solução do exercício - Gerar o primeiro dígito de um CPF com Python ->**
+- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python ->** *[aula100](aula100.py)*
+- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python ->** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
+- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF ->** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
+- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python ->** *[aula103](aula103.py)
