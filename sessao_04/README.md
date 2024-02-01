@@ -14,3 +14,10 @@
 - 116 - **Closure e funções que retornam outras funções->** *[aula116](aula116.py)*
 - 117 - **Exercício com funções ->** *[aula117](aula117.py)*
 - 118 - **Solução do exercício com funções ->** *[solução](https://github.com/luizomf/cursopython2023/blob/06b180c7d355176901923dcfcfdc08e8c7032194/aula75.py)*
+- 119 - **Introdução ao tipo de dados dict - Dicionários em Python** *[aula119](aula119.py)*
+- 120 - **Manipulando chaves e valores em dicionários em Python** *[aula120](aula120.py)*
+- 121 - **(Parte 1) Métodos úteis nos dicionários Python (dict)** *[aula121](aula121.py)*
+- 122 - **Shallow Copy vs Deep Copy em dados mutáveis Python** *[aula122](aula122.py)*
+- 123 - **(Parte 2) Métodos úteis nos dicionários Python (dict)** *[aula123](aula123.py)*
+- 124 - **Exercício - sistema de perguntas e respostas com Python** *[aula124](aula124.py)*
+- 125 - **Solução do Exercício - sistema de perguntas e respostas com Python** *[solução](https://github.com/luizomf/cursopython2023/blob/90bff56ea9b47e25f599d4a04578575af8c30b70/aula77.py)*
