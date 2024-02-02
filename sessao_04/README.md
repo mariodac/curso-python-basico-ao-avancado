@@ -26,5 +26,7 @@
 - 128 - **Métodos úteis do tipo set em Python ->** *[aula128](aula128.py)*
 - 129 - **Operadores importantes para o tipo set (conjuntos) ->** *[aula129](aula129.py)*
 - 130 -  **Exemplo de uso do tipo set ->** *[aula130](aula130.py)*
-- 131 -  **Exercício - Encontre o primeiro duplicado considerando a segunda ocorrência** *[aula131](aula131.py)*
-- 131 -  **Solução - Encontre o primeiro duplicado considerando a segunda ocorrência** *[solução](https://github.com/luizomf/cursopython2023/blob/48ddd7e7877e3edc4f06b708ecf0eabe649b6ad8/aula80.py)*
+- 131 -  **Exercício - Encontre o primeiro duplicado considerando a segunda ocorrência ->** *[aula131](aula131.py)*
+- 131 -  **Solução - Encontre o primeiro duplicado considerando a segunda ocorrência ->** *[solução](https://github.com/luizomf/cursopython2023/blob/48ddd7e7877e3edc4f06b708ecf0eabe649b6ad8/aula80.py)*
+- 132 - **Introdução à função lambda + list.sort e sorted ->** *[aula132](aula132.py)*
+- 133 - **Funções lambda complexas (para entendimento) ->** *[aula133](aula133.py)*
