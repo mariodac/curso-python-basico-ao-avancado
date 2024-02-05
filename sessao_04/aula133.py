@@ -1,38 +1,33 @@
+# Função lambda em Python
+# A função lambda é uma função como qualquer # outra em Python. Porém, são funções anônimas # que contém apenas uma linha. Ou seja, tudo # deve ser contido dentro de uma única
+# expressão. 
+# lista = [4, 32, 1, 34, 5, 6, 6, 21, ]
+# lista.sort()
+# sorted(lista)
+# python ordena utilizando a tabela unicode 
 
-def executa(funcao, *args): 
-    return funcao(*args)
+lista = [
+  {'nome': 'Luiz', 'sobrenome': 'miranda'},
+  {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+  {'nome': 'Daniel', 'sobrenome': 'Silva'},
+  {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+  {'nome': 'Aline', 'sobrenome': 'Souza' }
+]
 
-def soma(x, y):
-    return x + y
+def ordena(item):
+    return item['nome']
 
-def cria_multiplicador (multiplicador): 
-    def multiplica(numero):
-        return numero * multiplicador 
-    return multiplica
+def exibir(lista):
+    for item in lista:
+        print(item)
+    print()
 
-print(
-    executa(
-        lambda x, y: x + y,
-        2, 3
-    ),
-    executa(
-        soma,
-        2, 3
-    ),
-    soma(2, 3)
-)
+# lista.sort(key=ordena)
 
-duplica = cria_multiplicador(2)
-duplica = executa(
-    lambda m: lambda n: n * m,
-    2
-)
+lista.sort(key=lambda item: item['nome'])
 
-print(duplica(3))
+l1 = sorted(lista, key=lambda item: item['nome'])
+l1 = sorted(lista, key=lambda item: item['sobrenome'])
 
-print(
-    executa(
-        lambda *args: sum(args),
-        1, 2, 3, 4, 5
-    )
-)
+
+
