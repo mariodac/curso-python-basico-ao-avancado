@@ -27,6 +27,13 @@
 - 129 - **Operadores importantes para o tipo set (conjuntos) ->** *[aula129](aula129.py)*
 - 130 -  **Exemplo de uso do tipo set ->** *[aula130](aula130.py)*
 - 131 -  **Exercício - Encontre o primeiro duplicado considerando a segunda ocorrência ->** *[aula131](aula131.py)*
-- 131 -  **Solução - Encontre o primeiro duplicado considerando a segunda ocorrência ->** *[solução](https://github.com/luizomf/cursopython2023/blob/48ddd7e7877e3edc4f06b708ecf0eabe649b6ad8/aula80.py)*
-- 132 - **Introdução à função lambda + list.sort e sorted ->** *[aula132](aula132.py)*
-- 133 - **Funções lambda complexas (para entendimento) ->** *[aula133](aula133.py)*
+- 132 -  **Solução - Encontre o primeiro duplicado considerando a segunda ocorrência ->** *[solução](https://github.com/luizomf/cursopython2023/blob/48ddd7e7877e3edc4f06b708ecf0eabe649b6ad8/aula80.py)*
+- 133 - **Introdução à função lambda + list.sort e sorted ->** *[aula133](aula133.py)*
+- 134 - **Funções lambda complexas (para entendimento) ->** *[aula134](aula134.py)*
+- 135 - **Empacotamento e desempacotamento de dicionários + \*args e \*\*kwargs ->** *[aula135](aula135.py)*
+- 136 - **Introdução à List comprehension em Python ->** *[aula136](aula136.py)*
+- 137 - **Mapeamento de dados em list comprehension (map) ->** *[aula137](aula137.py)*
+- 138 - **Filtro de dados em list comprehension (filter) ->** *[aula138](aula138.py)*
+- 139 - **List comprehension com mais de um for ->** *[aula139](aula139.py)*
+- 140 - **Mais detalhes sobre list comprehension ->** *[mais detalhes](https://youtu.be/1YbTDczvqco)*
+- 141 - **Dictionary Comprehension e Set Comprehension ->** *[aula141](aula141.py)*
