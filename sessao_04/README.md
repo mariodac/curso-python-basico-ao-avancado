@@ -37,3 +37,10 @@
 - 139 - **List comprehension com mais de um for ->** *[aula139](aula139.py)*
 - 140 - **Mais detalhes sobre list comprehension ->** *[mais detalhes](https://youtu.be/1YbTDczvqco)*
 - 141 - **Dictionary Comprehension e Set Comprehension ->** *[aula141](aula141.py)*
+- 142 -  **isinstace() - para saber se objeto é de determinado tipo ->** *[aula142](aula142.py)*
+- 143 - **Valores Truthy e Falsy, Tipos Mutáveis e Imutáveis ->** *[aula143](aula143.py)*
+- 144 - **dir, hasattr e getattr em Python ->** *[aula144](aula144.py)*
+- 145 - **Mais detalhes sobre Iterables e Iterators (Iteráveis e Iteradores) ->** *[aula145](aula145.py)*
+- 146 - **Generator expression, Iterables e Iterators em Python ->** *[aula146](aula146.py)*
+- 147 - **Introdução às Generator functions em Python ->** *[aula147](aula147.py)*
+- 148 - **yield from em generator functions ->** *[aula148](aula148.py)*
