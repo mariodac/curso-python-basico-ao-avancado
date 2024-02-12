@@ -44,3 +44,7 @@
 - 146 - **Generator expression, Iterables e Iterators em Python ->** *[aula146](aula146.py)*
 - 147 - **Introdução às Generator functions em Python ->** *[aula147](aula147.py)*
 - 148 - **yield from em generator functions ->** *[aula148](aula148.py)*
+- 149 - **(Parte 1) try e except para tratar exceções ->** *[aula149](aula149.py)*
+- 150 - **(Parte 2) try e except para tratar exceções ->** *[aula150](aula150.py)*
+- 151 - **try, except, else e finally + Built-in Exceptions ->** *[aula151](aula151.py)*
+- 152 - **raise - lançando exceções (erros) ->** *[aula152](aula152.py)*
