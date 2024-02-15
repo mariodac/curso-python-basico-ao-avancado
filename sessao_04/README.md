@@ -48,3 +48,9 @@
 - 150 - **(Parte 2) try e except para tratar exceções ->** *[aula150](aula150.py)*
 - 151 - **try, except, else e finally + Built-in Exceptions ->** *[aula151](aula151.py)*
 - 152 - **raise - lançando exceções (erros) ->** *[aula152](aula152.py)*
+- 153 - **Módulos - import, from, as e ->** *[aula153](aula153.py)*
+- 154 - **Modularização - Entendendo os seus próprios módulos e sys.path no Python** *[aula154](aula154.py)*
+- 155 - **Como importar coisas do seu próprio módulo (ponto de vista do __main__) ->** *[aula155](aula155.py)*
+- 156 - **Recarregando módulos, importlib e singleton ->** *[aula156](aula156.py)*
+- 157 - **Introdução aos packages (pacotes) em Python ->** *[aula157](aula157.py)*
+- 158 - **O ponto de vista do __main__ pode te confundir em módulos e pacotes Python ->** *[aula158](aula158.py)*
