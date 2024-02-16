@@ -54,3 +54,5 @@
 - 156 - **Recarregando módulos, importlib e singleton ->** *[aula156](aula156.py)*
 - 157 - **Introdução aos packages (pacotes) em Python ->** *[aula157](aula157.py)*
 - 158 - **O ponto de vista do __main__ pode te confundir em módulos e pacotes Python ->** *[aula158](aula158.py)*
+- 159 - **__init__.py é um arquivo de inicialização dos packages em Python ->** *[aula159](aula159.py)*
+- 160 - **Proposta de 3 exercícios em um ->** *[aula160](aula160.py)*
