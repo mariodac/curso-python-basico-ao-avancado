@@ -56,3 +56,8 @@
 - 158 - **O ponto de vista do __main__ pode te confundir em módulos e pacotes Python ->** *[aula158](aula158.py)*
 - 159 - **__init__.py é um arquivo de inicialização dos packages em Python ->** *[aula159](aula159.py)*
 - 160 - **Proposta de 3 exercícios em um ->** *[aula160](aula160.py)*
+- 161 - **Solução - Proposta de 3 exercícios em um ->** *[solução](https://github.com/luizomf/cursopython2023/commit/3cde6551f47fe3fdc92c5df296ea954b09d0c953)*
+- 162 - **Exercício - Adiando execução de funções ->** *[aula162](aula162.py)*
+- 163 - **Solução - Exercício - Adiando execução de funções ->** *[solução](https://github.com/luizomf/cursopython2023/blob/75af2a9a2cb2bbf067623d96c7e7f5f690c88e6c/aula101.py)*
+- 164 - **Variáveis livres + nonlocal (locals, globals) ->** *[aula164](aula164.py)*
+- 165 - **Funções decoradoras em geral ->** *[aula165](aula165.py)*
