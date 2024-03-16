@@ -61,3 +61,8 @@
 - 163 - **Solução - Exercício - Adiando execução de funções ->** *[solução](https://github.com/luizomf/cursopython2023/blob/75af2a9a2cb2bbf067623d96c7e7f5f690c88e6c/aula101.py)*
 - 164 - **Variáveis livres + nonlocal (locals, globals) ->** *[aula164](aula164.py)*
 - 165 - **Funções decoradoras em geral ->** *[aula165](aula165.py)*
+- 166 - **Decoradores em Python (@syntax_sugar) ->** *[aula166](aula166.py)*
+- 167 - **Decoradores com parâmetros ->** *[aula167](aula167.py)*
+- 168 - **Ordem de aplicação dos decoradores ->** *[aula168](aula168.py)*
+- 169 - **Exercício - Unir listas ->** *[aula169](aula169.py)*
+- 170 - **Solução do Exercício + zip e zip_longest do itertools ->** *[solução](aula170)*
