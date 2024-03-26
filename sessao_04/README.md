@@ -66,3 +66,6 @@
 - 168 - **Ordem de aplicação dos decoradores ->** *[aula168](aula168.py)*
 - 169 - **Exercício - Unir listas ->** *[aula169](aula169.py)*
 - 170 - **Solução do Exercício + zip e zip_longest do itertools ->** *[solução](aula170)*
+- 171 - **Exercícios - somando duas listas ->** *[aula171](aula171.py)*
+- 172 - **Exercício solucionado - somando listas**
+- 173 - **count é um iterador sem fim (itertools) ->** *[aula173](aula173.py)*
