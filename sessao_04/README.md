@@ -69,3 +69,4 @@
 - 171 - **Exercícios - somando duas listas ->** *[aula171](aula171.py)*
 - 172 - **Exercício solucionado - somando listas**
 - 173 - **count é um iterador sem fim (itertools) ->** *[aula173](aula173.py)*
+- 174 - **Combinations, Permutations e Product - Itertools ->** *[aula174](aula174.py)*
