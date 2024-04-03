@@ -70,3 +70,7 @@
 - 172 - **Exercício solucionado - somando listas**
 - 173 - **count é um iterador sem fim (itertools) ->** *[aula173](aula173.py)*
 - 174 - **Combinations, Permutations e Product - Itertools ->** *[aula174](aula174.py)*
+- 175 - **groupby - agrupando valores (itertools) ->** *[aula175](aula175.py)*
+- 176 - **map, partial, GeneratorType e esgotamento de Iterators ->** *[aula176](aula176.py)*
+- 177  - **filter é um filtro funcional ->** *[aula177](aula177.py)*
+- 178 - **reduce - faz a redução de um iterável em um valor ->** *[aula178](aula178.py)*
