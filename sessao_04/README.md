@@ -74,3 +74,10 @@
 - 176 - **map, partial, GeneratorType e esgotamento de Iterators ->** *[aula176](aula176.py)*
 - 177  - **filter é um filtro funcional ->** *[aula177](aula177.py)*
 - 178 - **reduce - faz a redução de um iterável em um valor ->** *[aula178](aula178.py)*
+- 179 - **Funções recursivas, recursividade e Stack Overflow ->** *[aula179](aula179.py)*
+- 180 - **Limite de recursão e cuidados com funções recursivas ->** *[aula180](aula180.py)*
+- 181 -  **O que são ambientes virtuais? (venv) ->** *[aula181](aula181.py)*
+- 182 - **Como criar o seu ambiente virtual com venv ->** *[aula182](aula182.py)*
+- 183 - **Ativando e desativando o meu ambiente virtual venv ->** *[aula183](aula183.py)*
+- 184 - **pip - instalando pacotes e bibliotecas ->** *[aula184](aula184.py)*
+- 185 - **Criando e usando um requirements.txt ->** *[aula185](aula185.py)*
