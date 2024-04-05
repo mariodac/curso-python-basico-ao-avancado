@@ -81,3 +81,9 @@
 - 183 - **Ativando e desativando o meu ambiente virtual venv ->** *[aula183](aula183.py)*
 - 184 - **pip - instalando pacotes e bibliotecas ->** *[aula184](aula184.py)*
 - 185 - **Criando e usando um requirements.txt ->** *[aula185](aula185.py)*
+- 186 - **Criando arquivos com Python + Context Manager with ->** *[aula186](aula186.py)*
+- 187 - **with open (context manager) e métodos úteis do TextIOWrapper ->** *[aula187](aula187.py)*
+- 188 - **Modos de abertura de arquivo e encoding com with open ->** *[aula188](aula188.py)*
+- 189 - **os.remove, os.unlink e os.rename - apagando, renomeando e movendo arquivos ->** *[aula189](aula189.py)*
+- 190 - **Salvando dados Python em JSON com módulo json ->** *[aula190](aula190.py)*
+- 191 - **Problema dos parâmetros mutáveis em funções Python ->** *[aula191](aula191.py)*
