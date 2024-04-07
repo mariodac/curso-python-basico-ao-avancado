@@ -1,5 +1,6 @@
 *.txt
 pessoa.json
+lista_tarefas.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

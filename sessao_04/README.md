@@ -87,3 +87,8 @@
 - 189 - **os.remove, os.unlink e os.rename - apagando, renomeando e movendo arquivos ->** *[aula189](aula189.py)*
 - 190 - **Salvando dados Python em JSON com módulo json ->** *[aula190](aula190.py)*
 - 191 - **Problema dos parâmetros mutáveis em funções Python ->** *[aula191](aula191.py)*
+- 192 - **Exercício - Lista de tarefas com opções de desfazer e refazer ->** *[aula192](aula192.py)*
+- 193 - **Solução do Exercício - Lista de tarefas com opções de desfazer e refazer ->** *[solução](https://github.com/luizomf/cursopython2023/commit/ec388f6e294f8a8bc6c401b8628d757c5fdd39fb)*
+- 194 - **Evitando uso de condicionais + Guard Clause ->** *[aula194](aula194.py)*
+- 195 - **Exercício (+solução) - salvando a lista de tarefas em JSON ->**  *[aula195](aula195.py)*
+- 196 - **Positional-Only Parameters (/)  e Keyword-Only Arguments (\*) ->** *[aula196](aula196.py)*
