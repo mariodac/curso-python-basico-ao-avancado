@@ -25,4 +25,5 @@ Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design P
 - Seção 2: Python + VS Code: Preparando meu ambiente de desenvolvimento
 - [Seção 3: Iniciando na programação com Python (Lógica de programação básica)](./sessao_03/README.md)
 - [Seção 4: Python Intermediário - Funções, Dicionários, Módulos, Programação Funcional e +](./sessao_04/README.md)
+- [Seção 5: Introdução à Programação Orientada a Objetos em Python - POO (Classes)](./sessao_05/README.md)
 
