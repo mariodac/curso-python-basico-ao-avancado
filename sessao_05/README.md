@@ -10,5 +10,5 @@
 - 204 - **Atributos de classe ->** *[aula204](aula204.py)*
 - 205 - **\_\_dict\_\_ e vars para atributos de instância->** *[aula205](aula205.py)*
 - 206 - **Exercício - Salve sua classe em JSON ->** *[aula206_a](aula206_a.py) | [aula206_b](aula206_b.py)*
-- 207 - **Solução - Exercício + if \_\_name\_\_ == '\_\_main\_\_'** *[solução](https://github.com/luizomf/cursopython2023/commit/b6bb18596906ca25bfc460f672082a4e744909d2)*
+- 207 - **Solução - Exercício + if \_\_name\_\_ == '\_\_main\_\_' ->** *[solução](https://github.com/luizomf/cursopython2023/commit/b6bb18596906ca25bfc460f672082a4e744909d2)*
 - 208 - **Curiosidades sobre convenções de nomes ->** *[aula208](aula208.md)*
