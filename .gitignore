@@ -1,5 +1,6 @@
 *.txt
 pessoa.json
+data.json
 lista_tarefas.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
