@@ -17,3 +17,8 @@
 - 211 - **method vs @classmethod vs @staticmethod ->** *[aula211](aula211.py)*
 - 212 - **@property - um getter no modo Pythônico ->** *[aula212](aula212.py)*
 - 213 - **@property + @setter - getter e setter no modo Pythônico ->** *[aula213](aula213.py)*
+- 214 - **Encapsulamento (modificadores de acesso: public, _protected, __private) ->** *[aula214](aula214.py)*
+- 215 - **Relações entre classes: associação, agregação e composição ->** *[aula215](aula215.py)*
+- 216 - **Agregação - Python Orientado a Objetos ->** *[aula216](aula216.py)*
+- 217 - **Composição - Python Orientado a Objetos ->** *[aula217](aula217.py)*
+- 218 - **Exercício (+solução) com classes e relações ->** *[aula218](aula218.py)*
