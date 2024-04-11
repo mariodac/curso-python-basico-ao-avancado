@@ -12,3 +12,8 @@
 - 206 - **Exercício - Salve sua classe em JSON ->** *[aula206_a](aula206_a.py) | [aula206_b](aula206_b.py)*
 - 207 - **Solução - Exercício + if \_\_name\_\_ == '\_\_main\_\_' ->** *[solução](https://github.com/luizomf/cursopython2023/commit/b6bb18596906ca25bfc460f672082a4e744909d2)*
 - 208 - **Curiosidades sobre convenções de nomes ->** *[aula208](aula208.md)*
+- 209 - **Métodos de classe (@classmethod) + factories methods (métodos fábrica) ->** *[aula209](aula209.py)*
+- 210 - **@staticmethod (métodos estáticos) são inúteis em Python ->** *[aula210](aula210.py)*
+- 211 - **method vs @classmethod vs @staticmethod ->** *[aula211](aula211.py)*
+- 212 - **@property - um getter no modo Pythônico ->** *[aula212](aula212.py)*
+- 213 - **@property + @setter - getter e setter no modo Pythônico ->** *[aula213](aula213.py)*
