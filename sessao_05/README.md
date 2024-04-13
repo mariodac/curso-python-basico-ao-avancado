@@ -22,3 +22,7 @@
 - 216 - **Agregação - Python Orientado a Objetos ->** *[aula216](aula216.py)*
 - 217 - **Composição - Python Orientado a Objetos ->** *[aula217](aula217.py)*
 - 218 - **Exercício (+solução) com classes e relações ->** *[aula218](aula218.py)*
+- 219 - **TEORIA: Herança, generalização e especialização ->** *[aula219](aula219.py)*
+- 220 - **Herança Simples - Python Orientado a Objetos ->** *[aula220](aula219.py)*
+- 221 - **(Parte 1) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula221](aula221.py)
+- 222 - **(Parte 2) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula222](aula221.py)*
