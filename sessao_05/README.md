@@ -28,4 +28,7 @@
 - 222 - **(Parte 2) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula222](aula221.py)*
 - 223 - **Teoria - Herança múltipla - Python Orientado a Objetos ->** *[aula223](aula223.py)*
 - 224 - **Herança múltipla - Python Orientado a Objetos ->** *[aula224](aula223.py)*
-- 225 - **(Parte 1) Mixins, Abstração e a união de tudo até aqui ->** *[aula225](./aula225/)*
+- 225 - **(Parte 1) Mixins, Abstração e a união de tudo até aqui ->** *[aula225](./aula225_228/)*
+- 226 - **(Parte 2) Log, LogFileMixin, LogPrintMixin e a união de tudo até aqui ->** *[aula226](./aula225_228/)*
+- 227 - **(Parte 3) LogFileMixin e a união de tudo até aqui ->** *[aula227](./aula225_228/)*
+- 228 - **(Parte 4) Eletrônico, Smartphone com Mixin e a união de tudo até aqui ->** *[aula228](./aula225_228/)*
