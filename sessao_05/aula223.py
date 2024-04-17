@@ -1,6 +1,7 @@
 # Herança Múltipla - Python Orientado a Objetos
 # Quer dizer que no Python, uma classe pode estender
 # várias outras classes.
+# herança multipla tende a deixar o código complexo, prefira utilizar composição
 # Herança Simples:
 # Animal -> Mamifero -> Humano -> Pessoa -> Cliente
 # Herança múltipla e mixins
