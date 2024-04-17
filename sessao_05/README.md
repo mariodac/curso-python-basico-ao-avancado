@@ -26,3 +26,6 @@
 - 220 - **Herança Simples - Python Orientado a Objetos ->** *[aula220](aula219.py)*
 - 221 - **(Parte 1) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula221](aula221.py)
 - 222 - **(Parte 2) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula222](aula221.py)*
+- 223 - **Teoria - Herança múltipla - Python Orientado a Objetos ->** *[aula223](aula223.py)*
+- 224 - **Herança múltipla - Python Orientado a Objetos ->** *[aula224](aula223.py)*
+- 225 - **(Parte 1) Mixins, Abstração e a união de tudo até aqui ->** *[aula225](./aula225/)*
