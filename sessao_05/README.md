@@ -32,3 +32,7 @@
 - 226 - **(Parte 2) Log, LogFileMixin, LogPrintMixin e a união de tudo até aqui ->** *[aula226](./aula225_228/)*
 - 227 - **(Parte 3) LogFileMixin e a união de tudo até aqui ->** *[aula227](./aula225_228/)*
 - 228 - **(Parte 4) Eletrônico, Smartphone com Mixin e a união de tudo até aqui ->** *[aula228](./aula225_228/)*
+- 229 - **Classes abstratas - Abstract Base Class (abc) - Python Orientado a Objetos ->** *[aula229](aula229.py)*
+- 230 - **abstractmethod para qualquer método já decorado (property e setter) ->** *[aula230](aula230.py)*
+- 231 - **Teoria: polimorfismo, assinatura de métodos e Liskov Substitution Principle ->** *[aula231](aula231.py)*
+- 232 - **Na prática: polimorfismo, assinatura de métodos e Liskov Substitution Principle ->** *[aula232](aula231.py)*
