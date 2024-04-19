@@ -36,3 +36,7 @@
 - 230 - **abstractmethod para qualquer método já decorado (property e setter) ->** *[aula230](aula230.py)*
 - 231 - **Teoria: polimorfismo, assinatura de métodos e Liskov Substitution Principle ->** *[aula231](aula231.py)*
 - 232 - **Na prática: polimorfismo, assinatura de métodos e Liskov Substitution Principle ->** *[aula232](aula231.py)*
+- 233 - **Criando Exceptions em Python Orientado a Objetos (Exceções) ->** *[aula233](aula233.py)*
+- 234 - **Levantando e tratando suas Exceptions (Exceções) ->** *[aula234](aula233.py)*
+- 235 - **Notas das exceptions em Python 3.11+ (add_notes, \__notes\__) ->** *[aula235](aula233.py)*
+- 236 - **Teoria: python Special Methods, Magic Methods ou Dunder Methods ->** *[aula236](aula236.py)*
