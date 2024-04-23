@@ -40,3 +40,10 @@
 - 234 - **Levantando e tratando suas Exceptions (Exceções) ->** *[aula234](aula233.py)*
 - 235 - **Notas das exceptions em Python 3.11+ (add_notes, \__notes\__) ->** *[aula235](aula233.py)*
 - 236 - **Teoria: python Special Methods, Magic Methods ou Dunder Methods ->** *[aula236](aula236.py)*
+- 237 - **Python Dunder Methods \_\_repr\_\_ e \_\_str\_\_ ->** *[aula237](aula236.py)*
+- 238 - **Exemplo de uso de dunder methods (métodos mágicos) ->** *[aula238](aula236.py)*
+- 239 - **\_\_new\_\_ e \_\_init\_\_ em classes Python ->** *[aula239](aula239.py)*
+- 240 - **Context Manager com classes - Criando e Usando gerenciadores de contexto ->** *[aula240](aula240.py)*
+- 241 - **Exceptions em context manager com classes ->** *[aula241](aula240.py)*
+- 242 - **Context Manager com contextlib.contextmanager ->** *[aula242](aula242.py)*
+
