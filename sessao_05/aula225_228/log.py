@@ -3,7 +3,7 @@
 from pathlib import Path
 
 # o / concatena de acordo com o tipo de sistema
-LOG_FILE = Path(__file__).parent / 'log.txt'
+LOG_FILE = Path(__file__).parent / '_log.txt'
 class Log:
     def _log(self, msg):
         raise NotImplementedError('Implemente o método log')

@@ -19,7 +19,7 @@
 # json.dump = Gera um arquivo json
 # json.load
 
-path_file = 'arquivo.txt'
+path_file = '_arquivo.txt'
 
 file = open(path_file, 'w')
 

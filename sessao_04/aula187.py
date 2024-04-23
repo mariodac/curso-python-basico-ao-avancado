@@ -1,5 +1,5 @@
 # open é classe de TextIOWrapper
-path_file = r'arquivo.txt'
+path_file = r'_arquivo.txt'
 with open(path_file, 'w+') as file:
     file.write('Hello World!\n')
     file.write('Olá mundo!\n')

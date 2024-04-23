@@ -1,4 +1,4 @@
-*.txt
+_*.txt
 pessoa.json
 data.json
 lista_tarefas.json

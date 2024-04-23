@@ -2,7 +2,7 @@
 # os.rename - troca o nome ou move o arquivo
 import os
 
-path_file = r'arquivo.txt'
+path_file = r'_arquivo.txt'
 with open(path_file, 'w', encoding='utf-8') as file:
     file.write('Olá mundo')
 
