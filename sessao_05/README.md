@@ -46,4 +46,6 @@
 - 240 - **Context Manager com classes - Criando e Usando gerenciadores de contexto ->** *[aula240](aula240.py)*
 - 241 - **Exceptions em context manager com classes ->** *[aula241](aula240.py)*
 - 242 - **Context Manager com contextlib.contextmanager ->** *[aula242](aula242.py)*
+- 243 - **Funções decoradoras e decoradores com classes ->** *[aula243](aula243.py)*
+- 244 - **Funções decoradoras e decoradores com métodos ->** *[aula244](aula243.py)*
 
