@@ -48,4 +48,7 @@
 - 242 - **Context Manager com contextlib.contextmanager ->** *[aula242](aula242.py)*
 - 243 - **Funções decoradoras e decoradores com classes ->** *[aula243](aula243.py)*
 - 244 - **Funções decoradoras e decoradores com métodos ->** *[aula244](aula243.py)*
+- 245 - **Método especial \_\_call\_\_ ->** *[aula245](aula245.py)*
+- 246 - **Classes decoradoras (Decorator classes) ->** *[aula246](aula246.py)*
+
 
