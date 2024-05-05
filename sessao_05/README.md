@@ -50,5 +50,12 @@
 - 244 - **Funções decoradoras e decoradores com métodos ->** *[aula244](aula243.py)*
 - 245 - **Método especial \_\_call\_\_ ->** *[aula245](aula245.py)*
 - 246 - **Classes decoradoras (Decorator classes) ->** *[aula246](aula246.py)*
+- 247 - **Teoria: metaclasses são o tipo das classes ->** *[aula247](aula247.py)*
+- 248 - **\_\_new\_\_ de uma metaclass cria e retorna a classe em si ->** *[aula248](aula247.py)*
+- 249 - **\_\_call\_\_ de uma metaclass cria e retorna a instância da classe ->** *[aula249](aula247.py)*
+- 250 - **dir e help + DocStrings de uma linha (Documentação) ->** *[aula250](./Documentacao/)*
+- 251 - **DocStrings de várias linhas (Documentação) ->** *[aula251](./Documentacao/)*
+- 252 - **DocStrings em funções (Documentação) ->** *[aula252](./Documentacao/)*
+- 253 - **DocStrings em class (Documentação) ->** *[aula253](./Documentacao/)*
 
 
