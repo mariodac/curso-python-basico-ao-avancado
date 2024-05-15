@@ -57,5 +57,7 @@
 - 251 - **DocStrings de várias linhas (Documentação) ->** *[aula251](./Documentacao/)*
 - 252 - **DocStrings em funções (Documentação) ->** *[aula252](./Documentacao/)*
 - 253 - **DocStrings em class (Documentação) ->** *[aula253](./Documentacao/)*
+- 254 - **Teoria: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
+- 255 - **Código: enum.Enum (Enumerações)** *[aula254](aula254.py)*
 
 
