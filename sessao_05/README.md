@@ -58,6 +58,7 @@
 - 252 - **DocStrings em funções (Documentação) ->** *[aula252](./Documentacao/)*
 - 253 - **DocStrings em class (Documentação) ->** *[aula253](./Documentacao/)*
 - 254 - **Teoria: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
-- 255 - **Código: enum.Enum (Enumerações)** *[aula254](aula254.py)*
+- 255 - **Código: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
+- 256 - **Exercício com Abstração, Herança, Encapsulamento e Polimorfismo ->** *[aula256](aula256.md)*
 
 
