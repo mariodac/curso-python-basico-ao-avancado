@@ -59,6 +59,12 @@
 - 253 - **DocStrings em class (Documentação) ->** *[aula253](./Documentacao/)*
 - 254 - **Teoria: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
 - 255 - **Código: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
-- 256 - **Exercício com Abstração, Herança, Encapsulamento e Polimorfismo ->** *[aula256](aula256.md)*
+- 256 - **Exercício com Abstração, Herança, Encapsulamento e Polimorfismo ->** *[aula256](./aula256/)*
+- 257 - **Solução - Criando a classe abstrata Conta ->** *[aula257](https://github.com/luizomf/cursopython2023/tree/1c2b260642fbf78fc117bda87a74b1a0f5c9c24a/aula158)*
+- 258 - **Solução - Criando a classe ContaPoupanca ->** *[aula258](https://github.com/luizomf/cursopython2023/tree/6a83dca1cd0bb4be769e5146f24205da2e825cfa/aula158)*
+- 259 - **Solução - Criando a classe ContaCorrente ->** *[aula259](https://github.com/luizomf/cursopython2023/tree/ed6137331b8d70560c43218b60d8f7917e14164c/aula158)*
+- 260 - **DICA Extra: tipagem, linters e settings.json do VS Code**
+- 261 - **Solução - Criando a classe Pessoa ->** *[261](https://github.com/luizomf/cursopython2023/tree/54c01673de/aula158)*
+
 
 

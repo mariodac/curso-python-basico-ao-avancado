@@ -1,6 +1,6 @@
 
 ## Exercício com Abstração, Herança, Encapsulamento e Polimorfismo
-[RESOLUÇÃO](aula256.py)
+
 Criar um sistema bancário (extremamente simples) que tem clientes, contas e
 um banco. A ideia é que o cliente tenha uma conta (poupança ou corrente)
 e que possa sacar/depositar nessa conta. Contas correntetem um limite extra.
@@ -10,7 +10,7 @@ e que possa sacar/depositar nessa conta. Contas correntetem um limite extra.
 - ContaCorrente
 - ContaPoupanca
 
-**Pessoa (ABC)**
+**Pessoa**
 
 - Cliente
     - Cliente -> Conta
@@ -22,12 +22,14 @@ e que possa sacar/depositar nessa conta. Contas correntetem um limite extra.
 
 ### Dicas:
 Criar classe Cliente que herda da classe Pessoa (Herança)
-
-Criar classe Conta que herda da classe Banco (Herança)
 - Pessoa tem nome e idade (com getters)
 - Cliente **TEM** conta (Agregação da classe ContaCorrente ou ContaPoupanca)
 
 Criar classes ContaPoupanca e ContaCorrente que herdam de Conta
+- ContaCorrente deve ter um limite extra
+- Contas têm agência, número da conta e saldo
+- Contas devem ter método para depósito
+- Contas (super classe) deve ter o método sacar abstrato (Abstração e polimorfismo - as subclasses que implementam o método sacar)
 
 Criar classe Banco para AGREGAR classes de clientes e de contas (Agregação)
 
