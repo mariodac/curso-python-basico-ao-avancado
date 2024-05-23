@@ -6,6 +6,11 @@ class Account(ABC):
         self._account_number = account_number
         self._balance = balance
 
+    def __repr__(self) -> str:
+        class_name = self.__class__.__name__
+        attrs = f'({self._agency!r}, {self._account_number!r}, {self._balance!r})'
+        return f'{class_name}{attrs}'
+
     # metodo sacar
     @abstractmethod
     def withdraw_money(self, value_cash: float) -> float: ...
@@ -38,6 +43,12 @@ class CheckingAccounts(Account):
     def __init__(self, agency : int, account_number: int, balance: float = 0, limit: float = 0):
         super().__init__(agency, account_number, balance)
         self._limit = limit
+
+    def __repr__(self) -> str:
+        class_name = self.__class__.__name__
+        attrs = f'({self._agency!r}, {self._account_number!r}, {self._balance!r}, {self._limit!r})'
+        return f'{class_name}{attrs}'
+    
     def withdraw_money(self, value_cash: float) -> float:
         pos_balance = self._balance - value_cash
         if pos_balance < -self._limit:
@@ -53,9 +64,11 @@ if __name__ == '__main__':
     saving_account.withdraw_money(1)
     saving_account.cash_deposit(1000)
     saving_account.withdraw_money(1001)
+    print(saving_account)
     print('#'*80)
     checking_account = CheckingAccounts(111, 333,0, 300)
     checking_account.withdraw_money(1)
     checking_account.withdraw_money(1000)
     checking_account.withdraw_money(1001)
     print('#'*80)
+    print(checking_account)

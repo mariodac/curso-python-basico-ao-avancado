@@ -65,6 +65,9 @@
 - 259 - **Solução - Criando a classe ContaCorrente ->** *[aula259](https://github.com/luizomf/cursopython2023/tree/ed6137331b8d70560c43218b60d8f7917e14164c/aula158)*
 - 260 - **DICA Extra: tipagem, linters e settings.json do VS Code**
 - 261 - **Solução - Criando a classe Pessoa ->** *[261](https://github.com/luizomf/cursopython2023/tree/54c01673de/aula158)*
+- 262 - **Solução - Criando a classe Cliente ->** *[262](https://github.com/luizomf/cursopython2023/tree/c32d02430e2369bd21454e193b74b573227322bc/aula158)*
+- 263 - **Solução - Criando a classe Banco (Parte 1) ->** *[263](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
+- 264 - **Solução - Criando a classe Banco (Parte 2) ->** *[264](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
 
 
 
