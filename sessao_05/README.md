@@ -64,10 +64,15 @@
 - 258 - **Solução - Criando a classe ContaPoupanca ->** *[aula258](https://github.com/luizomf/cursopython2023/tree/6a83dca1cd0bb4be769e5146f24205da2e825cfa/aula158)*
 - 259 - **Solução - Criando a classe ContaCorrente ->** *[aula259](https://github.com/luizomf/cursopython2023/tree/ed6137331b8d70560c43218b60d8f7917e14164c/aula158)*
 - 260 - **DICA Extra: tipagem, linters e settings.json do VS Code**
-- 261 - **Solução - Criando a classe Pessoa ->** *[261](https://github.com/luizomf/cursopython2023/tree/54c01673de/aula158)*
-- 262 - **Solução - Criando a classe Cliente ->** *[262](https://github.com/luizomf/cursopython2023/tree/c32d02430e2369bd21454e193b74b573227322bc/aula158)*
-- 263 - **Solução - Criando a classe Banco (Parte 1) ->** *[263](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
-- 264 - **Solução - Criando a classe Banco (Parte 2) ->** *[264](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
-
-
-
+- 261 - **Solução - Criando a classe Pessoa ->** *[aula261](https://github.com/luizomf/cursopython2023/tree/54c01673de/aula158)*
+- 262 - **Solução - Criando a classe Cliente ->** *[aula262](https://github.com/luizomf/cursopython2023/tree/c32d02430e2369bd21454e193b74b573227322bc/aula158)*
+- 263 - **Solução - Criando a classe Banco (Parte 1) ->** *[aula263](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
+- 264 - **Solução - Criando a classe Banco (Parte 2) ->** *[aula264](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*
+- 265 - **dataclasses - O que são dataclasses? ->** *[aula265](aula265.py)*
+- 266 - **dataclasses com métodos, property e setter ->** *[aula266](aula265.py)*
+- 267 - **\_\_init\_\_ e \_\_post\_init\_\_ em dataclasses ->** *[aula267](aula265.py)*
+- 268 - **Configurações do decorator dataclass ->** *[aula268](aula265.py)*
+- 269 - **asdict e astuple em dataclasses ->** *[aula269](aula265.py)*
+- 270 - **Valores padrão, field e fields em dataclasses ->** *[aula270](aula265.py)*
+- 271 - **namedtuple - tuplas imutáveis com nomes para valores ->** *[aula271](aula271.py)*
+- 272 - **Criando sua própria lista com Iterable, Iterator e Sequence (collections.abc) ->** *[aula272](aula272.py)*
