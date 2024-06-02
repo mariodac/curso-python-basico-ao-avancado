@@ -13,3 +13,9 @@
 - 283 - **os.listdir para navegar em caminhos ->** *[aula283](aula283.py)*
 - 284 - **os.walk para navegar de caminhos de forma recursiva ->** *[aula284](aula284.py)*
 - 285 - **os.path.getsize e os.stat para dados dos arquivos (tamanho em bytes) ->** *[aula285](aula285.py)*
+- 286 - **os + shutil - Copiando arquivos e criando pastas com Python ->** *[aula286](aula286.py)*
+- 287 - **os + shutil - Apagando, copiando, movendo e renomeando pastas com Python ->** *[aula287](aula286.py)*
+- 288 - **O que é JSON - JavaScript Object Notation ->** *[aula288](aula288.py)*
+- 289 - **json.dumps e json.loads com strings + typing.TypedDict ->** *[aula289](aula288.py)*
+- 290 - **json.dump e json.load com arquivos ->** *[aula290](aula290.py)*
+- 291 - **Manipulando caminhos, pastas e arquivos no Python com pathlib [(aula externa)](https://youtu.be/T17BTNKBeJY) ->** *[aula291](aula291.py)*
