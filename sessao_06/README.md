@@ -19,3 +19,7 @@
 - 289 - **json.dumps e json.loads com strings + typing.TypedDict ->** *[aula289](aula288.py)*
 - 290 - **json.dump e json.load com arquivos ->** *[aula290](aula290.py)*
 - 291 - **Manipulando caminhos, pastas e arquivos no Python com pathlib [(aula externa)](https://youtu.be/T17BTNKBeJY) ->** *[aula291](aula291.py)*
+- 292 - **CSV (Comma Separated Values - Valores separados por vírgulas) ->** *[aula292](aula292.py)*
+- 293 - **csv.reader e csv.DictReader para ler arquivos CSV ->** *[aula292](aula292.py)*
+- 294 - **csv.writer e csv.DictWriter para escrever em CSV ->** *[aula294](aula294.py)*
+- 295 - **random tem geradores de números pseudoaleatórios (randrange, randint, uniform) ->** *[aula295](aula295.py)*
