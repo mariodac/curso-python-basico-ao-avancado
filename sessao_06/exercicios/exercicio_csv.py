@@ -40,4 +40,25 @@
         valor_total"""
 
 import csv
+from pathlib import Path
 
+clientes_path = Path(__file__).parent / 'clientes.csv'
+collumns_names = ['id_usuario', 'nome', 'email', 'cidade', 'estado']
+with open(clientes_path, 'r', encoding='utf-8') as file_csv:
+    reader = csv.DictReader(file_csv)
+    print(' | '.join(collumns_names))
+    for line in reader:
+        print(f'{line['id_usuario']} | {line['nome']} | {line['email']} | {line['cidade']} | {line['estado']}')
+    last_id = int(line['id_usuario'])
+    print(last_id)
+
+new_id = str(last_id+1)
+name = input('Digite o nome => ')
+email = input('Digite o email => ')
+city = input('Digite a cidade => ')
+estate = input('Digite o estado => ')
+client = {'id_usuario' : new_id, 'nome' : name, 'email' : email, 'cidade' : city, 'estado' : estate}
+with open(clientes_path, 'a', encoding='utf-8',  newline='') as file_csv:
+    writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
+    writer.writerow(client)
+        

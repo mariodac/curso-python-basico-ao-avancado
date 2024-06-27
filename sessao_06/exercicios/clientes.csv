@@ -1,6 +1,9 @@
-id_usuarionome,email,cidade,estado
+id_usuario,nome,email,cidade,estado
 1,Tânia Evelyn Antônia Pires,tania_evelyn_pires@ieee.org,Aracruz,ES
 2,Thiago Kauê Leonardo Rocha,thiagokauerocha@estruturalbr.com.br,Paranaguá,PR
 3,Laura Fernanda Isadora Jesus,laurafernandajesus@ssala.com.br,Ponta Porã,MS
 4,Luís Vicente Farias,luis.vicente.farias@structureesquadrias.com.br,São José,SC
 5,Nina Sebastiana Caldeira,ninasebastianacaldeira@prohaska.com.br,Santo Antônio,RN
+6,Mario,mario@gmail.com,Rio,Goias
+7,Victor,vic@email.com,Rio,Goias
+8,Mikael,mik@email.com,Verde,Goias
