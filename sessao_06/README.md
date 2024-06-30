@@ -23,3 +23,5 @@
 - 293 - **csv.reader e csv.DictReader para ler arquivos CSV ->** *[aula292](aula292.py)*
 - 294 - **csv.writer e csv.DictWriter para escrever em CSV ->** *[aula294](aula294.py)*
 - 295 - **random tem geradores de números pseudoaleatórios (randrange, randint, uniform) ->** *[aula295](aula295.py)*
+- 296 - **random tem geradores de números pseudoaleatórios (sample, choices, seed) ->** *[aula296](aula295.py)*
+- 297 - **secrets gera números aleatórios seguros ->** *[aula297](aula297.py)*
