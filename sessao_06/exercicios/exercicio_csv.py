@@ -59,82 +59,104 @@ file_csv.close()
 # fim exercicio 1
 
 # inicio exercicio 2
-# new_id = str(last_id+1)
-# name = input('Digite o nome => ')
-# email = input('Digite o email => ')
-# city = input('Digite a cidade => ')
-# estate = input('Digite o estado => ')
-# client = {'id_usuario' : new_id, 'nome' : name, 'email' : email, 'cidade' : city, 'estado' : estate}
-# file_csv = get_csv(clientes_path, 'a')
-# writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
-# writer.writerow(client)
-# file_csv.close()
+new_id = str(last_id+1)
+name = input('Digite o nome => ')
+email = input('Digite o email => ')
+city = input('Digite a cidade => ')
+estate = input('Digite o estado => ')
+client = {'id_usuario' : new_id, 'nome' : name, 'email' : email, 'cidade' : city, 'estado' : estate}
+file_csv = get_csv(clientes_path, 'a')
+writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
+writer.writerow(client)
+file_csv.close()
 # fim exercicio 2
 
 # inicio exercicio 3
-# email = input('Digte o email => ')
-# file_csv = get_csv(clientes_path, 'r')
-# reader = csv.DictReader(file_csv)
-# list_reader = []
-# not_found = True
-# index = 0
-# for line in reader:
-#     list_reader.append(line)
-#     if email == line['email']:
-#         print(f'Cidade atual => {line['cidade']}')
-#         city = input('Digite a cidade => ')
-#         print(f'Estado atual => {line['estado']}')
-#         estate = input('Digite o estado => ')
-#         list_reader[index]['cidade'] = city
-#         list_reader[index]['estado'] = estate
-#         not_found = False
-#     index += 1
-# file_csv.close()
-# if not_found:
-#     print('Email não encontrado')
-# file_csv = get_csv(clientes_path, 'w')
-# writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
-# writer.writeheader()
-# for line in list_reader: 
-#     writer.writerow(line)
-# file_csv.close()
+email = input('Digte o email => ')
+file_csv = get_csv(clientes_path, 'r')
+reader = csv.DictReader(file_csv)
+list_reader = []
+not_found = True
+index = 0
+for line in reader:
+    list_reader.append(line)
+    if email == line['email']:
+        print(f'Cidade atual => {line['cidade']}')
+        city = input('Digite a cidade => ')
+        print(f'Estado atual => {line['estado']}')
+        estate = input('Digite o estado => ')
+        list_reader[index]['cidade'] = city
+        list_reader[index]['estado'] = estate
+        not_found = False
+    index += 1
+file_csv.close()
+if not_found:
+    print('Email não encontrado')
+file_csv = get_csv(clientes_path, 'w')
+writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
+writer.writeheader()
+for line in list_reader: 
+    writer.writerow(line)
+file_csv.close()
 # fim exercicio 3
 
 # inicio exercicio 4
-# venda_file = Path(__file__).parent / 'vendas.csv'
-# file_csv = get_csv(venda_file, 'r')
-# reader = csv.DictReader(file_csv)
-# list_reader = [x for x in reader]
-# total_qtd = 0
-# total_value = 0
-# sales_by_product = {}
-# medium_ticket = 0
-# most_value_total = 0
-# most_value_product = ''
-# for item_index, item in enumerate(list_reader):
-#     total_qtd = int(item['quantidade'])
-#     total_value = float(item['valor_total'].replace(',', '.'))
-#     for new_item_index,new_item in enumerate(list_reader):
-#         if item_index != new_item_index:
-#             if item['produto'] == new_item['produto']:
-#                 total_qtd += int(new_item['quantidade'])
-#                 total_value += float(new_item['valor_total'].replace(',', '.'))
-#         if total_value > most_value_total:
-#             most_value_total = total_value
-#             most_value_product = item['produto']
-#         medium_ticket = total_value / total_qtd
-#         sales_by_product.update({item['produto']:[total_qtd, medium_ticket]})
-# for item in sales_by_product:
-#     print(f'Total vendas do produto {item}: {sales_by_product[item][0]}')
-#     print(f'Ticket médio do produto {item}: {sales_by_product[item][1]}')
-#     print()
-# print(f'O produto maior valor total vendido foi: {most_value_product}')
-# file_csv.close()
+venda_file = Path(__file__).parent / 'vendas.csv'
+file_csv = get_csv(venda_file, 'r')
+reader = csv.DictReader(file_csv)
+list_reader = [x for x in reader]
+total_qtd = 0
+total_value = 0
+sales_by_product = {}
+medium_ticket = 0
+most_value_total = 0
+most_value_product = ''
+for item_index, item in enumerate(list_reader):
+    total_qtd = int(item['quantidade'])
+    total_value = float(item['valor_total'].replace(',', '.'))
+    for new_item_index,new_item in enumerate(list_reader):
+        if item_index != new_item_index:
+            if item['produto'] == new_item['produto']:
+                total_qtd += int(new_item['quantidade'])
+                total_value += float(new_item['valor_total'].replace(',', '.'))
+        if total_value > most_value_total:
+            most_value_total = total_value
+            most_value_product = item['produto']
+        medium_ticket = total_value / total_qtd
+        sales_by_product.update({item['produto']:[total_qtd, medium_ticket]})
+for item in sales_by_product:
+    print(f'Total vendas do produto {item}: {sales_by_product[item][0]}')
+    print(f'Ticket médio do produto {item}: {sales_by_product[item][1]}')
+    print()
+print(f'O produto maior valor total vendido foi: {most_value_product}')
+file_csv.close()
 # fim exercicio 4
 
 # inicio exercicio 5
-complete_sales = Path(__file__).parent / 'vendas_completos.csv'
+def get_name_user(id_user:str, list_user:list[dict])->str:
+    name_user = ''
+    for user in list_user:
+        if id_user == user['id_usuario']:
+            name_user = user['nome']
+            break
+    return name_user
+complete_sales_path = Path(__file__).parent / 'vendas_completos.csv'
 file_clientes_csv = get_csv(clientes_path, 'r')
 reader = csv.DictReader(file_clientes_csv)
-list_clientes = []
+list_clientes = [cliente for cliente in reader]
+file_clientes_csv.close()
+file_vendas_csv = get_csv(venda_file, 'r')
+reader = csv.DictReader(file_vendas_csv)
+list_vendas = [venda for venda in reader]
+file_vendas_csv.close()
+complete_sales_dict = []
+for venda in list_vendas:
+    name_user = get_name_user(venda['id_usuario'], list_clientes)
+    complete_sales_dict.append({"id_pedido": venda['id_pedido'], "nome_usuario": name_user, "data_pedido": venda['data_pedido'], "valor_total":venda['valor_total']})
 collumns_names = ["id_pedido", "nome_usuario", "data_pedido", "valor_total"]
+file_csv = get_csv(complete_sales_path, 'w')
+writer = csv.DictWriter(file_csv, fieldnames=collumns_names)
+writer.writeheader()
+for item in complete_sales_dict:
+    writer.writerow(item)
+file_csv.close()
