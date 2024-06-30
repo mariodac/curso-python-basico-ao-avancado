@@ -25,3 +25,6 @@
 - 295 - **random tem geradores de números pseudoaleatórios (randrange, randint, uniform) ->** *[aula295](aula295.py)*
 - 296 - **random tem geradores de números pseudoaleatórios (sample, choices, seed) ->** *[aula296](aula295.py)*
 - 297 - **secrets gera números aleatórios seguros ->** *[aula297](aula297.py)*
+- 298 - **string.Template para substituir variáveis em textos ->** *[aula298](aula298.py)*
+- 299 - **(Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv ->** *[aula299](aula299.py)*
+- 300 - **(Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env) ->** *[aula300](aula300.py)*
