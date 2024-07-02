@@ -27,4 +27,5 @@
 - 297 - **secrets gera números aleatórios seguros ->** *[aula297](aula297.py)*
 - 298 - **string.Template para substituir variáveis em textos ->** *[aula298](aula298.py)*
 - 299 - **(Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv ->** *[aula299](aula299.py)*
-- 300 - **(Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env) ->** *[aula300](aula300.py)*
+- 300 - **(Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env) ->** *[aula300](aula299.py)*
+- 301 - **python-dotenv explicação simples em texto ->** *[aula301](aula301.md)*
