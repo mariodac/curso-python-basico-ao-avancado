@@ -29,3 +29,6 @@
 - 299 - **(Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv ->** *[aula299](aula299.py)*
 - 300 - **(Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env) ->** *[aula300](aula299.py)*
 - 301 - **python-dotenv explicação simples em texto ->** *[aula301](aula301.md)*
+- 302 - **Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python**
+- 303 - **Enviando E-mails SMTP com Python ->** *[aula303](aula303.py)*
+- 304 - **(Parte 1) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile ->** *[aula304](aula304.py)*
