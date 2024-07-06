@@ -32,3 +32,5 @@
 - 302 - **Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python**
 - 303 - **Enviando E-mails SMTP com Python ->** *[aula303](aula303.py)*
 - 304 - **(Parte 1) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile ->** *[aula304](aula304.py)*
+- 305 - **sys.argv - Executando arquivos com argumentos no sistema ->** *[aula305](aula305.py)*
+- 306 - **argparse.ArgumentParser para argumentos mais complexos ->** *[aula306](aula306.py)*
