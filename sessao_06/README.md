@@ -37,4 +37,5 @@
 - 307 - **argparse.ArgumentParser para argumentos mais complexos ->** *[aula306](aula306.py)
 - 308 - **(Parte 1) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
 - 309 - **(Parte 2) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
-- 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](aula310.py)*
+- 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](./aula310)*
+- 311 - **requests para requisições HTTP com Python (entenda request e response) ->** *[aula311](aula311.py)*
