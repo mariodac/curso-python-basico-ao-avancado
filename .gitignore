@@ -1,4 +1,6 @@
 _*.txt
+_*.png
+_*.jpg
 pessoa.json
 data.json
 lista_tarefas.json
