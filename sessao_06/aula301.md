@@ -13,7 +13,7 @@ pip install python-dotenv
 
 Esse arquivo deve conter as suas variáveis de ambiente e seguir o seguinte formato:
 
-```python
+```python {.line-numbers}
 # .env
 VARIAVEL_DE_AMBIENTE_1=valor
 VARIAVEL_DE_AMBIENTE_2=valor
