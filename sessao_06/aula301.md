@@ -6,14 +6,14 @@ As variáveis de ambiente são valores que podem ser usados em seu código e que
 
 Para utilizar o `python-dotenv`, basta instalá-lo com o pip e, em seguida, adicionar um arquivo chamado .env na raiz do seu projeto.
 
-```
+```python
 # Ative seu ambiente virtual
 pip install python-dotenv
 ```
 
 Esse arquivo deve conter as suas variáveis de ambiente e seguir o seguinte formato:
 
-```
+```python
 # .env
 VARIAVEL_DE_AMBIENTE_1=valor
 VARIAVEL_DE_AMBIENTE_2=valor
@@ -22,7 +22,7 @@ VARIAVEL_DE_AMBIENTE_3=valor
 
 Em seu código, você pode acessar essas variáveis usando o módulo os e a função `os.getenv()`, por exemplo:
 
-```
+```python
 import os
 
 valor_da_variavel_1 = os.getenv("VARIAVEL_DE_AMBIENTE_1")
