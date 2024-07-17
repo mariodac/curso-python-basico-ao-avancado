@@ -32,7 +32,7 @@
 - 47 - **Exercício: teste seu conhecimento até aqui ->** *[aula47](aula047.py)*
 - 48 - **Solução - Exercício: teste seu conhecimento até aqui**
 - 49 - **Introdução ao try e except para capturar erros (exceptions) ->** *[aula49](aula049.py)*
-- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de códigov** *[aula50](aula050.py)*
+- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código ->** *[aula50](aula050.py)*
 - 52 - **id - A identidade do valor que está na memória ->** *[aula52](aula052.py)*
 - 53 - **Flags, is, is not e None ->** *[aula53](aula053.py)*
 - 54 - **Exercícios - Enunciados ->** *[aula54](aula054.py)*
@@ -72,7 +72,7 @@
 - 88 - **Tipo tuple (tuplas)** *[aula88](aula088.py)*
 - 89 - **enumerate para enumerar valores de iteráveis (pegar índices)** *[aula89](aula089.py)*
 - 90 - **Exercício - crie uma lista de compras com listas** *[aula90](aula090.py)*
-- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py*)*
+- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py)*
 - 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal** *[aula92](aula092.py)*
 - 93 - **split, join e strip são métodos muito úteis da str** *[aula93](aula093.py)*
 - 94 - **Listas dentro de listas (iteráveis dentro de iteráveis)** *[aula94](aula094.py)*

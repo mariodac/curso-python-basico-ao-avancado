@@ -39,3 +39,11 @@
 - 309 - **(Parte 2) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
 - 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](./aula310)*
 - 311 - **requests para requisições HTTP com Python (entenda request e response) ->** *[aula311](aula311.py)*
+- 312 - **(parte 1) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula312](aula312.py)*
+- 313 - **(parte 2) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula313](aula313.py)*
+- 314 - **Adicionando "encoding" no BeautifulSoup 4 para evitar problemas com caracteres ->** *[aula314](aula314.md)*
+- 315 - **Escolhendo e baixando o chromedriver para o Selenium e Google Chrome ->** *[aula315](./aula315/)*
+- 316 - **Selenium - Automatizando tarefas no navegador ->** *[aula316](./aula315/)*
+- 317 - **Selenium - Selecionando elementos com By, expected_conditions e WebDriverWait ->** *[aula317](./aula315/)*
+- 318 - **Selenium - Enviando teclas com a classe Keys ->** *[aula318](./aula315/)*
+- 319 - **Selenium - find_element e find_elements By ->** *[aula319](./aula315/)*
