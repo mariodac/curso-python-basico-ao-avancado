@@ -47,3 +47,14 @@
 - 317 - **Selenium - Selecionando elementos com By, expected_conditions e WebDriverWait ->** *[aula317](./aula315/)*
 - 318 - **Selenium - Enviando teclas com a classe Keys ->** *[aula318](./aula315/)*
 - 319 - **Selenium - find_element e find_elements By ->** *[aula319](./aula315/)*
+- 320 - **TEORIA: subprocess para executando programas e comandos externos ->** *[aula320](aula320.md)*
+- 321 - **subprocess para executando programas e comandos externos ->** *[aula321](aula321.py)*
+- 322 - **Jupyter Notebook - Instalação e teste ->** *[aula322](aula322.ipynb)*
+- 323 - **Jupyter Notebook - Exemplos ->** *[aula323](aula323.ipynb)*
+- 324 - **(Parte 1) Threads - Executando processamentos em paralelo ->** *[aula324](aula324.py)*
+- 325 - **(Parte 2) Threads - Executando processamentos em paralelo ->** *[aula325](aula325.py)*
+- 326 - **(Parte 3) Threads - Executando processamentos em paralelo ->** *[aula326](aula326.py)*
+- 327 - **PyPDF2 para manipular arquivos PDF (Instalação) ->** *[aula327](./aulapypdf2/)*
+- 328 - **PyPDF2 para manipular arquivos PDF (PdfReader) ->** *[aula328](./aulapypdf2/)*
+- 329 - **PyPDF2 para manipular arquivos PDF (PdfWriter) ->** *[aula329](./aulapypdf2/)*
+- 330 - **PyPDF2 para manipular arquivos PDF (PdfMerger)->** *[aula328](./aulapypdf2/)*
