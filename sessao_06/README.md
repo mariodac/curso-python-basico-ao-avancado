@@ -58,3 +58,5 @@
 - 328 - **PyPDF2 para manipular arquivos PDF (PdfReader) ->** *[aula328](./aulapypdf2/)*
 - 329 - **PyPDF2 para manipular arquivos PDF (PdfWriter) ->** *[aula329](./aulapypdf2/)*
 - 330 - **PyPDF2 para manipular arquivos PDF (PdfMerger)->** *[aula328](./aulapypdf2/)*
+- 331 - **Deque - Trabalhando com LIFO e FIFO ->** *[aula331](aula331.py)*
+- 332 - **Dica: remover regras de tipos Unknown do linter do VS Code ->** *[aula332](aula332.md)*
