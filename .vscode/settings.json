@@ -20,7 +20,13 @@
     "python.languageServer": "Pylance",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "python.analysis.diagnosticSeverityOverrides": {},
+    "python.analysis.diagnosticSeverityOverrides": {
+      "reportUnknownArgumentType": "none",
+      "reportUnknownMemberType": "none",
+      "reportUnknownVariableType": "none",
+      "reportUnknownLambdaType": "none",
+      "reportUnknownParameterType": "none",
+    },
     "python.analysis.typeCheckingMode": "basic",
   }
   
