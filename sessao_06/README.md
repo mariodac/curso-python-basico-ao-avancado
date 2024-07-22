@@ -1,6 +1,6 @@
 # Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e mais
 
-- 273 - **if \_\_name\_\_ == "\_\_main\_\_ ->** *[aula273](./aula273/)*
+- 273 - **if \_\_name\_\_ == "\_\_main\_\_ ->** *[aula273](./aula_modulos/)*
 - 274 - **Criando data e hora em Python com módulo datetime ->** *[aula274](aula274.py)*.
 - 275 - **Data e hora atual (now), com Unix Timestamp e Timezone diferente (pytz) ->** *[aula275](aula274.py)*
 - 276 - **datetime.timedelta e dateutil.relativedelta (calculando datas) ->** *[aula276](aula276.py)*
@@ -37,7 +37,7 @@
 - 307 - **argparse.ArgumentParser para argumentos mais complexos ->** *[aula306](aula306.py)
 - 308 - **(Parte 1) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
 - 309 - **(Parte 2) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
-- 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](./aula310)*
+- 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](./aula_httpserver/)*
 - 311 - **requests para requisições HTTP com Python (entenda request e response) ->** *[aula311](aula311.py)*
 - 312 - **(parte 1) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula312](aula312.py)*
 - 313 - **(parte 2) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula313](aula313.py)*
@@ -54,9 +54,14 @@
 - 324 - **(Parte 1) Threads - Executando processamentos em paralelo ->** *[aula324](aula324.py)*
 - 325 - **(Parte 2) Threads - Executando processamentos em paralelo ->** *[aula325](aula325.py)*
 - 326 - **(Parte 3) Threads - Executando processamentos em paralelo ->** *[aula326](aula326.py)*
-- 327 - **PyPDF2 para manipular arquivos PDF (Instalação) ->** *[aula327](./aulapypdf2/)*
-- 328 - **PyPDF2 para manipular arquivos PDF (PdfReader) ->** *[aula328](./aulapypdf2/)*
-- 329 - **PyPDF2 para manipular arquivos PDF (PdfWriter) ->** *[aula329](./aulapypdf2/)*
-- 330 - **PyPDF2 para manipular arquivos PDF (PdfMerger)->** *[aula328](./aulapypdf2/)*
+- 327 - **PyPDF2 para manipular arquivos PDF (Instalação) ->** *[aula327](./aula_pypdf2/)*
+- 328 - **PyPDF2 para manipular arquivos PDF (PdfReader) ->** *[aula328](./aula_pypdf2/)*
+- 329 - **PyPDF2 para manipular arquivos PDF (PdfWriter) ->** *[aula329](./aula_pypdf2/)*
+- 330 - **PyPDF2 para manipular arquivos PDF (PdfMerger)->** *[aula328](./aula_pypdf2/)*
 - 331 - **Deque - Trabalhando com LIFO e FIFO ->** *[aula331](aula331.py)*
 - 332 - **Dica: remover regras de tipos Unknown do linter do VS Code ->** *[aula332](aula332.md)*
+- 333 - **openpyxl para arquivos Excel xlsx, xlsm, xltx e xltm (instalação) ->** *[aula333](./aula_openpyxl/)*
+- 334 - **openpyxl - criando uma planilha do Excel (Workbook e Worksheet) ->** *[aula334](./aula_openpyxl/)*
+- 335 - **openpyxl - manipulando as planilhas do Workbook ->** *[aula335](./aula_openpyxl/)*
+- 336 - **openpyxl - ler e alterar dados de uma planilha ->** *[aula336](./aula_openpyxl/)*
+- 337 - **Pillow: redimensionando imagens com Python ->** *[aula337](./aula_pillow/)*

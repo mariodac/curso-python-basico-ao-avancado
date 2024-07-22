@@ -111,7 +111,7 @@ print('\nSUA PILHA:', stack)
 # stack class
 # append, pop, peek
 # iterar com for e com while
-from typing import List, Any
+from typing import List, Any, Deque
 
 class Stack:
     """
@@ -163,6 +163,77 @@ class Stack:
 
 # Queue - aula youtube
 
+# fila com classes
+EMPTY_NODE_VALUE = '__EMPTY_NODE_VALUE__'
+
+class EmptyQueueError(Exception):
+    ...
+class Node:
+    def __init__(self, value: Any) -> None:
+        self.value = value
+        self.next: Node
+
+    def __repr__(self) -> str:
+        return f'{self.value}'
+
+    def __bool__(self) -> bool:
+        return bool(self.value != EMPTY_NODE_VALUE)
+    
+class Queue:
+    def __init__(self) -> None:
+        self.first: Node = Node(EMPTY_NODE_VALUE)
+        self.last: Node = Node(EMPTY_NODE_VALUE)
+        self._count = 0
+
+    def push(self, node_value: Any):
+        new_node = Node(node_value)
+        if not self.first:
+            self.first = new_node
+        if not self.last:
+            self.last = new_node
+        else:
+            self.last.next = new_node
+            self.last = new_node
+        self._count += 1
+
+    def pop(self) -> Node:
+        if not self.first:
+            raise EmptyQueueError('Empty queue')
+        first = self.first
+
+        if hasattr(self.first, 'next'):
+            self.first = self.first.next
+        else:
+            self.first = Node(EMPTY_NODE_VALUE)
+        self._count -= 1
+        return first
+    
+    def peek(self) -> Node:
+        if not self.first:
+            raise EmptyQueueError('Empty queue')
+        return self.first 
+
+    def __len__(self) -> int:
+        return self._count
+    
+    def __bool__(self) -> bool:
+        return bool(self._count)
+    
+    def __iter__(self) -> Queue:
+        return self
+    
+    def __next__(self) -> Any:
+        try:
+            next_value = self.pop()
+            return next_value
+        except EmptyQueueError:
+            raise StopIteration
+
+    def __repr__(self) -> str:
+        if not self.first:
+            return f'{self.__class__.__name__}()' 
+        return f'{self.__class__.__name__}({self.first}, {self.last})'
+
 if __name__ == '__main__':
     print('Stack Class')
     stack_obj = Stack()
@@ -188,4 +259,31 @@ if __name__ == '__main__':
     print('\nPILHA ORIGINAL:', stack_obj)
     print('\nPILHA COPIA:', stack_obj_copy)
 
-    print('Queue:')
+    print('Queue Class:')
+    queue_obj = Queue()
+    queue_obj.push('A')
+    queue_obj.push('B')
+    queue_obj.push('C')
+    queue_obj.push('D')
+    print(queue_obj)
+    print(queue_obj.pop())
+    print(queue_obj)
+    for item in queue_obj:
+        print(item)
+    try:
+        print(queue_obj.pop())
+    except:
+        print('Fila é esvaziada após o for')
+
+    # fila com deque
+    queue_deque:Deque[Any] = deque()
+    queue_deque.append('A')
+    queue_deque.append('B')
+    queue_deque.append('C')
+    queue_deque.append('D')
+    print(f'Removido {queue_deque.popleft()}')
+
+    for item in queue_deque:
+        print(item)
+
+    print(f'Removido {queue_deque.popleft()}')

@@ -1,3 +1,4 @@
+*.xlsx
 chromedriver*
 _*.txt
 _*.png
