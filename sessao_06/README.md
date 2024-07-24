@@ -20,7 +20,7 @@
 - 290 - **json.dump e json.load com arquivos ->** *[aula290](aula290.py)*
 - 291 - **Manipulando caminhos, pastas e arquivos no Python com pathlib [(aula externa)](https://youtu.be/T17BTNKBeJY) ->** *[aula291](aula291.py)*
 - 292 - **CSV (Comma Separated Values - Valores separados por vírgulas) ->** *[aula292](aula292.py)*
-- 293 - **csv.reader e csv.DictReader para ler arquivos CSV ->** *[aula292](aula292.py)*
+- 293 - **csv.reader e csv.DictReader para ler arquivos CSV ->** *[aula293](aula292.py)*
 - 294 - **csv.writer e csv.DictWriter para escrever em CSV ->** *[aula294](aula294.py)*
 - 295 - **random tem geradores de números pseudoaleatórios (randrange, randint, uniform) ->** *[aula295](aula295.py)*
 - 296 - **random tem geradores de números pseudoaleatórios (sample, choices, seed) ->** *[aula296](aula295.py)*
@@ -29,24 +29,24 @@
 - 299 - **(Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv ->** *[aula299](aula299.py)*
 - 300 - **(Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env) ->** *[aula300](aula299.py)*
 - 301 - **python-dotenv explicação simples em texto ->** *[aula301](aula301.md)*
-- 302 - **Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python**
+- 302 - **Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python ->** [configuração](https://support.google.com/accounts/answer/185833?hl=pt-BR)
 - 303 - **Enviando E-mails SMTP com Python ->** *[aula303](aula303.py)*
 - 304 - **(Parte 1) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile ->** *[aula304](aula304.py)*
-- 305 - **(Parte 2) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile ->** *[aula304](aula304.py)*
-- 306 - **sys.argv - Executando arquivos com argumentos no sistema ->** *[aula305](aula305.py)*
-- 307 - **argparse.ArgumentParser para argumentos mais complexos ->** *[aula306](aula306.py)
+- 305 - **(Parte 2) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile ->** *[aula305](aula304.py)*
+- 306 - **sys.argv - Executando arquivos com argumentos no sistema ->** *[aula306](aula306.py)*
+- 307 - **argparse.ArgumentParser para argumentos mais complexos ->** *[aula307](aula307.py)*
 - 308 - **(Parte 1) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
 - 309 - **(Parte 2) Básico do protocolo HTTP (HyperText Transfer Protocol) ->** *[aula308](aula308.md)*
 - 310 - **http.server - servindo arquivos HTML e CSS via HTTP com um comando Python ->** *[aula310](./aula_httpserver/)*
 - 311 - **requests para requisições HTTP com Python (entenda request e response) ->** *[aula311](aula311.py)*
 - 312 - **(parte 1) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula312](aula312.py)*
-- 313 - **(parte 2) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula313](aula313.py)*
+- 313 - **(parte 2) Web Scraping com Python usando requests e bs4 BeautifulSoup ->** *[aula313](aula312.py)*
 - 314 - **Adicionando "encoding" no BeautifulSoup 4 para evitar problemas com caracteres ->** *[aula314](aula314.md)*
-- 315 - **Escolhendo e baixando o chromedriver para o Selenium e Google Chrome ->** *[aula315](./aula315/)*
-- 316 - **Selenium - Automatizando tarefas no navegador ->** *[aula316](./aula315/)*
-- 317 - **Selenium - Selecionando elementos com By, expected_conditions e WebDriverWait ->** *[aula317](./aula315/)*
-- 318 - **Selenium - Enviando teclas com a classe Keys ->** *[aula318](./aula315/)*
-- 319 - **Selenium - find_element e find_elements By ->** *[aula319](./aula315/)*
+- 315 - **Escolhendo e baixando o chromedriver para o Selenium e Google Chrome ->** *[aula315](./aula_selenium/)*
+- 316 - **Selenium - Automatizando tarefas no navegador ->** *[aula316](./aula_selenium/)*
+- 317 - **Selenium - Selecionando elementos com By, expected_conditions e WebDriverWait ->** *[aula317](./aula_selenium/)*
+- 318 - **Selenium - Enviando teclas com a classe Keys ->** *[aula318](./aula_selenium/)*
+- 319 - **Selenium - find_element e find_elements By ->** *[aula319](./aula_selenium/)*
 - 320 - **TEORIA: subprocess para executando programas e comandos externos ->** *[aula320](aula320.md)*
 - 321 - **subprocess para executando programas e comandos externos ->** *[aula321](aula321.py)*
 - 322 - **Jupyter Notebook - Instalação e teste ->** *[aula322](aula322.ipynb)*

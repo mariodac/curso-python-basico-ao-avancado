@@ -1,6 +1,7 @@
 # Seção 5: Introdução à Programação Orientada a Objetos em Python - POO (Classes)
 
-- 197 - **Introdução à seção e livros de referência ->** *[lista de livros](https://pastelink.net/livrosreferencias)*
+<!-- - 197 - **Introdução à seção e livros de referência ->** *[lista de livros](https://pastelink.net/livrosreferencias)* -->
+- 197 - **Introdução à seção e livros de referência ->** *[lista de livros](aula197.md)*
 - 198 - **class - Classes são moldes para criar novos objetos ->** *[aula198](aula198.py)*
 - 199 - **Introdução ao método \_\_init\_\_ (inicializador de atributos) ->** *[aula199](aula199.py)*
 - 200 - **Métodos em instâncias de classes Python ->** *[aula200](aula200.py)*
@@ -24,7 +25,7 @@
 - 218 - **Exercício (+solução) com classes e relações ->** *[aula218](aula218.py)*
 - 219 - **TEORIA: Herança, generalização e especialização ->** *[aula219](aula219.py)*
 - 220 - **Herança Simples - Python Orientado a Objetos ->** *[aula220](aula219.py)*
-- 221 - **(Parte 1) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula221](aula221.py)
+- 221 - **(Parte 1) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula221](aula221.py)*
 - 222 - **(Parte 2) super e a sobreposição de membros em Python Orientado a Objetos ->** *[aula222](aula221.py)*
 - 223 - **Teoria - Herança múltipla - Python Orientado a Objetos ->** *[aula223](aula223.py)*
 - 224 - **Herança múltipla - Python Orientado a Objetos ->** *[aula224](aula223.py)*
@@ -59,11 +60,11 @@
 - 253 - **DocStrings em class (Documentação) ->** *[aula253](./Documentacao/)*
 - 254 - **Teoria: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
 - 255 - **Código: enum.Enum (Enumerações) ->** *[aula254](aula254.py)*
-- 256 - **Exercício com Abstração, Herança, Encapsulamento e Polimorfismo ->** *[aula256](./sessao_05/exercicio_aula_256/)*
+- 256 - **Exercício com Abstração, Herança, Encapsulamento e Polimorfismo ->** *[aula256](./exercicio_aula_256/)*
 - 257 - **Solução - Criando a classe abstrata Conta ->** *[aula257](https://github.com/luizomf/cursopython2023/tree/1c2b260642fbf78fc117bda87a74b1a0f5c9c24a/aula158)*
 - 258 - **Solução - Criando a classe ContaPoupanca ->** *[aula258](https://github.com/luizomf/cursopython2023/tree/6a83dca1cd0bb4be769e5146f24205da2e825cfa/aula158)*
 - 259 - **Solução - Criando a classe ContaCorrente ->** *[aula259](https://github.com/luizomf/cursopython2023/tree/ed6137331b8d70560c43218b60d8f7917e14164c/aula158)*
-- 260 - **DICA Extra: tipagem, linters e settings.json do VS Code**
+- 260 - **DICA Extra: tipagem, linters e settings.json do VS Code ->** [aula260](https://github.com/luizomf/cursopython2023/blob/62d3de84a6/aula158/contas.py)
 - 261 - **Solução - Criando a classe Pessoa ->** *[aula261](https://github.com/luizomf/cursopython2023/tree/54c01673de/aula158)*
 - 262 - **Solução - Criando a classe Cliente ->** *[aula262](https://github.com/luizomf/cursopython2023/tree/c32d02430e2369bd21454e193b74b573227322bc/aula158)*
 - 263 - **Solução - Criando a classe Banco (Parte 1) ->** *[aula263](https://github.com/luizomf/cursopython2023/tree/bfaf90e83aee9ebb8193228e3646abaee4a0b317/aula158)*

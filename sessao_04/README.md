@@ -4,19 +4,19 @@
 - 106 - **Argumentos nomeados e argumentos posicionais (não nomeados) em funções ->** *[aula106](aula106.py)*
 - 107 - **Valores padrão para parâmetros em funções Python + NoneType e None ->** *[aula107](aula107.py)*
 - 108 - **(Parte 1) Escopo de funções e módulos em Python + global ->** *[aula108](aula108.py)*
-- 109 - **(Parte 2) Escopo de funções e módulos em Python + global** 
+- 109 - **(Parte 2) Escopo de funções e módulos em Python + global** *[aula109](aula108.py)*
 - 110 - **Retorno de valores das funções (return) ->** *[aula110](aula110.py)*
 - 111 - **(Parte 1) \*args para quantidade de argumentos não nomeados variáveis**
 - 112 - **(Parte 2) \*args para quantidade de argumentos não nomeados variáveis ->** *[aula112](aula112.py)*
 - 113 - **Exercícios com funções ->** *[aula113](aula113.py)*
 - 114 - **Higher Order Functions - Funções de primeira classe ->** *[aula114](aula114.py)*
-- 115 - **Termos técnicos: Higher Order Functions e First-Class Functions**
+- 115 - **Termos técnicos: Higher Order Functions e First-Class Functions ->** *[aula115](aula115.md)*
 - 116 - **Closure e funções que retornam outras funções->** *[aula116](aula116.py)*
 - 117 - **Exercício com funções ->** *[aula117](aula117.py)*
 - 118 - **Solução do exercício com funções ->** *[solução](https://github.com/luizomf/cursopython2023/blob/06b180c7d355176901923dcfcfdc08e8c7032194/aula75.py)*
 - 119 - **Introdução ao tipo de dados dict - Dicionários em Python ->** *[aula119](aula119.py)*
-- 120 - **Manipulando chaves e valores em dicionários em Python** *[aula120](aula120.py)*
-- 121 - **(Parte 1) Métodos úteis nos dicionários Python (dict)** *[aula121](aula121.py)*
+- 120 - **Manipulando chaves e valores em dicionários em Python ->** *[aula120](aula120.py)*
+- 121 - **(Parte 1) Métodos úteis nos dicionários Python (dict) ->** *[aula121](aula121.py)*
 - 122 - **Shallow Copy vs Deep Copy em dados mutáveis Python ->** *[aula122](aula122.py)*
 - 123 - **(Parte 2) Métodos úteis nos dicionários Python (dict) ->** *[aula123](aula123.py)*
 - 124 - **Exercício - sistema de perguntas e respostas com Python ->** *[aula124](aula124.py)*
@@ -49,7 +49,7 @@
 - 151 - **try, except, else e finally + Built-in Exceptions ->** *[aula151](aula151.py)*
 - 152 - **raise - lançando exceções (erros) ->** *[aula152](aula152.py)*
 - 153 - **Módulos - import, from, as e ->** *[aula153](aula153.py)*
-- 154 - **Modularização - Entendendo os seus próprios módulos e sys.path no Python** *[aula154](aula154.py)*
+- 154 - **Modularização - Entendendo os seus próprios módulos e sys.path no Python ->** *[aula154](aula154.py)*
 - 155 - **Como importar coisas do seu próprio módulo (ponto de vista do __main__) ->** *[aula155](aula155.py)*
 - 156 - **Recarregando módulos, importlib e singleton ->** *[aula156](aula156.py)*
 - 157 - **Introdução aos packages (pacotes) em Python ->** *[aula157](aula157.py)*
@@ -65,9 +65,9 @@
 - 167 - **Decoradores com parâmetros ->** *[aula167](aula167.py)*
 - 168 - **Ordem de aplicação dos decoradores ->** *[aula168](aula168.py)*
 - 169 - **Exercício - Unir listas ->** *[aula169](aula169.py)*
-- 170 - **Solução do Exercício + zip e zip_longest do itertools ->** *[solução](aula170)*
+- 170 - **Solução do Exercício + zip e zip_longest do itertools ->** *[solução](aula170.py)*
 - 171 - **Exercícios - somando duas listas ->** *[aula171](aula171.py)*
-- 172 - **Exercício solucionado - somando listas**
+- 172 - **Exercício solucionado - somando listas ->** *[solução](aula172.md)*
 - 173 - **count é um iterador sem fim (itertools) ->** *[aula173](aula173.py)*
 - 174 - **Combinations, Permutations e Product - Itertools ->** *[aula174](aula174.py)*
 - 175 - **groupby - agrupando valores (itertools) ->** *[aula175](aula175.py)*
@@ -76,11 +76,11 @@
 - 178 - **reduce - faz a redução de um iterável em um valor ->** *[aula178](aula178.py)*
 - 179 - **Funções recursivas, recursividade e Stack Overflow ->** *[aula179](aula179.py)*
 - 180 - **Limite de recursão e cuidados com funções recursivas ->** *[aula180](aula180.py)*
-- 181 -  **O que são ambientes virtuais? (venv) ->** *[aula181](aula181.py)*
-- 182 - **Como criar o seu ambiente virtual com venv ->** *[aula182](aula182.py)*
-- 183 - **Ativando e desativando o meu ambiente virtual venv ->** *[aula183](aula183.py)*
-- 184 - **pip - instalando pacotes e bibliotecas ->** *[aula184](aula184.py)*
-- 185 - **Criando e usando um requirements.txt ->** *[aula185](aula185.py)*
+- 181 -  **O que são ambientes virtuais? (venv) ->** *[aula181](aula181.md)*
+- 182 - **Como criar o seu ambiente virtual com venv ->** *[aula182](aula182.md)*
+- 183 - **Ativando e desativando o meu ambiente virtual venv ->** *[aula183](aula183.md)*
+- 184 - **pip - instalando pacotes e bibliotecas ->** *[aula184](aula184.md)*
+- 185 - **Criando e usando um requirements.txt ->** *[aula185](aula185.md)*
 - 186 - **Criando arquivos com Python + Context Manager with ->** *[aula186](aula186.py)*
 - 187 - **with open (context manager) e métodos úteis do TextIOWrapper ->** *[aula187](aula187.py)*
 - 188 - **Modos de abertura de arquivo e encoding com with open ->** *[aula188](aula188.py)*
