@@ -1,11 +1,17 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 from PyQt5.QtWidgets import QPushButton, QLineEdit, QSizePolicy
+from PyQt5.QtGui import QIcon
 from math import sqrt
+from pathlib import Path
+
+ROOT_FOLDER = Path(__file__).parent
+ICON_WINDOW_PATH = ROOT_FOLDER / 'calculator.png'
 
 class Calculator(QMainWindow):
     def __init__(self, parent = None):
         super().__init__(parent)
+        self.setWindowIcon(QIcon(str(ICON_WINDOW_PATH)))
         self.setWindowTitle("Minha Calculadora")
         self.setFixedSize(400, 400)
         self.cw = QWidget()
