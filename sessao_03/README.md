@@ -1,6 +1,6 @@
 # Seção 3: Iniciando na programação com Python (Lógica de programação básica)
 
-- 15 - **Criando meu primeiro módulo Python (\*.py)**. 16 - **O interpretador do Python + comentários de códigos**. 17 - **Docstrings como comentários ->**  *[aula15](aula015.py)*
+- 15 - **Criando meu primeiro módulo Python (\*.py)**. 16 - **O interpretador do Python + comentários de códigos**. 17 - **Docstrings como comentários ->**  *[aula15_16_17](aula015.py)*
 - 18 - **A função print ->** *[aula18](aula018.py)*
 - 19 - **Tipo str (string) - Introdução aos tipos de dados ->** *[aula19](aula019.py)*
 - 20 - **Tipo int e float (números) - Introdução aos tipos de dados ->** *[aula20](aula020.py)*
@@ -8,12 +8,12 @@
 - 22 - **Coerção de tipos (convertendo um tipo para outro) ->**  *[aula22](aula022.py)*
 - 23 - **Introdução às variáveis em Python ->** *[aula23](aula023.py)*
 - 24 - **Exercício com variáveis e tipos de dados ->** *[aula24](aula024.py)*
-- 25 = **Solução de Exercício**
+- 25 - **Solução - exercício com variáveis e tipos de dados** *[solução](https://github.com/luizomf/cursopython2023/blob/main/aula8.py)*
 - 26 - **Introdução aos operadores aritméticos (matemática) ->** *[aula26](aula026.py)*
 - 27 - **Concatenação (+) e repetição (\*) com operadores aritméticos ->** *[aula27](aula027.py)*
 - 28 - **Precedência entre os operadores aritméticos ->** *[aula28](aula028.py)*
 - 29 - **Exercício de programação - Cálculo do IMC (Índice de Massa Corpórea) + Ellipsis ->** *[aula29](aula029.py)*
-- 30 = **Solução de Exercício**
+- 30 - **Solução exercício de programação - Cálculo do IMC ->** *[solução](https://github.com/luizomf/cursopython2023/blob/main/aula12.py)*
 - 31 - **Uma introdução às f-strings (formatação de strings) ->** *[aula31](aula031.py)*
 - 32 - **Formatação de strings com o método format ->** *[aula32](aula032.py)*
 - 33 -  **Usando a função input para coletar dados do usuário ->** *[aula33](aula033.py)*
@@ -30,9 +30,9 @@
 - 45 - **Formatação de strings com f-strings ->** *[aula45](aula045.py)*
 - 46 - **Fatiamento de strings e a função len ->** *[aula46](aula046.py)*
 - 47 - **Exercício: teste seu conhecimento até aqui ->** *[aula47](aula047.py)*
-- 48 - **Solução - Exercício: teste seu conhecimento até aqui**
+- 48 - **Solução - Exercício: teste seu conhecimento até aqui ->** *[solução](https://github.com/luizomf/cursopython2023/commit/071b00395a2b1b54f3e39101fb6052fa887496a8)*
 - 49 - **Introdução ao try e except para capturar erros (exceptions) ->** *[aula49](aula049.py)*
-- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código ->** *[aula50](aula050.py)*
+- 50 e 51 - **Parte 1 e 2: Variáveis, constantes e complexidade de código ->** *[aula50_51](aula050.py)*
 - 52 - **id - A identidade do valor que está na memória ->** *[aula52](aula052.py)*
 - 53 - **Flags, is, is not e None ->** *[aula53](aula053.py)*
 - 54 - **Exercícios - Enunciados ->** *[aula54](aula054.py)*
@@ -54,7 +54,7 @@
 - 70 - **while - Qual letra apareceu mais vezes na frase? (Iterando strings com while) ->** *[aula70](aula070.py)*
 - 71 - **DEBUGGER: while - Qual letra apareceu mais vezes na frase? ->** *[solução](https://github.com/luizomf/cursopython2023/blob/054eb06240cf90f5b8a13471d602ce384b513b0c/aula42.py)*
 - 72 - **Introdução ao for / in - estrutura de repetição para coisas ->** *[aula72](aula072.py)*
-- 73 - **range + for para usar intervalos de números ->** *[aula73.py](aula073.py)*
+- 73 - **range + for para usar intervalos de números ->** *[aula73](aula073.py)*
 - 74 - **Como o for funciona por baixo dos panos? (next, iter, iterável e iterador) ->** *[aula74.py](aula074.py)*
 - 75 - **O que aprendemos com while também funciona no for (continue, break, else, etc) ->** [aula75](aula075.py)
 - 76 - **Exercício - Jogo da palavra secreta ->** *[aula76.py](aula076.py)*
@@ -66,22 +66,22 @@
 - 82 - **Inserindo itens em qualquer índice da lista com insert (Tipo list) ->** *[aula82](aula082.py)*
 - 83 - **Concatenando e estendendo listas em Python ->** *[aula83](aula083.py)*
 - 84 - **Cuidados com tipos de dados mutáveis - list e copy ->** *[aula84](aula082.py)*
-- 85 - **for in com tipo list** *[aula85](aula085.py)*
-- 86 - **Exercício - exiba os índices da lista (aula com solução)** *[aula86](aula086.py)*
+- 85 - **for in com tipo list ->** *[aula85](aula085.py)*
+- 86 - **Exercício - exiba os índices da lista (aula com solução) ->** *[aula86](aula086.py)*
 - 87 - **Introdução ao empacotamento e desempacotamento** *[aula87](aula087.py)*
-- 88 - **Tipo tuple (tuplas)** *[aula88](aula088.py)*
-- 89 - **enumerate para enumerar valores de iteráveis (pegar índices)** *[aula89](aula089.py)*
-- 90 - **Exercício - crie uma lista de compras com listas** *[aula90](aula090.py)*
-- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except)** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py)*
-- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal** *[aula92](aula092.py)*
-- 93 - **split, join e strip são métodos muito úteis da str** *[aula93](aula093.py)*
-- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis)** *[aula94](aula094.py)*
-- 95 - **Detalhes sobre o interpretador do Python** *[aula95](aula095.py)*
-- 96 - **Desempacotamento em chamadas de funções** *[aula96](aula096.py)*
-- 97 - **Operação ternária com Python (if e else de uma linha)** *[aula97](aula097.py)*
-- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python** *[aula98](aula098.py)*
+- 88 - **Tipo tuple (tuplas) ->** *[aula88](aula088.py)*
+- 89 - **enumerate para enumerar valores de iteráveis (pegar índices) ->** *[aula89](aula089.py)*
+- 90 - **Exercício - crie uma lista de compras com listas ->** *[aula90](aula090.py)*
+- 91 - **Solução do exercício - crie uma lista de compras com listas (com try / except) ->** *[solução](https://github.com/luizomf/cursopython2023/blob/1e0e53b8c30fbcf370dd5ca3edc2a74dd99727a2/aula54.py)*
+- 92 - **Imprecisão dos números de ponto flutuante + round e decimal.Decimal ->** *[aula92](aula092.py)*
+- 93 - **split, join e strip são métodos muito úteis da str ->** *[aula93](aula093.py)*
+- 94 - **Listas dentro de listas (iteráveis dentro de iteráveis) ->** *[aula94](aula094.py)*
+- 95 - **Detalhes sobre o interpretador do Python ->** *[aula95](aula095.py)*
+- 96 - **Desempacotamento em chamadas de funções ->** *[aula96](aula096.py)*
+- 97 - **Operação ternária com Python (if e else de uma linha) ->** *[aula97](aula097.py)*
+- 98 - **Exercício - Gerar o primeiro dígito de um CPF com Python ->** *[aula98](aula098.py)*
 - 99 - **Solução do exercício - Gerar o primeiro dígito de um CPF com Python**
-- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python** *[aula100](aula100.py)*
-- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
-- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
-- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python** *[aula103](aula103.py)*
+- 100 -  **Exercício - Gerar o segundo dígito de um CPF com Python ->** *[aula100](aula100.py)*
+- 101 - **Solução do exercício - Gerar o segundo dígito de um CPF com Python ->** *[solução](https://github.com/luizomf/cursopython2023/blob/a39197026bc836d7db53543689e289057b9ed740/aula62.py)*
+- 102 - **Possíveis problemas e soluções para nosso algoritmo do CPF ->** *[solução](https://github.com/luizomf/cursopython2023/blob/4b38f48e2cde665bdb29ec419b9d00fc7d772caf/aula63.py)*
+- 103 - **Criando um gerador de CPFs com nosso algoritmo e Python ->** *[aula103](aula103.py)*
