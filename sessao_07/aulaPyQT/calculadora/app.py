@@ -66,6 +66,7 @@ class Calculator(QMainWindow):
         try:
             # eval() é uma função que avalia a expressão especificada; se a expressão for uma instrução Python válida, ela será executada.
             self.display.setText(str(round(float(eval(self.display.text())), 2)))
+            # self.display.setText('Hello World')
         except:
             self.display.setText('Conta inválida')
 
