@@ -101,26 +101,7 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="0" colspan="2">
-     <widget class="QLabel" name="return_label">
-      <property name="font">
-       <font>
-        <family>MS Sans Serif</family>
-        <pointsize>40</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: green;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
+    <item row="1" column="2">
      <widget class="QPushButton" name="copy_cpf">
       <property name="minimumSize">
        <size>
@@ -139,8 +120,28 @@
       </property>
      </widget>
     </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="QLabel" name="return_label">
+      <property name="font">
+       <font>
+        <family>MS Sans Serif</family>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: green;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
  </widget>
+ <resources/>
  <connections/>
 </ui>
