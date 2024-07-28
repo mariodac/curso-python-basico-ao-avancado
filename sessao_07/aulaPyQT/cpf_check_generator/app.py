@@ -13,7 +13,7 @@ ROOT_FOLDER = Path(__file__).parent
 ICON_WINDOW_PATH = ROOT_FOLDER / 'accuracy.png'
 print(ICON_WINDOW_PATH)
 
-class CpfCheckGenerator(QMainWindow, design.Ui_MainWindow):
+class CpfCheckGenerator(QMainWindow, design.Ui_MainWindow): #type:ignore
     def __init__(self, parent: QWidget | None = None) -> None:
         super().__init__(parent)
         super().setupUi(self)
