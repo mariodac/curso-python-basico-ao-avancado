@@ -84,6 +84,10 @@ class Calculator(QMainWindow):
 
 if __name__ == '__main__':
     qt = QApplication(sys.argv)
+    if sys.platform.startswith('win'):
+        import ctypes
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(
+            u'CompanyName.ProductName.SubProduct.VersionInformation')
     calc = Calculator()
     calc.show()
     qt.exec_()
