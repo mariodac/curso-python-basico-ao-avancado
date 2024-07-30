@@ -10,3 +10,8 @@
 - 345 - **Trabalhando com classes e herança com o PySide6 ->** *[aula345](aula345.py)*
 - 346 - **Calculadora com PySide6 - Introdução**
 - 347 - **Calculadora: Criando a janela principal com QMainWindow, QWidget e QVBoxLayout ->** *[aula347](./aula_calculadora/)*
+- 348 - **Calculadora: ajustes e boas práticas ->** *[aula348](./aula_calculadora/)*
+- 349 - **Calculadora: PascalCase, camelCase ou snake_case: Qual usar no PySide6? ->** *[aula349](./aula_calculadora/)*
+- 350 - **Calculadora: QLineEdit e o display ->** *[aula350](./aula_calculadora/)*
+- 351 - **Calculadora: criando um QLabel para mostrar informações ->** *[aula351](./aula_calculadora/)*
+- 352 - **SOLUÇÃO PRÓXIMA AULA: qdarktheme deixou de funcionar (use qdarkstyle) ->** *[aula352](aula352.md)*
