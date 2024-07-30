@@ -8,3 +8,5 @@
 - 343 - **QMainWindow e centralWidget ->** *[aula343](aula343.py)*
 - 344 - **O básico sobre Signal e Slots (eventos e documentação) ->** *[aula344](aula344.py)*
 - 345 - **Trabalhando com classes e herança com o PySide6 ->** *[aula345](aula345.py)*
+- 346 - **Calculadora com PySide6 - Introdução**
+- 347 - **Calculadora: Criando a janela principal com QMainWindow, QWidget e QVBoxLayout ->** *[aula347](./aula_calculadora/)*
