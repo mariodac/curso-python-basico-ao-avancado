@@ -15,3 +15,7 @@
 - 350 - **Calculadora: QLineEdit e o display ->** *[aula350](./aula_calculadora/)*
 - 351 - **Calculadora: criando um QLabel para mostrar informações ->** *[aula351](./aula_calculadora/)*
 - 352 - **SOLUÇÃO PRÓXIMA AULA: qdarktheme deixou de funcionar (use qdarkstyle) ->** *[aula352](aula352.md)*
+- 353 - **Calculadora: tema no PySide6 (Use o código da aula/texto anterior - qdarkstyle) ->** *[aula353](./aula_calculadora/)*
+- 354 - **Calculadora: criando um botão com QPushButton no PySide6 ->** *[aula354](./aula_calculadora/)*
+- 355 - **Calculadora: grid de botões com QGridLayout no PySide6 (parte 1) ->** *[aula355](./aula_calculadora/)*
+- 356 - **Calculadora: preenchendo a grid de botões ->** *[aula356](./aula_calculadora/)*
