@@ -15,7 +15,7 @@ if __name__ == "__main__":
     window = MainWindow()
 
     # Info initialization
-    info = Info('2.0 ^ 10.0 = 1024.0')
+    info = Info('Sua conta')
     window.addWidgetToVLayout(info)
 
     # Display initialization
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     window.addWidgetToVLayout(display)
 
     # Grid layout
-    buttonsGrid = ButtonsGrid()
+    buttonsGrid = ButtonsGrid(display, info)
     window.vLayout.addLayout(buttonsGrid)
     
     # Button initialization

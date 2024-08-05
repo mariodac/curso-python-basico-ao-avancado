@@ -19,3 +19,7 @@
 - 354 - **Calculadora: criando um botão com QPushButton no PySide6 ->** *[aula354](./aula_calculadora/)*
 - 355 - **Calculadora: grid de botões com QGridLayout no PySide6 (parte 1) ->** *[aula355](./aula_calculadora/)*
 - 356 - **Calculadora: preenchendo a grid de botões ->** *[aula356](./aula_calculadora/)*
+- 357 - **Calculadora: criando um Slot com dados para o Signal "clicked" de cada botão ->** *[aula357](./aula_calculadora/)*
+- 358 - **Calculadora: permitindo apenas números válidos no display ao pressionar botões ->** *[aula358](./aula_calculadora/)*
+- 359 - **Calculadora: Info (QLabel), TYPE_CHECKING, getter e setter e Circular Imports ->** *[aula359](./aula_calculadora/)*
+- 360 - **Calculadora: iniciando a configuração dos botões especiais ->** *[aula360](./aula_calculadora/)*
