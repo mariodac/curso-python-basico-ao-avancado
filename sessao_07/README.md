@@ -23,3 +23,6 @@
 - 358 - **Calculadora: permitindo apenas números válidos no display ao pressionar botões ->** *[aula358](./aula_calculadora/)*
 - 359 - **Calculadora: Info (QLabel), TYPE_CHECKING, getter e setter e Circular Imports ->** *[aula359](./aula_calculadora/)*
 - 360 - **Calculadora: iniciando a configuração dos botões especiais ->** *[aula360](./aula_calculadora/)*
+- 361 - **Calculadora: botões especiais de operadores, clear e equation ->** *[aula361](./aula_calculadora/)*
+- 362 - **Calculadora: configurando o botão de igual e o número da direita ->** *[aula361](./aula_calculadora/)*
+- 363 - **Calculadora: configurando a potenciação com math.pow ->** *[aula363](./aula_calculadora/)*
