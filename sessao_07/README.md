@@ -34,3 +34,6 @@
 - 369 - **Calculadora: adicionando ações nas teclas C, D e sinal de igual ->** *[aula369](./aula_calculadora)*
 - 370 - **Calculadora: emitindo os números digitados no display + dica sobre args e kwargs ->** *[aula370](./aula_calculadora/)*
 - 371 - **Calculadora: emitindo os operadores e potenciação ->** *[aula371](./aula_calculadora/)*
+- 372 - **Calculadora: os Signals de teclas digitadas aos Slots corretos ->** *[aula372](./aula_calculadora/)*
+- 373 - **Calculadora: e os números negativos? Solução técnica! ->**  *[aula373](./aula_calculadora/)*
+- 374 - **Calculadora: corrigindo bugs introduzidos na aula anterior ->** *[aula374](./aula_calculadora/)*

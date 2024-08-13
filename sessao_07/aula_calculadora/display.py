@@ -26,6 +26,8 @@ class Display(QLineEdit):
     def keyPressEvent(self, event: QKeyEvent) -> None:
         text = event.text().strip()
         key = event.key()
+        if text == ",":
+            text = "."
         KEYS = Qt.Key
         isEnter = key in [KEYS.Key_Enter, KEYS.Key_Return]
         isDelete = key in [KEYS.Key_Delete, KEYS.Key_Backspace]
@@ -37,7 +39,6 @@ class Display(QLineEdit):
             KEYS.Key_Asterisk,
             KEYS.Key_AsciiCircum,
         ]
-
         if isEnter or text == "=":
             self.eqPressed.emit()
             # print(f"enter pressionado evento emitido em {self.__class__}")

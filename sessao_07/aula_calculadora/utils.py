@@ -1,6 +1,7 @@
 import re
 
-NUM_OR_DOT_REGEX = re.compile(r'[0-9.]')
+NUM_OR_DOT_REGEX = re.compile(r"[0-9.]")
+
 
 def isValidNumber(string: str):
     try:
@@ -9,9 +10,17 @@ def isValidNumber(string: str):
     except:
         return False
 
+
 def isNumOrDot(string: str):
     return bool(NUM_OR_DOT_REGEX.search(string))
 
-def isEmpty(string: str):
-    return string.strip() == ''
 
+def isEmpty(string: str):
+    return string.strip() == ""
+
+
+def convertToNumber(string: str):
+    number = float(string)
+    if number.is_integer():
+        number = int(number)
+    return number
