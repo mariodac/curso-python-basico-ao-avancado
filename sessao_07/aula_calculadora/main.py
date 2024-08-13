@@ -15,18 +15,18 @@ if __name__ == "__main__":
     window = MainWindow()
 
     # Info initialization
-    info = Info('Sua conta')
+    info = Info("Sua conta")
     window.addWidgetToVLayout(info)
 
     # Display initialization
     display = Display()
-    display.setPlaceholderText('Digite um numero')
+    display.setPlaceholderText("Digite um numero")
     window.addWidgetToVLayout(display)
 
     # Grid layout
-    buttonsGrid = ButtonsGrid(display, info)
+    buttonsGrid = ButtonsGrid(display, info, window)
     window.vLayout.addLayout(buttonsGrid)
-    
+
     # Button initialization
     # buttonsGrid.addWidget(Button('0'), 0, 0)
     # buttonsGrid.addWidget(Button('1'), 0, 1)
@@ -34,13 +34,15 @@ if __name__ == "__main__":
     # buttonsGrid.addWidget(Button('3'), 1, 2)
 
     # define o icone
-    icon = QIcon(str(WINDOW_ICON_PATH))  
+    icon = QIcon(str(WINDOW_ICON_PATH))
     window.setWindowIcon(icon)
     # app.setWindowIcon(icon)
-    if sys.platform.startswith('win'):
+    if sys.platform.startswith("win"):
         import ctypes
+
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(
-            u'CompanyName.ProductName.SubProduct.VersionInformation')
+            "CompanyName.ProductName.SubProduct.VersionInformation"
+        )
 
     window.adjustFixedSize()
     window.show()

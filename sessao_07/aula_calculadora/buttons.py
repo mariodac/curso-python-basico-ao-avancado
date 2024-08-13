@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QPushButton, QGridLayout
+from PySide6.QtWidgets import QPushButton, QGridLayout, QMessageBox
 from PySide6.QtCore import Slot
 from constants import MEDIUM_FONT_SIZE
 from utils import isNumOrDot, isEmpty, isValidNumber
@@ -8,6 +8,7 @@ from math import pow
 if TYPE_CHECKING:
     from display import Display
     from info import Info
+    from main_window import MainWindow
 
 
 class Button(QPushButton):
@@ -24,7 +25,9 @@ class Button(QPushButton):
 
 
 class ButtonsGrid(QGridLayout):
-    def __init__(self, display: "Display", info: "Info", *args, **kwargs):
+    def __init__(
+        self, display: "Display", info: "Info", window: "MainWindow", *args, **kwargs
+    ):
         super().__init__(*args, **kwargs)
 
         self._gridMask = [
@@ -36,6 +39,7 @@ class ButtonsGrid(QGridLayout):
         ]
         self.display = display
         self.info = info
+        self.window = window
         self._equation = ""
         self.equationInitValue = "Sua conta"
         self._left = None
@@ -54,6 +58,14 @@ class ButtonsGrid(QGridLayout):
         self.info.setText(value)
 
     def _makeGrid(self):
+        self.display.delPressed.connect(self.display.backspace)
+        self.display.clearPressed.connect(self._clear)
+        self.display.eqPressed.connect(
+            lambda: print(f"enter pressionado, evento recebido em {self.__class__}")
+        )
+        self.display.inputPressed.connect(
+            lambda: print(f"input pressionado, evento recebido em {self.__class__}")
+        )
         index = None
         for i, row in enumerate(self._gridMask):
             for j, buttonText in enumerate(row):
@@ -83,12 +95,15 @@ class ButtonsGrid(QGridLayout):
             # buttonSlot = self._makeSlot(self.display.clear)
             self._connectButtonClicked(button, self._clear)
 
+        if text == "\u25C0":
+            self._connectButtonClicked(button, self.display.backspace)
+
         if text in "+-/*^":
             self._connectButtonClicked(
                 button, self._makeSlot(self._operatorClicked, button)
             )
 
-        if text in "=":
+        if text == "=":
             self._connectButtonClicked(button, self._equal)
 
     def _makeSlot(self, func, *args, **kwargs):
@@ -118,6 +133,7 @@ class ButtonsGrid(QGridLayout):
 
         # se a pessoa clicou no operador sem configurar qualquer numero
         if not isValidNumber(displayText) and self._left is None:
+            self._showWarning("Você não digitou nada")
             return
 
         # se houver algo no número da esquerda, não fazemos nada
@@ -132,6 +148,7 @@ class ButtonsGrid(QGridLayout):
         displayText = self.display.text()
 
         if not isValidNumber(displayText):
+            self._showError("Conta incompleta")
             return
 
         self._right = float(displayText)
@@ -145,9 +162,11 @@ class ButtonsGrid(QGridLayout):
         except ZeroDivisionError:
             self.display.clear()
             self.info.setText(f"Operação inválida {self.equation}")
+            self._showError("Voce está divindo por zero")
         except OverflowError:
             self.display.clear()
             self.info.setText(f"Excedeu os limites do float")
+            self._showError("Esta conta não pode ser realizado")
 
         self.display.clear()
         self.info.setText(f"{self.equation} = {result}")
@@ -156,3 +175,41 @@ class ButtonsGrid(QGridLayout):
 
         if result == "error":
             self._left = None
+
+    def _makeDialog(self, text: str, icon: QMessageBox.Icon):
+        msgBox = self.window.makeMsgBox()
+        msgBox.setText(text)
+        msgBox.setIcon(icon)
+        return msgBox
+
+    def _showWarning(self, text):
+        msgBox = self._makeDialog(text, QMessageBox.Icon.Warning)
+        # msgBox.setInformativeText(
+        #     "Est laboris culpa nisi elit incididunt cupidatat excepteur."
+        # )
+        # adicionar mais de um botão
+        # msgBox.setStandardButtons(
+        #     msgBox.StandardButton.Ok
+        #     | msgBox.StandardButton.Cancel
+        #     | msgBox.StandardButton.Save
+        # )
+        # alterar texto do botão padrão
+        # QTranslator Class para traduzir texto
+        # msgBox.button(msgBox.StandardButton.Ok).setText("Certo")
+        # obter qual botão o usuario clicou
+        result = msgBox.exec()
+
+        # if result == msgBox.StandardButton.Save:
+        #     print(f"{text} - Salvar")
+        # elif result == msgBox.StandardButton.Cancel:
+        #     print(f"{text} - Cancelar")
+        # else:
+        #     print(f"{text} - Ok")
+
+    def _showInfo(self, text):
+        msgBox = self._makeDialog(text, QMessageBox.Icon.Information)
+        msgBox.exec()
+
+    def _showError(self, text):
+        msgBox = self._makeDialog(text, QMessageBox.Icon.Information)
+        msgBox.exec()
