@@ -26,3 +26,11 @@
 - 361 - **Calculadora: botões especiais de operadores, clear e equation ->** *[aula361](./aula_calculadora/)*
 - 362 - **Calculadora: configurando o botão de igual e o número da direita ->** *[aula361](./aula_calculadora/)*
 - 363 - **Calculadora: configurando a potenciação com math.pow ->** *[aula363](./aula_calculadora/)*
+- 364 - **Calculadora: configurando o "backspace" do display no botão "◀" (D) ->** *[aula63](./aula_calculadora/)*
+- 365 - **Calculadora: diálogos com o usuário com QMessageBox ->** *[aula64](./aula_calculadora/)*
+- 366 - **Calculadora: modificando os botões e obtendo o resultado de QMessageBox ->** *[aula366](./aula_calculadora/)*
+- 367 - **Calculadora: keyPressEvent do QLineEdit e criando um Signal ->** *[aula367](./aula_calculadora/)*
+- 368 - **Calculadora: capturando teclas ENTER, Backspace e ESC ->** *[aula368](./aula_calculadora/)*
+- 369 - **Calculadora: adicionando ações nas teclas C, D e sinal de igual ->** *[aula369](./aula_calculadora)*
+- 370 - **Calculadora: emitindo os números digitados no display + dica sobre args e kwargs ->** *[aula370](./aula_calculadora/)*
+- 371 - **Calculadora: emitindo os operadores e potenciação ->** *[aula371](./aula_calculadora/)*
