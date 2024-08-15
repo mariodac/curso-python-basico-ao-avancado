@@ -37,3 +37,6 @@
 - 372 - **Calculadora: os Signals de teclas digitadas aos Slots corretos ->** *[aula372](./aula_calculadora/)*
 - 373 - **Calculadora: e os números negativos? Solução técnica! ->**  *[aula373](./aula_calculadora/)*
 - 374 - **Calculadora: corrigindo bugs introduzidos na aula anterior ->** *[aula374](./aula_calculadora/)*
+- 375 - **Aula extra (opcional): empacotando a calculadora com PyInstaller (Geral) ->** *[aula375](pyinstaller.md)*
+- 376 - **Aula extra (opcional): empacotando a calculadora com Pytinstaller (Windows) ->** *[aula376](pyinstaller.md)*
+- 377 - **Aula extra (opcional): aqui está a calculadora já empacotada para Mac e Windows ->** *[aula377](aula377.md)*

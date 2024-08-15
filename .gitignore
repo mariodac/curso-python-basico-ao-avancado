@@ -1,3 +1,6 @@
+__ignorecode
+output
+__output
 *.xlsx
 chromedriver*
 _*.txt

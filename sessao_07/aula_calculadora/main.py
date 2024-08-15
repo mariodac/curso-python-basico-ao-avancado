@@ -2,7 +2,7 @@ import sys
 from constants import WINDOW_ICON_PATH
 from main_window import MainWindow
 from display import Display
-from buttons import Button, ButtonsGrid
+from buttons import ButtonsGrid
 from info import Info
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication, QLabel, QLineEdit
