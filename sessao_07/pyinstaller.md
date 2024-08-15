@@ -26,6 +26,6 @@ pyinstaller --name="Calculadora" --noconfirm --onefile --add-data="sessao_07/aul
 Para personalizar a saída do pyinstaller
 
 ```powershell
-pyinstaller --name="Calculadora" --noconfirm --onefile --add-data="..\sessao_07\aula_calculadora\files\;files\" --icon="..\sessao_07\aula_calculadora\files\icon.png" --noconsole --clean --log-level=WARN --distpath ="output\dist" --workpath="output\build" --specpath="output\" .\sessao_07\aula_calculadora\main.py 
+pyinstaller --name="Calculadora" --noconfirm --onefile --add-data="..\sessao_07\aula_calculadora\files\;files\" --icon="..\sessao_07\aula_calculadora\files\icon.png" --noconsole --clean --log-level=WARN --distpath="output\dist" --workpath="output\build" --specpath="output\" .\sessao_07\aula_calculadora\main.py 
 ```
 
