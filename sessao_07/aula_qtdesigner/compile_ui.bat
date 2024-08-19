@@ -1,0 +1,1 @@
+pyside6-uic .\sessao_07\aula_qtdesigner\ui\window.ui -o .\sessao_07\aula_qtdesigner\src\window.py

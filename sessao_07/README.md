@@ -40,3 +40,6 @@
 - 375 - **Aula extra (opcional): empacotando a calculadora com PyInstaller (Geral) ->** *[aula375](pyinstaller.md)*
 - 376 - **Aula extra (opcional): empacotando a calculadora com Pytinstaller (Windows) ->** *[aula376](pyinstaller.md)*
 - 377 - **Aula extra (opcional): aqui está a calculadora já empacotada para Mac e Windows ->** *[aula377](aula377.md)*
+- 378 - **Execução ou instalação do Qt Designer ->** *[aula378](qtdesigner.md)*
+- 379 - **Criando e compilando um arquivo UI com o Qt Designer ->** *[aula379](./aula_qtdesigner/)*
+- 380 - **Usando um arquivo UI do Qt Designer com seu código Python ->** *[aula380](./aula_qtdesigner/)*
