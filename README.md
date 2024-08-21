@@ -28,4 +28,5 @@ Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design P
 - [Seção 5: Introdução à Programação Orientada a Objetos em Python - POO (Classes)](./sessao_05/README.md)
 - [Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e mais](./sessao_06/README.md)
 - [Seção 7: PySide6 - Interface gráfica com QT 6 no Python - GUI para Desktop](./sessao_07/README.md)
+- [Seção 8: Bases de dados com Python - SQLite (sqlite3) e MySQL (pymysql)](./sessao_08/README.md)
 
