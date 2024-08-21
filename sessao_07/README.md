@@ -43,3 +43,9 @@
 - 378 - **Execução ou instalação do Qt Designer ->** *[aula378](qtdesigner.md)*
 - 379 - **Criando e compilando um arquivo UI com o Qt Designer ->** *[aula379](./aula_qtdesigner/)*
 - 380 - **Usando um arquivo UI do Qt Designer com seu código Python ->** *[aula380](./aula_qtdesigner/)*
+- 381 - **Usando eventFilter e installEventFilter com UI do Qt Designer ->** *[aula381](./aula_qtdesigner/)*
+- 382 - **QObject e QThread: criando a janela inicial com Qt Designer ->** *[aula382](./aula_qthread/)*
+- 383 - **QObject e QThread: o problema! ->** *[aula383](./aula_qthread/)*
+- 384 - **QObject e QThread: criando o "Worker" ->** *[aula384](./aula_qthread/)*
+- 385 - **QObject e QThread: movendo "workers" para threads separadas ->** *[aula385](./aula_qthread/)*
+- 386 - **QObject e QThread: código comentado ->** *[aula386](./aula_qthread/)*
