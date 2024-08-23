@@ -15,7 +15,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QLineEdit,
+from PySide6.QtWidgets import (QApplication, QGridLayout, QLabel, QLineEdit,
     QMainWindow, QPushButton, QSizePolicy, QStatusBar,
     QWidget)
 
@@ -24,24 +24,41 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(640, 480)
+        sizePolicy = QSizePolicy(QSizePolicy.Policy.Maximum, QSizePolicy.Policy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
+        MainWindow.setSizePolicy(sizePolicy)
         font = QFont()
         font.setBold(False)
         MainWindow.setFont(font)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.label = QLabel(self.centralwidget)
-        self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(10, 30, 206, 36))
+        self.gridLayout_2 = QGridLayout(self.centralwidget)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
+        self.pushButton = QPushButton(self.centralwidget)
+        self.pushButton.setObjectName(u"pushButton")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
+        self.pushButton.setSizePolicy(sizePolicy1)
         font1 = QFont()
-        font1.setPointSize(20)
-        font1.setBold(True)
-        self.label.setFont(font1)
-        self.label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        font1.setPointSize(30)
+        font1.setBold(False)
+        self.pushButton.setFont(font1)
+
+        self.gridLayout_2.addWidget(self.pushButton, 0, 2, 1, 1)
+
         self.letter_try = QLineEdit(self.centralwidget)
         self.letter_try.setObjectName(u"letter_try")
-        self.letter_try.setGeometry(QRect(221, 9, 91, 95))
+        sizePolicy2 = QSizePolicy(QSizePolicy.Policy.Maximum, QSizePolicy.Policy.Preferred)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(self.letter_try.sizePolicy().hasHeightForWidth())
+        self.letter_try.setSizePolicy(sizePolicy2)
         font2 = QFont()
-        font2.setPointSize(50)
+        font2.setPointSize(25)
         font2.setBold(False)
         font2.setItalic(False)
         font2.setUnderline(False)
@@ -49,19 +66,29 @@ class Ui_MainWindow(object):
         self.letter_try.setFont(font2)
         self.letter_try.setContextMenuPolicy(Qt.ContextMenuPolicy.DefaultContextMenu)
         self.letter_try.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.horizontalLayoutWidget = QWidget(self.centralwidget)
-        self.horizontalLayoutWidget.setObjectName(u"horizontalLayoutWidget")
-        self.horizontalLayoutWidget.setGeometry(QRect(9, 110, 621, 341))
-        self.horizontalLayout = QHBoxLayout(self.horizontalLayoutWidget)
-        self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
-        self.pushButton = QPushButton(self.centralwidget)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(350, 10, 141, 91))
+
+        self.gridLayout_2.addWidget(self.letter_try, 0, 1, 1, 1)
+
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        sizePolicy3 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        sizePolicy3.setHorizontalStretch(0)
+        sizePolicy3.setVerticalStretch(0)
+        sizePolicy3.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
+        self.label.setSizePolicy(sizePolicy3)
         font3 = QFont()
         font3.setPointSize(20)
-        font3.setBold(False)
-        self.pushButton.setFont(font3)
+        font3.setBold(True)
+        self.label.setFont(font3)
+        self.label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1)
+
+        self.gridLayout = QGridLayout()
+        self.gridLayout.setObjectName(u"gridLayout")
+
+        self.gridLayout_2.addLayout(self.gridLayout, 1, 0, 1, 3)
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
@@ -74,8 +101,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Jogo da Forca", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Digite uma letra", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Enviar Tentativa", None))
         self.letter_try.setText("")
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Tentativa", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Digite uma letra", None))
     # retranslateUi
 

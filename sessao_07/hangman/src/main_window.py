@@ -10,29 +10,38 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def __init__(self, word: str, parent: QWidget | None = None) -> None:
         super().__init__(parent)
+        self.setWindowState(Qt.WindowState.WindowMaximized)
         self.setupUi(self)
-        for letter in word:
-            button = LineEdit(letter)
-            self.horizontalLayout.addWidget(button)
-            print(letter)
+        # self.setFixedSize(self.width(), self.height())
+        print(word)
+        for index in range(len(word)):
+            button = LineEdit(word[index])
+            if word[index] == " ":
+                continue
+            else:
+                self.gridLayout.addWidget(button, 1, index)
 
 
 class LineEdit(QLineEdit):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.setDisabled(True)
+        self._config_style()
 
     def _config_style(self):
         font = self.font()
         font.setPixelSize(BIG_FONT_SIZE)
         font.setBold(True)
         self.setFont(font)
+        self.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.setGeometry(221, 9, 91, 95)
 
 
 if __name__ == "__main__":
     themes = {}
     words = [
         "python",
-        "programação",
+        "programacao",
         "desenvolvimento",
         "computador",
         "curso",
