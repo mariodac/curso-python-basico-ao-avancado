@@ -10,6 +10,7 @@ from PySide6.QtWidgets import (
     QPushButton,
     QSpacerItem,
     QSizePolicy,
+    QLineEdit,
 )
 
 
@@ -48,12 +49,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         print(item)
 
 
-class Button(QPushButton):
+class Button(QLineEdit):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.setDisabled(True)
         self._config_style()
-        self.setProperty("cssClass", "invisibles")
+        self.setProperty("cssClass", "invisible")
 
     def _config_style(self):
         font = self.font()
@@ -83,9 +84,9 @@ if __name__ == "__main__":
     mainWindow = MainWindow(choiced_word)
     mainWindow.show()
     qss = """
-    QPushButton[cssClass="invisible"] {
-        background: #FFFFFF;
-        color: #FFFFFF
+    QLineEdit[cssClass="invisible"] {
+        background: transparent;
+        color: transparent
         }
     """
     app.setStyleSheet(app.styleSheet() + qss)
