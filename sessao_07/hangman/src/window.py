@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(640, 480)
+        MainWindow.resize(1322, 696)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Maximum, QSizePolicy.Policy.Maximum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -103,6 +103,9 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Jogo da Forca", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Enviar Tentativa", None))
         self.letter_try.setText("")
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Digite uma letra", None))
+#if QT_CONFIG(tooltip)
+        self.label.setToolTip(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Ou palavra</p></body></html>", None))
+#endif // QT_CONFIG(tooltip)
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Digite uma letra ou palavra", None))
     # retranslateUi
 

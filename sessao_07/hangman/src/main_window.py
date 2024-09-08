@@ -27,7 +27,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def _setup_word(self, word: str):
         self.buttons = []
         for index in range(len(word)):
-            button = Button(word[index])
+            button = Field(word[index])
             # id = word.index(word[-1])
             # if index == id:
             #     button.setProperty("cssClass", "visible")
@@ -42,17 +42,25 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.buttons.append(button)
 
     def _word_list(self):
-        letters = self.letter_try.text()
-        item = self.gridLayout.itemAt(0).widget()
-        item.setProperty("cssClass", "invisible")
-        item.setParent(self)
-        print(item)
+        letters = self.letter_try.text().lower()
+        for letter in letters:
+            for row in range(self.gridLayout.rowCount()):
+                for col in range(self.gridLayout.columnCount()):
+                    item = self.gridLayout.itemAtPosition(row, col)
+                    if item and isinstance(item.widget(), Field):
+                        field = item.widget()
+                        if isinstance(field, Field) and field.text().lower() == letter:
+                            field.setProperty("cssClass", "visible")
+                            field.style().unpolish(field)
+                            field.style().polish(field)
+        self.letter_try.clear()
 
 
-class Button(QLineEdit):
+class Field(QLineEdit):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.setDisabled(True)
+        self.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._config_style()
         self.setProperty("cssClass", "invisible")
 
@@ -80,14 +88,18 @@ if __name__ == "__main__":
         "software livre",
     ]
     choiced_word = random.choice(words)
+    print(choiced_word)
     app = QApplication(sys.argv)
     mainWindow = MainWindow(choiced_word)
-    mainWindow.show()
     qss = """
-    QLineEdit[cssClass="invisible"] {
+    QLineEdit[cssClass="invisible"] {{
         background: transparent;
-        color: transparent
-        }
+        color: transparent;
+    }}
+    QLineEdit[cssClass="visible"] {{
+        color: black;
+    }}
     """
     app.setStyleSheet(app.styleSheet() + qss)
+    mainWindow.show()
     app.exec()

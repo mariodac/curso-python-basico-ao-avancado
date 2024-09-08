@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>1322</width>
+    <height>696</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -87,8 +87,11 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ou palavra&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
       <property name="text">
-       <string>Digite uma letra</string>
+       <string>Digite uma letra ou palavra</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignmentFlag::AlignCenter</set>
