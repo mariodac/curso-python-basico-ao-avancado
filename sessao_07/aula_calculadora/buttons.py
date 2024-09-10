@@ -238,6 +238,6 @@ class ButtonsGrid(QGridLayout):
         self.display.setFocus()
 
     def _showError(self, text):
-        msgBox = self._makeDialog(text, QMessageBox.Icon.Information)
+        msgBox = self._makeDialog(text, QMessageBox.Icon.Critical)
         msgBox.exec()
         self.display.setFocus()
