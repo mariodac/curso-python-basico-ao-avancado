@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -18,6 +21,7 @@
   </property>
   <property name="font">
    <font>
+    <pointsize>40</pointsize>
     <bold>false</bold>
    </font>
   </property>
@@ -25,6 +29,12 @@
    <string>Jogo da Forca</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="2">
      <widget class="QPushButton" name="pushButton">
@@ -103,7 +113,17 @@
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
