@@ -34,6 +34,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self._word_list = dic_words
         self._word, self._category = self._choice_word(dic_words)
         self.label_category = QLabel(self)
+        self.gridLayout.addWidget(self.label_category, 1, 0)
         self._setup_word()
         self.pushButton.clicked.connect(self._do_a_try)
         self.attempts = []
@@ -77,14 +78,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.label_category.setStyleSheet("font-size: 20px; font-weight: bold;")
         self.label_category.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_category.setGeometry(500, 100, 200, 50)
-        self.gridLayout.addWidget(self.label_category, 1, 0)
 
     @Slot()
     def _do_a_try(self):
         letters = self.letter_try.text().lower()
         for letter in letters:
             if letter in self.attempts:
-                self._showInfo("Letra já tentada", WARNING, False)
+                self._showInfo(f"Letra '{letter.upper()}' já tentada", WARNING, False)
                 continue
             self.attempts.append(letter)
             letter_found = False
@@ -111,7 +111,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if "*" not in self._guessed_word:
             self._showInfo("Parabéns! Você venceu.", INFORMATION, True)
         elif self.error_count >= len(self.hangman_parts):
-            self._showInfo(f"Você perdeu! A palavra era: {self._word}", CRITICAL, False)
+            self._showInfo(f"Você perdeu! A palavra era: {self._word}", CRITICAL, True)
 
     def _add_hangman_part(self):
         if self.error_count < len(self.hangman_parts):
@@ -119,7 +119,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self._update_hangman_display()
             if self.error_count >= len(self.hangman_parts):
                 self._showInfo(
-                    f"Você perdeu! A palavra era: {self._word}", CRITICAL, False
+                    f"Você perdeu! A palavra era: {self._word}", CRITICAL, True
                 )
 
     def _update_hangman_display(self):
