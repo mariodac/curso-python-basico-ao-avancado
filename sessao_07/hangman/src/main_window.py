@@ -191,20 +191,6 @@ class Field(QLineEdit):
 
 
 if __name__ == "__main__":
-    words = [
-        "python",
-        "programacao",
-        "desenvolvimento",
-        "computador",
-        "curso",
-        "ciencia de dados",
-        "inteligencia artificial",
-        "algoritmo",
-        "estrutura de dados",
-        "logica de programacao",
-        "programacao orientada a objetos",
-        "software livre",
-    ]
 
     dic_words = {
         "Tecnologia": [
