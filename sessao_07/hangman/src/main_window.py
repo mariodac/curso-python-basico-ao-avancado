@@ -155,6 +155,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     if field:
                         self.gridLayout.removeWidget(field)
                         field.deleteLater()
+        self.setWindowState(Qt.WindowState.WindowMaximized)
         self._word, self._category = self._choice_word(self._word_list)
         self._setup_word()
         self.attempts = []
