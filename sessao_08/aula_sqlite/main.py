@@ -41,11 +41,37 @@ connection.commit()
 
 # maneira de evitar o sql injection, os valores serão passados como parametros
 # na função e não diretamente na string
-# esses paramentros são listas ou tuplas
+# esses paramentros são listas, tuplas, dicionarios
 sql = f"INSERT INTO {TABLE_NAME} (name, weight) VALUES (?, ?)"
-# cursor.execute(sql, ["João", 81.1])
+sql_dict = f"INSERT INTO {TABLE_NAME} (name, weight) VALUES (:nome, :peso)"
+# executando com lista de valores
+cursor.execute(sql, ["Janaina", 82.1])
+# executando com tupla de valores
+cursor.execute(sql, ("Joana", 85.1))
+# executando com dicionario
+cursor.execute(sql_dict, {"nome": "Jose", "peso": 45.5})
+# executando varios com uma lista de listas de valores
 cursor.executemany(sql, [["João", 81.1], ["Mario", 89.1], ["Luiz", 75.1]])
-cursor.executemany(sql, (("Ricardo", 81.1), ("Jonas", 89.1), ("Vitor", 75.1)))
+# executando varios com uma tupla de iteráveis(lista/tupla) de valores
+cursor.executemany(sql, (("Ricardo", 83.1), ["Jonas", 99.1], ("Vitor", 57.1)))
+# executando varios com uma lista de dicionarios
+cursor.executemany(
+    sql_dict,
+    [
+        {"nome": "Lucas", "peso": 78.1},
+        {"nome": "Mateus", "peso": 63.1},
+        {"nome": "Carlos", "peso": 92.1},
+    ],
+)
+# executando varios com uma tupla de dicionarios
+cursor.executemany(
+    sql_dict,
+    (
+        {"nome": "Judas", "peso": 77.1},
+        {"nome": "Josue", "peso": 65.1},
+        {"nome": "Henrique", "peso": 91.1},
+    ),
+)
 connection.commit()
 
 cursor.close()

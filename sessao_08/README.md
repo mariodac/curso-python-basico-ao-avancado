@@ -6,3 +6,4 @@
 - 390 - **Inserindo valores (INSERT INTO), DELETE sem WHERE e zerando a sqlite_sequence ->** *[aula390](./aula_sqlite)*
 - 391 - **Usando placeholders para maior segurança (bindings) no SQLite ->** *[aula391](./aula_sqlite)*
 - 392 - **executemany - Inserindo vários valores com placeholders no SQLite ->** *[aula392](./aula_sqlite)*
+- 393 - **execute e executemany com dicionários e lista de dicionários no SQLite ->** *[aula393](./aula_sqlite)*
