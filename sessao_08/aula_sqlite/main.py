@@ -39,7 +39,10 @@ connection.commit()
 cursor.execute(f'DELETE FROM sqlite_sequence WHERE name="{TABLE_NAME}"')
 connection.commit()
 
-cursor.execute(f'INSERT INTO {TABLE_NAME} (name, weight) VALUES ("Mario", 89.1)')
+# maneira de evitar o sql injection, os valores serão passados como parametros
+# na função e não diretamente na string
+sql = f"INSERT INTO {TABLE_NAME} (name, weight) VALUES (?, ?)"
+cursor.execute(sql, ["João", 81.1])
 connection.commit()
 
 cursor.close()
