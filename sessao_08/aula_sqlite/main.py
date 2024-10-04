@@ -41,8 +41,11 @@ connection.commit()
 
 # maneira de evitar o sql injection, os valores serão passados como parametros
 # na função e não diretamente na string
+# esses paramentros são listas ou tuplas
 sql = f"INSERT INTO {TABLE_NAME} (name, weight) VALUES (?, ?)"
-cursor.execute(sql, ["João", 81.1])
+# cursor.execute(sql, ["João", 81.1])
+cursor.executemany(sql, [["João", 81.1], ["Mario", 89.1], ["Luiz", 75.1]])
+cursor.executemany(sql, (("Ricardo", 81.1), ("Jonas", 89.1), ("Vitor", 75.1)))
 connection.commit()
 
 cursor.close()
