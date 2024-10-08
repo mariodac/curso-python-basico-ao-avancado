@@ -7,3 +7,4 @@
 - 391 - **Usando placeholders para maior segurança (bindings) no SQLite ->** *[aula391](./aula_sqlite)*
 - 392 - **executemany - Inserindo vários valores com placeholders no SQLite ->** *[aula392](./aula_sqlite)*
 - 393 - **execute e executemany com dicionários e lista de dicionários no SQLite ->** *[aula393](./aula_sqlite)*
+- 394 - **SELECT do SQL com fetch no SQLite3 do Python ->** *[aula394](./aula_sqlite)*
