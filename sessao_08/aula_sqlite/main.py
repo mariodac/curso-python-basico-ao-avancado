@@ -13,6 +13,9 @@ TABLE_NAME = "customers"
 connection = sqlite3.connect(DB_FILE)
 cursor = connection.cursor()
 
+# CRUD - Create Read Update Delete
+# SQL- INSERT SELECT UPDATE DELETE
+
 # cria tabela
 cursor.execute(
     f"CREATE TABLE IF NOT EXISTS {TABLE_NAME}"
