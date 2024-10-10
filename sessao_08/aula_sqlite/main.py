@@ -77,8 +77,11 @@ cursor.executemany(
 )
 connection.commit()
 
-if __name__ == "__main__":  
+if __name__ == "__main__":
     cursor.execute(f"DELETE FROM {TABLE_NAME} WHERE id=3")
+    connection.commit()
+
+    cursor.execute(f"UPDATE {TABLE_NAME} SET name='QUALQUER', weight=35.1 WHERE id=2")
     connection.commit()
 
     cursor.execute(f"SELECT * FROM {TABLE_NAME}")
