@@ -77,5 +77,14 @@ cursor.executemany(
 )
 connection.commit()
 
-cursor.close()
-connection.close()
+if __name__ == "__main__":  
+    cursor.execute(f"DELETE FROM {TABLE_NAME} WHERE id=3")
+    connection.commit()
+
+    cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+    for row in cursor.fetchall():
+        _id, name, weigth = row
+        print(_id, name, weigth)
+
+    cursor.close()
+    connection.close()

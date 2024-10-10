@@ -9,3 +9,5 @@
 - 393 - **execute e executemany com dicionários e lista de dicionários no SQLite ->** *[aula393](./aula_sqlite)*
 - 394 - **SELECT do SQL com fetch no SQLite3 do Python ->** *[aula394](./aula_sqlite)*
 - 395 - **O que é CRUD + DELETE com e sem WHERE no SQLite3 do Python ->** *[aula395](./aula_sqlite/)*
+- 396 - **DELETE no SQLite do Python ->** *[aula396](./aula_sqlite/)*
+- 397 - **UPDATE no SQLite com Python ->** *[aula397](./aula_sqlite/)*
