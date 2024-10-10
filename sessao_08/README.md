@@ -11,3 +11,4 @@
 - 395 - **O que é CRUD + DELETE com e sem WHERE no SQLite3 do Python ->** *[aula395](./aula_sqlite/)*
 - 396 - **DELETE no SQLite do Python ->** *[aula396](./aula_sqlite/)*
 - 397 - **UPDATE no SQLite com Python ->** *[aula397](./aula_sqlite/)*
+- 398 - **Vamos falar sobre Docker, Containers, MySQL, WSL2 em Windows, macOS e Linux ->** *[(VÍDEO) Entendendo Funcionamento de Containers](https://www.youtube.com/watch?v=85k8se4Zo70)* / *[Download Docker](https://www.docker.com/products/docker-desktop/)* / *[Tutorial Docker Engine Linux](https://docs.docker.com/engine/install/ubuntu/)* / *[(VÍDEO) WSL2 e Docker no Windows](https://www.youtube.com/watch?v=05YN8F8ajBc)*
