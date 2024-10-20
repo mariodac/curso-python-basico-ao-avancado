@@ -14,3 +14,5 @@
 - 398 - **Vamos falar sobre Docker, Containers, MySQL, WSL2 em Windows, macOS e Linux ->** *[Tutorial](./aula_sqlite/tutorial.md)* / *[(VÍDEO) Entendendo Funcionamento de Containers](https://www.youtube.com/watch?v=85k8se4Zo70)* / *[Download Docker](https://www.docker.com/products/docker-desktop/)* / *[Tutorial Docker Engine Linux](https://docs.docker.com/engine/install/ubuntu/)* / *[(VÍDEO) WSL2 e Docker no Windows](https://www.youtube.com/watch?v=05YN8F8ajBc)*
 - 399 - **Instale o servidor MySQL direto no Windows ->** *[Download MySQL](https://www.mysql.com/downloads/)*
 - 400 - **Subindo um servidor MySQL com Docker e docker-compose ->** *[aula400](./aula_mysql/aula400.md)*
+- 401 - **Criando nossa base de dados padrão para próximas aulas (base_de_dados) ->** *[aula401](./aula_mysql/)*
+- 402 - **Criando um .env para evitar enviar senhas e dados sensíveis para o Github ->** *[aula402](./aula_mysql/)*
