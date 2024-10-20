@@ -16,3 +16,6 @@
 - 400 - **Subindo um servidor MySQL com Docker e docker-compose ->** *[aula400](./aula_mysql/aula400.md)*
 - 401 - **Criando nossa base de dados padrão para próximas aulas (base_de_dados) ->** *[aula401](./aula_mysql/)*
 - 402 - **Criando um .env para evitar enviar senhas e dados sensíveis para o Github ->** *[aula402](./aula_mysql/)*
+- 403 - **PyMySQL - um cliente MySQL feito em Python Puro ->** *[aula403](./aula_mysql/aula403.md)*
+- 404 - **Conectando no seu servidor de base de dados MySQL com PyMySQL ->** *[aula404](./aula_mysql)*
+- 405 - **Usando python-dotenv e .env com pymysql.connect ->** *[aula405](./aula_mysql)*
