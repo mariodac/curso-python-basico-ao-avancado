@@ -21,6 +21,8 @@ Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design P
 
 ### Conteúdo do Curso
 
+**ATENÇÃO** as bibliotecas contidas no [requirements](./requirements.txt) só estão funcionando no Python < 3.12.7
+
 - Seção 1: Informações e avisos importantes + Boas vindas
 - Seção 2: Python + VS Code: Preparando meu ambiente de desenvolvimento
 - [Seção 3: Iniciando na programação com Python (Lógica de programação básica)](./sessao_03/README.md)
