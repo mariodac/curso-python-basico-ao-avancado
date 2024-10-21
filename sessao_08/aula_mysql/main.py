@@ -19,4 +19,8 @@ connection = pymysql.connect(
 # com context manager
 with connection:
     with connection.cursor() as cursor:
-        print(cursor)
+        # create table não precisa de commit
+        cursor.execute(
+            "CREATE TABLE IF NOT EXISTS users (id INT NOT NULL AUTO_INCREMENT, nome VARCHAR(50) NOT NULL, idade INT NOT NULL, PRIMARY KEY (id))"
+        )
+        connection.commit()
