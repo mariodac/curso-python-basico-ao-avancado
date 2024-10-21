@@ -21,3 +21,4 @@
 - 405 - **Usando python-dotenv e .env com pymysql.connect ->** *[aula405](./aula_mysql)*
 - 406 - **CREATE TABLE para criar tabela com PRIMARY KEY no PyMySQL ->** *[aula406](./aula_mysql)*
 - 407 - **TRUNCATE e INSERT p/ limpar e criar valores na tabela com um ou mais cursores ->** *[aula407](./aula_mysql)*
+- 408 - **Evite SQL Injection ao usar placeholders para enviar valores para consulta SQL ->** *[aula408](./aula_mysql/)*

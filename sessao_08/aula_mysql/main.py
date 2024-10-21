@@ -30,8 +30,9 @@ with connection:
     connection.commit()
 
     with connection.cursor() as cursor:
-        result = cursor.execute(
-            f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES ('Mario', 29)"
-        )
+        sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%s, %s)"
+        # tupla é utilizado para quando não é necessário mudar os valores, ou seja, você está apenas passando os valores
+        result = cursor.execute(sql, ("Mario", 29))
+        result = cursor.execute(sql, ["Douglas", 30])
         print(result)
     connection.commit()
