@@ -41,3 +41,23 @@ with connection:
         data = {"name": "João", "age": 29}
         result = cursor.execute(sql, data)
     connection.commit()
+
+    with connection.cursor() as cursor:
+        sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%(name)s, %(age)s)"
+        data2 = (
+            {"name": "Otavio", "age": 23},
+            {"name": "Victor", "age": 25},
+            {"name": "Rosa", "age": 50},
+        )
+        result = cursor.executemany(sql, data2)
+    connection.commit()
+
+    with connection.cursor() as cursor:
+        sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%s, %s)"
+        data3 = (
+            ("Geraldo", 13),
+            ("Helio", 15),
+            ("Julia", 60),
+        )
+        result = cursor.executemany(sql, data3)
+    connection.commit()
