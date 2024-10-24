@@ -73,8 +73,12 @@ with connection:
 
     # Lendo os valores com SELECT
     with connection.cursor() as cursor:
-        sql = f"SELECT * FROM {TABLE_NAME}"
-        cursor.execute(sql)
+        id_less = input("Digite o menor id: ")
+        id_greater = input("Digite o maior id: ")
+        coluna = "id"
+        sql = f"SELECT * FROM {TABLE_NAME} WHERE {coluna} >= %s AND {coluna} <= %s"
+        cursor.execute(sql, (id_less, id_greater))
+        print(cursor.mogrify(sql, (id_less, id_greater)))
         data4 = cursor.fetchall()
         for row in data4:
             print(row)
