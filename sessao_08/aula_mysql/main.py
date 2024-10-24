@@ -18,6 +18,7 @@ connection = pymysql.connect(
 # cursor.close()
 # connection.close()
 
+
 # com context manager
 with connection:
     with connection.cursor() as cursor:
@@ -29,19 +30,25 @@ with connection:
         cursor.execute(f"TRUNCATE TABLE {TABLE_NAME}")
     connection.commit()
 
+    # Inicio da manipulação dados a partir daqui
+
+    # Inserindo um valor usando placeholder e um iterável
     with connection.cursor() as cursor:
         sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%s, %s)"
         # tupla é utilizado para quando não é necessário mudar os valores, ou seja, você está apenas passando os valores
         result = cursor.execute(sql, ("Mario", 29))
         result = cursor.execute(sql, ["Douglas", 30])
+    # Chamada da função necessária sempre que modificar alguma tabela na base de dados
     connection.commit()
 
+    # Inserindo um valor usando placeholder e um dicionário
     with connection.cursor() as cursor:
         sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%(name)s, %(age)s)"
         data = {"name": "João", "age": 29}
         result = cursor.execute(sql, data)
     connection.commit()
 
+    # Inserindo um valor usando placeholders e uma tupla de dicionários
     with connection.cursor() as cursor:
         sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%(name)s, %(age)s)"
         data2 = (
@@ -52,6 +59,7 @@ with connection:
         result = cursor.executemany(sql, data2)
     connection.commit()
 
+    # Inserindo um valor usando placeholders e uma tupla de tuplas
     with connection.cursor() as cursor:
         sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%s, %s)"
         data3 = (
@@ -60,4 +68,13 @@ with connection:
             ("Julia", 60),
         )
         result = cursor.executemany(sql, data3)
+        print(result)
     connection.commit()
+
+    # Lendo os valores com SELECT
+    with connection.cursor() as cursor:
+        sql = f"SELECT * FROM {TABLE_NAME}"
+        cursor.execute(sql)
+        data4 = cursor.fetchall()
+        for row in data4:
+            print(row)
