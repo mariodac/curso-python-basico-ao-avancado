@@ -98,3 +98,19 @@ with connection:
         print(f"Depois de deletar o id {id_del}:")
         for row in data5:
             print(row)
+
+    # Alterando valores com UPDATE
+    with connection.cursor() as cursor:
+        coluna = "id"
+        sql = f"SELECT * FROM {TABLE_NAME}"
+        sql_up = f"UPDATE {TABLE_NAME} SET nome=%s, idade=%s WHERE id = %s"
+        id_up = 1
+        nome = "Rodrigo"
+        idade = 99
+        cursor.execute(sql_up, (nome, idade, id_up))
+        connection.commit()
+        cursor.execute(sql)
+        data5 = cursor.fetchall()
+        print(f"Depois de alterar o id {id_up}:")
+        for row in data5:
+            print(row)
