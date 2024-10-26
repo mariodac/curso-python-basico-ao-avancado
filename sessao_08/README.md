@@ -26,3 +26,4 @@
 - 410 - **Inserindo vários valores com uma consulta só usando iteráveis ou dicionários ->** *[aula410](./aula_mysql/)*
 - 411 - **Lendo valores com SELECT, cursor.execute e cursor.fetchall no PyMySQL ->** *[aula411](./aula_mysql/)*
 - 412 - **Lendo valores com WHERE (mais uma vez, explico cuidados com SQL Injection) ->** *[aula412](./aula_mysql/)*
+- 413 - **Apagando valores com DELETE, WHERE e placeholders no PyMySQL ->** *[aula413](./aula_mysql/)*

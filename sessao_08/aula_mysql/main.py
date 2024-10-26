@@ -73,12 +73,28 @@ with connection:
 
     # Lendo os valores com SELECT
     with connection.cursor() as cursor:
-        id_less = input("Digite o menor id: ")
-        id_greater = input("Digite o maior id: ")
+        # id_less = input("Digite o menor id: ")
+        # id_greater = input("Digite o maior id: ")
+        id_less = 2
+        id_greater = 4
         coluna = "id"
         sql = f"SELECT * FROM {TABLE_NAME} WHERE {coluna} >= %s AND {coluna} <= %s"
         cursor.execute(sql, (id_less, id_greater))
         print(cursor.mogrify(sql, (id_less, id_greater)))
         data4 = cursor.fetchall()
         for row in data4:
+            print(row)
+
+    # Deletando valores com DELETE
+    with connection.cursor() as cursor:
+        coluna = "id"
+        sql = f"SELECT * FROM {TABLE_NAME}"
+        sql_del = f"DELETE FROM {TABLE_NAME} WHERE id = %s"
+        id_del = 4
+        cursor.execute(sql_del, id_del)
+        connection.commit()
+        cursor.execute(sql)
+        data5 = cursor.fetchall()
+        print(f"Depois de deletar o id {id_del}:")
+        for row in data5:
             print(row)
