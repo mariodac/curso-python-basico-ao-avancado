@@ -12,8 +12,7 @@ connection = pymysql.connect(
     user=os.getenv("MYSQL_USER"),
     passwd=os.getenv("MYSQL_PASSWORD"),
     database=os.getenv("MYSQL_DATABASE"),
-    # cursorclass=pymysql.cursors.DictCursor,  # Retorna linhas da tabela como um dicionário
-    cursorclass=pymysql.cursors.SSDictCursor,  # Retorna linhas da tabela como um dicionário
+    cursorclass=pymysql.cursors.DictCursor,  # Retorna linhas da tabela como um dicionário
 )
 # sem context manager
 # cursor = connection.cursor()
@@ -118,29 +117,68 @@ with connection:
         for row in data5:
             print(row)
         print("Utilizando scroll no cursor")
-    # cursor são uteis para um grande volume de dados, onde fica inviável ficar copiando os dados para uma variável e irá apenas colocar os dados na memória
+    # scroll são uteis para um grande volume de dados, onde fica inviável ficar copiando os dados para uma variável e irá apenas colocar os dados na memória
     with connection.cursor() as cursor:
-        cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+        resultFromSelect = cursor.execute(f"SELECT * FROM {TABLE_NAME}")
         for row in cursor.fetchall():
             print(row)
         print()
         # cuidado com o parametro que utilizar em scroll pois pode ocorrer uma exceção de indexError
-        # cursor.scroll(-2)
+        cursor.scroll(-2)
         for row in cursor.fetchall():
             print(row)
         print()
-        # cursor.scroll(0, "absolute")
-        for row in cursor.fetchall_unbuffered():
+        cursor.scroll(0, "absolute")
+        data6 = cursor.fetchall()
+        for row in data6:
             print(row)
 
-    # SSCursor utilizado para um grande volume de dados e não salva os dados na memória, por este motivo também não possui a função scroll
-    with connection.cursor() as cursor:
-        cursor.execute(f"SELECT * FROM {TABLE_NAME}")
-        for row in cursor.fetchall_unbuffered():
-            print(row)
-            if row["id"] >= 5:
-                break
+        sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%s, %s)"
+        cursor.execute(sql, ("Marcos", 29))
+        connection.commit()
+        # retorna o ultimo id  inserido na tabela
+        print(f"{cursor.lastrowid=}")
+        sql = f"INSERT INTO {TABLE_NAME} (nome, idade) VALUES (%(name)s, %(age)s)"
+        data2 = (
+            {"name": "Violet", "age": 23},
+            {"name": "Cabral", "age": 25},
+            {"name": "Ricardo", "age": 50},
+        )
+        cursor.executemany(sql, data2)
+        connection.commit()
+        # quando é utilizado executemany é retornado o primeiro id inserido
+        print(f"{cursor.lastrowid=}")
+        cursor.execute(f"SELECT id FROM {TABLE_NAME} ORDER BY id DESC LIMIT 1")
+        lastIdFromSelect = cursor.fetchone()
+        print(f"{resultFromSelect=}")
+        print(f"{len(data6)=}")
+        print(f"{cursor.rowcount=}")
+        # modo alternativo de como obter o ultimo id da tabela
+        print(f"{lastIdFromSelect=}")
 
-        print()
-        for row in cursor.fetchall_unbuffered():
+        resultFromSelect = cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+        for row in cursor.fetchall():
             print(row)
+        cursor.scroll(-2)
+        print(f"{cursor.rownumber=}")
+
+# connection2 = pymysql.connect(
+#     host=os.getenv("MYSQL_HOST"),
+#     user=os.getenv("MYSQL_USER"),
+#     passwd=os.getenv("MYSQL_PASSWORD"),
+#     database=os.getenv("MYSQL_DATABASE"),
+#     cursorclass=pymysql.cursors.SSDictCursor,  # Retorna linhas da tabela como um dicionário
+# )
+# with connection2:
+#     print("SSCursor")
+#     # SSCursor utilizado para um grande volume de dados e não salva os dados na memória, por este motivo também não possui a função scroll
+#     with connection2.cursor() as cursor:
+#         cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+#         for row in cursor.fetchall_unbuffered():
+#             print(row)
+#             if row["id"] >= 5:
+#                 break
+
+#         print()
+#         for row in cursor.fetchall_unbuffered():
+#             print(row)
