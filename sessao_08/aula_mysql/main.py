@@ -1,4 +1,5 @@
 import pymysql
+import pymysql.cursors
 import os
 from dotenv import load_dotenv
 
@@ -11,6 +12,7 @@ connection = pymysql.connect(
     user=os.getenv("MYSQL_USER"),
     passwd=os.getenv("MYSQL_PASSWORD"),
     database=os.getenv("MYSQL_DATABASE"),
+    cursorclass=pymysql.cursors.DictCursor,  # Retorna linhas da tabela como um dicionário
 )
 # sem context manager
 # cursor = connection.cursor()
