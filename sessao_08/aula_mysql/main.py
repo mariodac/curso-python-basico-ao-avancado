@@ -12,7 +12,8 @@ connection = pymysql.connect(
     user=os.getenv("MYSQL_USER"),
     passwd=os.getenv("MYSQL_PASSWORD"),
     database=os.getenv("MYSQL_DATABASE"),
-    cursorclass=pymysql.cursors.DictCursor,  # Retorna linhas da tabela como um dicionário
+    # cursorclass=pymysql.cursors.DictCursor,  # Retorna linhas da tabela como um dicionário
+    cursorclass=pymysql.cursors.SSDictCursor,  # Retorna linhas da tabela como um dicionário
 )
 # sem context manager
 # cursor = connection.cursor()
@@ -115,4 +116,31 @@ with connection:
         data5 = cursor.fetchall()
         print(f"Depois de alterar o id {id_up}:")
         for row in data5:
+            print(row)
+        print("Utilizando scroll no cursor")
+    # cursor são uteis para um grande volume de dados, onde fica inviável ficar copiando os dados para uma variável e irá apenas colocar os dados na memória
+    with connection.cursor() as cursor:
+        cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+        for row in cursor.fetchall():
+            print(row)
+        print()
+        # cuidado com o parametro que utilizar em scroll pois pode ocorrer uma exceção de indexError
+        # cursor.scroll(-2)
+        for row in cursor.fetchall():
+            print(row)
+        print()
+        # cursor.scroll(0, "absolute")
+        for row in cursor.fetchall_unbuffered():
+            print(row)
+
+    # SSCursor utilizado para um grande volume de dados e não salva os dados na memória, por este motivo também não possui a função scroll
+    with connection.cursor() as cursor:
+        cursor.execute(f"SELECT * FROM {TABLE_NAME}")
+        for row in cursor.fetchall_unbuffered():
+            print(row)
+            if row["id"] >= 5:
+                break
+
+        print()
+        for row in cursor.fetchall_unbuffered():
             print(row)

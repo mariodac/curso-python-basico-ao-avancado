@@ -28,4 +28,5 @@
 - 412 - **Lendo valores com WHERE (mais uma vez, explico cuidados com SQL Injection) ->** *[aula412](./aula_mysql/)*
 - 413 - **Apagando valores com DELETE, WHERE e placeholders no PyMySQL ->** *[aula413](./aula_mysql/)*
 - 414 - **Editando com UPDATE, WHERE e placeholders no PyMySQL ->** *[aula414](./aula_mysql/)*
-- 415 **Trocando o cursor para retornar dicionários - pymysql.cursors.DictCursor ->** *[aula415](./aula_mysql/)*
+- 415 - **Trocando o cursor para retornar dicionários - pymysql.cursors.DictCursor ->** *[aula415](./aula_mysql/)*
+- 416 - **SSCursor, SSDictCursor e scroll para conjuntos de dados muito grandes no PyMySQL ->** *[aula416](./aula_mysql/)*
