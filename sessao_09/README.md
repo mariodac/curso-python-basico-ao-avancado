@@ -6,3 +6,4 @@
 - 421 - **O que é o Django? (de modo muito superficial) ->** *[aula421](https://www.djangoproject.com/)
 - 422 - **Conheça os arquivos do Django, django-admin e manage.py**
 - 423 - **Primeira URL e function based view + HttpRequest e HttpResponse + Status Codes ->** *[aula423](./ola_django/)*
+- 424 - **Entenda os motivos de uma VIEW receber uma Request e retornar uma Response ->** *[aula424](./ola_django/)*
