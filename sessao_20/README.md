@@ -1,3 +1,4 @@
 - 685 - **Seção bônus ->** *[aula685](./aula685.md)*
 - 686 - **Introdução à seção**
 - 687 - **Estrutura do  HTML ->** *[aula687](./aula687/)*
+- 688 - **Estrutura do HTML e Meta ViewPort ->** *[aula688](./aula687/)*
