@@ -6,3 +6,4 @@
 - 690 - **Headings: do H1 ao H6 ->** *[aula690](./aula_html/)*
 - 691 - **Tags HTML para texto (links, imagens, etc) ->** *[aula691](./aula_html/)*
 - 692 - **Conheça todas as tags HTML ->** *[aula691](./aula_html/)*
+- 693 - **Semântica na estrutura do HTML5** *[693](./aula_html/aula693.html)*
