@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- display: block -> pega a largura inteira do elemento e quebra uma linha -->
+    <h1>Cabeçalho</h1>
+    <!-- nada dentro de <p> pode ser display:block, apenas display:inline-->
+    <!-- tag <b> e <strong> são visualmente iguais, mas -->
+    <!-- tag <b> apenas para deixar negrito, tag <strong> para dar uma importância mais forte -->
+    <!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong#bold_vs._strong -->
+    <!-- outro caso igual é o das tags <i> e <em> -->
+    <!-- tag <i> apenas para deixar itálico, tag <em> e para dar enfase ao conteúdo -->
+    <!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/em#i_vs_em -->
+    <!-- outro caso: <del> e <s> -->
+    <!-- tag <s> apenas deixa o conteudo riscado, tag <del> é para indicar conteúdo excluído -->
+    <!-- outro caso: <ins> e <u> -->
+    <!-- tag <u> deixa o conteudo sublinhado, tag <ins> é para indicar conteúdo adicionado  -->
+    <p>
+      <b>Lorem</b> <strong>ipsum</strong> <a href="https://developer.mozilla.org/pt-BR/" target="_blank">Sunt</a> <del>vermelho</del> <ins>azul</ins> <s>mollit</s> <u>sit</u> magna proident amet
+      voluptate ut culpa incididunt <small>deserunt.</small> 2<sup>2</sup> 3<sub>3</sub> <br>
+      <q cite="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics">Na programação, a Semântica se refere ao significado de um trecho de código</q> <br>
+      <a href="https://developer.mozilla.org/pt-BR/" target="_blank"><img src="https://developer.mozilla.org/static/media/mdn_contributor.14a24dcfda486f000754.png" alt="MDN logo" width="50" height="40"></a>
+    </p>
+    <hr>
+    <!-- <blockquote> não pode ser inserido dentro de <p>, mas <p> pode ser inserido em <blockquote> -->
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#sem%C3%A2ntica_em_html">
+        Em HTML, por exemplo, o <code>h1</code> é um elemento semântico, que fornece o texto que envolve a representação (ou o significado) de "um cabeçalho de nível superior em sua página".
+    </blockquote>
+
+<pre>
+<code>
+function soma(a, b) {
+    return a + b;
+}
+console.log(soma(2, 3));
+</code>
+</pre>
+<!-- <span> e <div> são conteiner genericos -->
+<!-- <span> é inline, <div> é block -->
+<p>
+    <span>Ex reprehenderit</span> et non magna eiusmod duis duis sit aute tempor qui fugiat ipsum.
+</p>
+<div>
+    Bloco
+</div>
+  </body>
+</html>

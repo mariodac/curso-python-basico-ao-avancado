@@ -4,3 +4,4 @@
 - 688 - **Estrutura do HTML e Meta ViewPort ->** *[aula688](./aula_html/)*
 - 689 - **Atributos de id e class ->** *[aula689](./aula_html/)*
 - 690 - **Headings: do H1 ao H6 ->** *[aula690](./aula_html/)*
+- 691 - **Tags HTML para texto (links, imagens, etc) ->** *[aula691](./aula_html/)*
