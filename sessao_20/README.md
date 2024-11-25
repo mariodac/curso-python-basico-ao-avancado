@@ -2,4 +2,5 @@
 - 686 - **Introdução à seção**
 - 687 - **Estrutura do  HTML ->** *[aula687](./aula_html/)*
 - 688 - **Estrutura do HTML e Meta ViewPort ->** *[aula688](./aula_html/)*
-- 689 - **Atributos de id e class ->** *[aula689](./aula_html/)
+- 689 - **Atributos de id e class ->** *[aula689](./aula_html/)*
+- 690 - **Headings: do H1 ao H6 ->** *[aula690](./aula_html/)*
