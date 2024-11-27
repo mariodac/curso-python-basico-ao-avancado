@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <!-- https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model -->
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .section-one{
+            /* configuração das dimensões de um elemento */
+            /* top right bottom left */
+            background-color: deeppink;
+            background-image: url(https://th.bing.com/th/id/OIP.VHe1DTnuwc6ZHYcAjUx0xQHaEo?rs=1&pid=ImgDetMain);
+            background-size: cover;
+            background-position: center center;
+            /* border: 5px solid black;*/
+            /* propriedades que precisam ser definidads para aparecer apenas uma das bordas */
+            /* border-bottom-width, border-bottom-style, border-bottom-style */
+            /* border-bottom-width: 10px; */
+            /* border-bottom-style: solid; */
+            border-bottom-color: blueviolet;
+            border-top-color: yellow;
+            border-left-color: green;
+            border-right-color: magenta;
+            border-style: solid;
+            border-width: 10px;
+            /* caso configure apenas uma cor de uma das bordas o restante seguirá a cor que está em color */
+            color: red;
+            width: 200px;
+            height: 50px;
+            padding: 15px 0;
+            margin: 30px;
+        }
+        .section-two{
+            background: cyan;
+            border: 5px solid black;
+            width: 200px;
+            height: 50px;
+            padding: 15px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="section-one">
+        Non adipisicing pariatur ullamco sit in non est nulla labore deserunt 
+    </section>
+    <section class="section-two">2</section>
+</body>
+</html>

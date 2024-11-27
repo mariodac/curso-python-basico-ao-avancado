@@ -8,3 +8,4 @@
 - 692 - **Conheça todas as tags HTML ->** *[aula691](./aula_html/)*
 - 693 - **Semântica na estrutura do HTML5** *[693](./aula_html/aula693.html)*
 - 694 - **Pensando em HTML e CSS** *[694](./aula_html/)*
+- 695 - **Introdução ao CSS Box-Model ->** *[aula695](./aula_box_model/)*
