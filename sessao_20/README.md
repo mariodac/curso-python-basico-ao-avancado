@@ -9,3 +9,4 @@
 - 693 - **Semântica na estrutura do HTML5** *[693](./aula_html/aula693.html)*
 - 694 - **Pensando em HTML e CSS** *[694](./aula_html/)*
 - 695 - **Introdução ao CSS Box-Model ->** *[aula695](./aula_box_model/)*
+- 696 - **Listas e Menus com HTML e CSS ->** *[aula696](./aula_lista_menus/)*
