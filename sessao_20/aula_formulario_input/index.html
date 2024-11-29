@@ -78,7 +78,7 @@
 
         <p>
             <label for="file">Sua foto:</label>
-            <input type="file" name="file" id="file"  accept=".png, image/*" multiple>
+            <input type="file" name="file" id="file" accept=".png, image/*" multiple>
         </p>
 
         <p>
@@ -87,9 +87,67 @@
         </p>
 
         <p>
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" max="100" min="0" step="10" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0">0</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50%">50%</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="url">Digite sua url:</label>
+            <input type="url" name="url" id="url" placeholder="Digite sua url">
+        </p>
+
+        <p>
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+        </p>
+
+        <p>
+            <label for="search">Digite sua busca:</label>
+            <input type="search" name="search" id="search" placeholder="Digite sua busca">
+        </p>
+
+        <p>
+            <label for="select">Selecione uma opção:</label>
+            <select name="select" id="select" multiple>
+                <optgroup label="Grupo 1">
+                    <option value="valor 1">Item 1</option>
+                    <option value="valor 2" selected>Item 2</option>
+                    <option value="valor 3">Item 3</option>
+                </optgroup>
+
+                <optgroup label="Grupo 2">
+                    <option value="valor 4">Item 1</option>
+                    <option value="valor 5" selected>Item 2</option>
+                    <option value="valor 6">Item 3</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="textarea">Digite seu texto:</label>
+            <textarea type="textarea" name="textarea" id="textarea" rows="3" cols="5">
+                Digite seu texto
+            </textarea>
+        </p>
+
+        <p>
             <button type="reset">Reset</button>
             <button type="submit">Enviar</button>
         </p>
+
     </form>
 </body>
 
