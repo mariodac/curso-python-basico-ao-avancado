@@ -12,3 +12,4 @@
 - 696 - **Listas e Menus com HTML e CSS ->** *[aula696](./aula_lista_menus/index.html)*
 - 697 - **Tabelas HTML ->** *[aula697](./aula_tabelas/index.html)*
 - 698 - **Formulários e Inputs HTML - Parte 1 ->** [aula698](./aula_formulario_input/)
+- 699 - **Formulários e Inputs HTML - Parte 2 ->** [aula698](./aula_formulario_input/)

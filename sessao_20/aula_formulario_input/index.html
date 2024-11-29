@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,53 @@
         body {
             font-family: sans-serif;
         }
+
+        label {
+            cursor: pointer;
+            /* display: block; */
+        }
     </style>
 </head>
+
 <body>
     <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
     <!-- https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form -->
     <form action="#" method="get" target="_blank">
         <p>O Formulário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+        </p>
+
+        <p>
+            <label for="dev">Sou dev</label>
+            <input type="checkbox" name="dev" id="dev" value="sim" checked>
+        </p>
+
+        <p>
+            <label for="dev">Sou dev</label>
+            <input type="checkbox" name="dev" id="dev" value="sim" checked>
+            <label for="backend">Sou backend</label>
+            <input type="checkbox" name="backend" id="backend" value="sim">
+            <label for="frontend">Sou frontend</label>
+            <input type="checkbox" name="frontend" id="frontend" value="sim">
+        </p>
+
+        <p>
+            Gênero: <br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="sim" checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="sim">
+            <label for="louco">Louco</label>
+            <input type="radio" name="genero" id="louco" value="sim">
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
     </form>
 </body>
+
 </html>
