@@ -11,3 +11,4 @@
 - 695 - **Introdução ao CSS Box-Model ->** *[aula695](./aula_box_model/index.html)*
 - 696 - **Listas e Menus com HTML e CSS ->** *[aula696](./aula_lista_menus/index.html)*
 - 697 - **Tabelas HTML ->** *[aula697](./aula_tabelas/index.html)*
+- 698 - **Formulários e Inputs HTML - Parte 1 ->** [aula698](./aula_formulario_input/)
