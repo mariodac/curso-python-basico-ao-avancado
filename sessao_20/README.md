@@ -13,3 +13,5 @@
 - 697 - **Tabelas HTML ->** *[aula697](./aula_tabelas/index.html)*
 - 698 - **Formulários e Inputs HTML - Parte 1 ->** [aula698](./aula_formulario_input/)
 - 699 - **Formulários e Inputs HTML - Parte 2 ->** [aula698](./aula_formulario_input/)
+- 700 - **Formulários e Inputs HTML - Parte 3 ->** [aula698](./aula_formulario_input/)
+- 701 - **Formulários e Inputs HTML - Parte 4 ->** [aula698](./aula_formulario_input/)

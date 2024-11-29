@@ -44,11 +44,46 @@
         <p>
             Gênero: <br>
             <label for="feminino">Feminino</label>
-            <input type="radio" name="genero" id="feminino" value="sim" checked>
+            <input type="radio" name="genero" id="feminino" value="masculino" checked>
             <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" id="masculino" value="sim">
+            <input type="radio" name="genero" id="masculino" value="feminino">
             <label for="louco">Louco</label>
-            <input type="radio" name="genero" id="louco" value="sim">
+            <input type="radio" name="genero" id="louco" value="louco">
+        </p>
+
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" value="2022-12-28">
+        </p>
+
+        <p>
+            <label for="datetime">Datetime:</label>
+            <input type="datetime-local" name="datetime" id="datetime" value="2022-12-28T00:00">
+        </p>
+
+        <p>
+            <label for="time">Hora:</label>
+            <input type="time" name="time" id="time" value="00:00:01">
+        </p>
+
+        <p>
+            <label for="color">Cor:</label>
+            <input type="color" name="color" id="color" value="#ff0000">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com">
+        </p>
+
+        <p>
+            <label for="file">Sua foto:</label>
+            <input type="file" name="file" id="file"  accept=".png, image/*" multiple>
+        </p>
+
+        <p>
+            <label for="number">Numero:</label>
+            <input type="number" name="number" id="number" placeholder="Digite um numero" min="10" max="50" step="5">
         </p>
 
         <p>
