@@ -11,7 +11,8 @@
 - 695 - **Introdução ao CSS Box-Model ->** *[aula695](./aula_box_model/index.html)*
 - 696 - **Listas e Menus com HTML e CSS ->** *[aula696](./aula_lista_menus/index.html)*
 - 697 - **Tabelas HTML ->** *[aula697](./aula_tabelas/index.html)*
-- 698 - **Formulários e Inputs HTML - Parte 1 ->** [aula698](./aula_formulario_input/)
-- 699 - **Formulários e Inputs HTML - Parte 2 ->** [aula698](./aula_formulario_input/)
-- 700 - **Formulários e Inputs HTML - Parte 3 ->** [aula698](./aula_formulario_input/)
-- 701 - **Formulários e Inputs HTML - Parte 4 ->** [aula698](./aula_formulario_input/)
+- 698 - **Formulários e Inputs HTML - Parte 1 ->** *[aula698](./aula_formulario_input/)*
+- 699 - **Formulários e Inputs HTML - Parte 2 ->** *[aula699](./aula_formulario_input/)*
+- 700 - **Formulários e Inputs HTML - Parte 3 ->** *[aula700](./aula_formulario_input/)*
+- 701 - **Formulários e Inputs HTML - Parte 4 ->** *[aula701](./aula_formulario_input/)*
+- 702 - **Separando HTML e CSS em arquivos diferentes ->** *[aula702](./aula702/)*
