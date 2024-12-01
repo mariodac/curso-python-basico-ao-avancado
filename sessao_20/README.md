@@ -18,3 +18,5 @@
 - 702 - **Separando HTML e CSS em arquivos diferentes ->** *[aula702](./aula702/)*
 - 703 - **Quem dá estilo ao HTML é o CSS**
 - 704 - **Seletores básicos do CSS - Parte 1 ->** *[aula704](./aula_seletores_css/)*
+- 705 - **Seletores básicos do CSS - Parte 2 ->** *[aula705](./aula_seletores_css/)*
+- 706 - **Seletores de atributos do CSS ->** *[aula706](./aula_seletores_css/)*

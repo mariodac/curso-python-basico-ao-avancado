@@ -52,3 +52,56 @@ div {
 .pai > .filha > span >.filha {
     color: rgb(210, 30, 210);
 }
+
+/* seletor de irmao adjacente */
+.pai h2+p {
+    color:green;
+}
+
+.pai p+h2 {
+    color:peru;
+}
+
+/* seletor de irmao geral, selecionando todos os elementos irmaos que vem depois de um elemento */
+.father h2~p {
+    color:dodgerblue
+}
+
+/* seletor por atributo com esse nome */
+[checked] {
+    width: 50px;
+    height: 50px;
+}
+/* seletor por atributo com determinado valor */
+[meu-atributo="valor"] {
+    font-style: italic;
+    color:cadetblue
+}
+/* seletor por atributo que contém pelo menos esse valor */
+[meu-atributo~="valor2"] {
+    font-family: 'Courier New', Courier, monospace;
+}
+/* seletor por atributo que inicia com esse valor seguido de um "-" */
+[meu-atributo|="value"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: sienna;
+}
+
+/* seletor por atributo que inicia com esse valor */
+[meu-atributo^="lor"] {
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    color: tomato;
+}
+
+/* seletor por atributo que termina com esse valor */
+[meu-atributo$="dolor"] {
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: violet;
+}
+
+/* seletor por atributo que contenha esse valor */
+[meu-atributo*="r el"] {
+    font-family: cursive;
+    color: steelblue;
+}
