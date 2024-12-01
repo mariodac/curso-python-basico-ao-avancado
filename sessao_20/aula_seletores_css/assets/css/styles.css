@@ -1,0 +1,54 @@
+/* zerar margin e padding de tudo para evitar de ter sempre que zerar em cada elemento */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* seleção de tag  */
+h1, p {
+    color: red;
+}
+/* seleção de descendente, o ultimo elemento que será aplicado o estilo */
+body div section p, 
+body div section h1 {
+    color:  yellowgreen;
+}
+
+.coloring {
+    color: blue;
+}
+/* seleção especifica para toda h2 com class heading dentro de qualquer elemento
+ com classe main-content */
+body div.main-content h2.heading {
+    font-style: italic;
+    color: purple;
+}
+/* faz o elemento herdar o estilo do pai */
+/* div {
+    color: inherit
+} */
+
+/* não faz o elemento herdar o estilo do pai */
+div {
+    color: initial;
+    margin:  20px;
+}
+/* seletores de classe separados por espaço funciona como herança */
+.pai .filha {
+    color: skyblue;
+}
+
+/* seletores de classe juntos só seleciona os elementos que possuem essas classes */
+.big.italic {
+    font-size: 50px;
+    font-style: italic;
+}
+
+/* seletor de descendente direto */
+.pai > .filha > .filha {
+    color: chocolate;
+}
+
+/* seletor de descendente direto */
+.pai > .filha > span >.filha {
+    color: rgb(210, 30, 210);
+}

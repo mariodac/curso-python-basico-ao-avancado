@@ -16,3 +16,5 @@
 - 700 - **Formulários e Inputs HTML - Parte 3 ->** *[aula700](./aula_formulario_input/)*
 - 701 - **Formulários e Inputs HTML - Parte 4 ->** *[aula701](./aula_formulario_input/)*
 - 702 - **Separando HTML e CSS em arquivos diferentes ->** *[aula702](./aula702/)*
+- 703 - **Quem dá estilo ao HTML é o CSS**
+- 704 - **Seletores básicos do CSS - Parte 1 ->** *[aula704](./aula_seletores_css/)*
