@@ -20,3 +20,4 @@
 - 704 - **Seletores básicos do CSS - Parte 1 ->** *[aula704](./aula_seletores_css/)*
 - 705 - **Seletores básicos do CSS - Parte 2 ->** *[aula705](./aula_seletores_css/)*
 - 706 - **Seletores de atributos do CSS ->** *[aula706](./aula_seletores_css/)*
+- 707 - **Pseudo-classes ->** *[aula707](./aula_pseudo_classes/)*

@@ -1,0 +1,64 @@
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+}
+
+a {
+    color: darkorange;
+}
+/* link não visitado */
+a:link {
+    color: deeppink;
+}
+/* link visitado */
+a:visited {
+    color: firebrick;
+}
+/* quando o passa em cima do elemento */
+a:hover {
+    background: darkblue;
+    color: white;
+    text-decoration: none;
+}
+/* quando clica e segura sobre um elemento */
+a:active {
+    background: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+/* quando o elemento está em foco */
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+/* para elementos desabilitados */
+input:disabled {
+    background-color: blueviolet;
+    cursor: not-allowed;
+}
+/* para elementos habilitados */
+input:enabled {
+    background-color: brown;
+    cursor: help;
+}
+/* para input estiver marcado */
+input:checked {
+    width: 50px;
+    height: 50px;
+}
+
+input:required {
+    background: red;
+}
+
+input:checked + p {
+    background: red;
+}
+/* seleciona o primeiro filho */
+.pai .lista li:first-child {
+    background: red;
+}
