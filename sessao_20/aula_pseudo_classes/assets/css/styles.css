@@ -71,3 +71,26 @@ input:not(:checked) + p {
 p:not(.mid) {
     color: blue;
 }
+
+/* seleciona o irmão pelo indice */
+ul li:nth-child(2) {
+    background-color: red;
+}
+/* seleciona os irmãos pares */
+ul li:nth-child(even) {
+    background-color: red;
+}
+
+/* seleciona os irmãos impares */
+ul li:nth-child(odd) {
+    background-color: purple;
+}
+
+/* seleciona os irmãos de 5 em 5 */
+ul li:nth-child(5n) {
+    color: white;
+}
+/* a partir do 5 seleciona os irmãos de 3 em 3 */
+ul li:nth-child(3n+5) {
+    color: cyan;
+}

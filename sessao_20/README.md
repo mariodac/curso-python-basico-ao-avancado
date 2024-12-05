@@ -22,3 +22,4 @@
 - 706 - **Seletores de atributos do CSS ->** *[aula706](./aula_seletores_css/)*
 - 707 - **Pseudo-classes ->** *[aula707](./aula_pseudo_classes/)*
 - 708 - **Pseudo-classe :not() ->** *[aula708](./aula_pseudo_classes/)*
+- 709 - **Pseudo-classe :nth-child() ->** *[aula709](./aula_pseudo_classes/)*
