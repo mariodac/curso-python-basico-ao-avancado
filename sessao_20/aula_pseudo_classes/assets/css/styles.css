@@ -56,9 +56,18 @@ input:required {
 }
 
 input:checked + p {
-    background: red;
+    background: cyan;
 }
 /* seleciona o primeiro filho */
 .pai .lista li:first-child {
     background: red;
+}
+
+input:not(:checked) + p {
+    background: red;
+}
+
+/* seleciona todos os paragrafos exceto o com a classe mid */
+p:not(.mid) {
+    color: blue;
 }
