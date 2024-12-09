@@ -23,3 +23,4 @@
 - 707 - **Pseudo-classes ->** *[aula707](./aula_pseudo_classes/)*
 - 708 - **Pseudo-classe :not() ->** *[aula708](./aula_pseudo_classes/)*
 - 709 - **Pseudo-classe :nth-child() ->** *[aula709](./aula_pseudo_classes/)*
+- 710 - **Pseudo-elements ->** *[aula710](./aula_pseudo_elements/)*

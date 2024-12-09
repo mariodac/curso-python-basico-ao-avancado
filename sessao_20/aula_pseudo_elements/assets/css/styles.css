@@ -1,0 +1,38 @@
+/* pseudo classes utiliza : e pseudo elementos utiliza :: */
+ul li::after {
+    content: " - ";
+    background: red;
+    color: white;
+    display: block;
+}
+
+ul li::before {
+    content: " - ";
+    background: blue;
+    color: gray;
+    display: block;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection {
+    background: purple;
+}
+
+.form-field::placeholder {
+    color: red;
+}
