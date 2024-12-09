@@ -1,0 +1,30 @@
+/* 
+regra de aplicação css
+especificidade
+empate
+style
+!important
+
+Style       ID      CLASSES, ATRIBUTOS e PSEUDO-CLASSES       ELEMENTOS e PSEUDO-ELEMENTOS
+1            1       0                                        0
+0            0       1                                        0
+0            1       1                                        0
+0            1       1                                        1
+*/
+/* links para consulta
+https://specificity.keegan.st/
+https://www.w3.org/TR/selectors-3/#specificity 
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity
+*/
+/* important força a aplicação de uma regra */
+#p {
+    background: red !important;
+}
+
+#p.p {
+    background: yellow;
+}
+
+body#b p#p.p {
+    background: blue;
+}
