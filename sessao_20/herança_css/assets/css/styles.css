@@ -1,0 +1,17 @@
+/* link para consulta
+https://www.sitepoint.com/css-inheritance-introduction/
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+https://www.w3schools.com/cssref/css_inherit.php
+ */
+/* todos elementos que tem o pai com id 'texto' vai herdar as mesmas propriedades */
+#texto {
+    color: red;
+    font-family: sans-serif;
+    font-size: 70px;
+}
+/* initial desativa herança */
+/* inherit herda a propriedade */
+p {
+    font-size: initial;
+    color: inherit;
+}
