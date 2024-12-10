@@ -1,0 +1,17 @@
+/* overflow é utilizado para controlar que o conteúdo não ultrapasse o tamanho do elemento */
+/* no box-sizing: border-box, a largura e altura incluem o conteúdo, padding e border. padding e border estão dentro da caixa, no padrão box-sizing: content-box, eles estão fora da caixa */
+.texto {
+    box-sizing: content-box;
+    display: block;
+    background: red;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    min-width: 0;
+    min-height: 100px;
+    overflow: auto;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    border: 5px solid black;
+}

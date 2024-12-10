@@ -25,4 +25,5 @@
 - 709 - **Pseudo-classe :nth-child() ->** *[aula709](./aula_pseudo_classes/)*
 - 710 - **Pseudo-elements ->** *[aula710](./aula_pseudo_elements/)*
 - 711 - **Especificidade CSS ->** *[aula711](./aula_especificidade_css/)*
-- 712 - **Herança e as propriedades que são passadas para elementos filhos ->** *
+- 712 - **Herança e as propriedades que são passadas para elementos filhos ->** *[aula712](./herança_css/)*
+- 713 - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin) ->** *[aula713](./aula_propriedades_box_model/)*
