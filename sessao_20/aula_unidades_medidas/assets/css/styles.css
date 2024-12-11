@@ -1,0 +1,45 @@
+/* https://www.w3schools.com/cssref/css_units.php */
+
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* vw se baseia na largura do viewport */
+/* vh se baseia na altura do viewport */
+/* % se baseia no elemento pai */
+.pai {
+    width: 100vw;
+    height: 100vh;
+    /* height: 15rem; */
+    font-size: 50px;
+    background: yellowgreen;
+}.pai > div {
+    width: 50%;
+    height: 50%;
+    background: yellow;
+}
+/* em se baseia no elemento pai */
+p {
+    /* font-size: 0.5em; */
+    font-size: 2vmax;
+}
+/* rem se baseia no elemento root (HTML) */
+span {
+    font-size: 1rem;
+}
+
+.color-one {
+    background: red;
+}
+
+.color-two {
+    background: blue;
+}
+
+
