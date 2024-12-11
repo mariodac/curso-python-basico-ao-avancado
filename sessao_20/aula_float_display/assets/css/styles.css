@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    padding: 15px;
+}
+
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    /* hsl funciona do mesmo modo que o rgba */
+    background: hsla(0, 100%, 50%, 20%);
+    float: left;
+    padding: 15px;
+    /* margin: 10px; */
+}
+/* forma alternativa de limpar o float */
+.grid::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* clear, move o elemento para baixo de elementos com float */
+/* p {
+    clear: both;
+} */
+
+.grid .col-content {
+    width: 100%;
+    height: 100%;
+    /* rgba configura a opacidade da cor */
+    background: rgba(0, 0, 248, 0.541);
+}

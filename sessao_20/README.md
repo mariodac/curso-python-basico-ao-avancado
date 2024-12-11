@@ -27,3 +27,5 @@
 - 711 - **Especificidade CSS ->** *[aula711](./aula_especificidade_css/)*
 - 712 - **Herança e as propriedades que são passadas para elementos filhos ->** *[aula712](./herança_css/)*
 - 713 - **Propriedade específicas do Box-Model (largura, altura, padding, border e margin) ->** *[aula713](./aula_propriedades_box_model/)*
+- 714 - **Float e Display (Block, Inline-Block e Inline) ->** *[aula714](./aula_float_display/)*
+- 715 - **Cores HTML ->** *[aula715](./aula_float_display/)*
