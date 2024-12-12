@@ -30,3 +30,4 @@
 - 714 - **Float e Display (Block, Inline-Block e Inline) ->** *[aula714](./aula_float_display/)*
 - 715 - **Cores HTML ->** *[aula715](./aula_float_display/)*
 - 716 - **Unidades de medidas no CSS (px, rem, em, vw, vh, %) ->** *[aula715](./aula_unidades_medidas/)*
+- 717 - **Propriedades para textos** *[aula717](./aula_propriedades_textos/)*
