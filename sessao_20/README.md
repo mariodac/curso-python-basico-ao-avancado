@@ -32,3 +32,4 @@
 - 716 - **Unidades de medidas no CSS (px, rem, em, vw, vh, %) ->** *[aula715](./aula_unidades_medidas/)*
 - 717 - **Propriedades para textos** *[aula717](./aula_propriedades_textos/)*
 - 718 - **Posicionamento - Position ->** *[aula718](./aula_posicionamento/)*
+- 719 - **Media queries e breakpoints ->** *[aula719](./aula_media_queries/)*
