@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.pai {
+    height: 200vh;
+}
+
+.filha1, .filha2, .filha3 {
+    width: 300px;
+    height: 300px;
+    background: rgb(255, 0, 0);
+    margin: 10px;
+    position: static;
+}
+
+.filha2 {
+    position: relative;
+    z-index: -1;
+    background: green;
+}   
+
+.filha3 {
+    background: blue;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 500px;
+}
+
+/* position absolute, coloca o elemento por cima dos outros elementos, move o elemento em relação ao viewport */
+/* position relative, move o elemento em relação ao elemento mais próximo */
+/* position fixed, elemento fica fixo em relação ao viewport */
+/* z-index controla quem fica por cima, numero maior ficara por cima, numero negativo o elemento ficara atrás de todos */
+.filha1 {
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    position: absolute;
+    z-index: 2;
+}
+
+ul {
+    height: 100px;
+    overflow-y: auto;
+}
+/* position sticky, funciona quando se tem a rolagem, o elemento fica fixo ao realizar a rolagem, ao chegar no proximo elemento que tiver o sticky ele substituira o elemento fixado */
+ul li.sticky {
+    position: sticky;
+    background: gray;
+    top: 0;
+    list-style-type: none;
+}
+
