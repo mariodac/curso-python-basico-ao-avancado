@@ -36,3 +36,4 @@
 - 720 - **Uma breve junção de tudo aprendido até aqui ->** *[aula720](./aula_720/)*
 - 721 - **Border-radius (elementos redondos ou curvados) ->** *[aula721](./aula_border_radius/)*
 - 722 - ** Box-shadow (sombra em elementos) ->** *[aula722](./aula_box_shadow/)*
+- 723 - **Flexbox - parte 1 ->** *[aula723](./aula_flexbox/)*
