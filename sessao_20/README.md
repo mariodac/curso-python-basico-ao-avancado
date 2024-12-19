@@ -34,3 +34,4 @@
 - 718 - **Posicionamento - Position ->** *[aula718](./aula_posicionamento/)*
 - 719 - **Media queries e breakpoints ->** *[aula719](./aula_media_queries/)*
 - 720 - **Uma breve junção de tudo aprendido até aqui ->** *[aula720](./aula_720/)*
+- 721 - **Border-radius (elementos redondos ou curvados) ->** *[aula721](./aula_border_radius/)*

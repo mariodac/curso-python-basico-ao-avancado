@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.grid {
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 73px;
+}
+
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    /* hsl funciona do mesmo modo que o rgba */
+    background: hsla(0, 100%, 50%, 20%);
+    float: left;
+    padding: 15px;
+    /* margin: 10px; */
+}
+/* forma alternativa de limpar o float */
+.grid::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* clear, move o elemento para baixo de elementos com float */
+/* p {
+    clear: both;
+} */
+
+.grid .col-content {
+    width: 100px;
+    height: 100px;
+    /* rgba configura a opacidade da cor */
+    background: rgba(0, 0, 248, 0.541);
+    /* shortcut */
+    border-radius: 50%;
+    /* border-top-left-radius: 150px; */
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background: black;
+}
+
+.menu ul {
+    list-style: none;
+    display: block;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover {
+    background: #333;
+}
+
+.full-page {
+    padding: 0 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 73px;
+    height: 100vh;
+    background: turquoise;
+}
+
+.full-page-content {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 568px) {
+    .grid .col {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+    .grid .col {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+    .grid .col {
+        width: 33.33%;
+    }
+}
+
+@media all and (min-width: 1201px) {
+    .grid .col {
+        width: 25%;
+    }
+}
+
