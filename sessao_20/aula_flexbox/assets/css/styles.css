@@ -7,22 +7,25 @@
 
 .flex-container {    
     display: flex;
+    flex-wrap: wrap;
     background: yellowgreen;
     /* flex-direction -> indica a direção do eixo principal flex */
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justifify-content -> indica o alinhamento dos itens no eixo principal */
-    justify-content: space-evenly;
+    justify-content: flex-start;
     /* align-items -> indica o alinhamento dos itens no eixo perpendicular */
-    align-items: baseline;
-    height: 500px;
+    align-items: flex-start;
+    /* align-content -> indica o alinhamento dos itens no eixo*/
+    align-content: center;
+    height: 640px;
 }
 
 .flex-item {
-    width: 100%;
+    width: 33.33%;
     background: red;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
-.flex-container .flex-item:nth-child(3) {
+/* .flex-container .flex-item:nth-child(3) {
     font-size: 40px;
-}
+} */
