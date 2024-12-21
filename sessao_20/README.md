@@ -37,3 +37,6 @@
 - 721 - **Border-radius (elementos redondos ou curvados) ->** *[aula721](./aula_border_radius/)*
 - 722 - ** Box-shadow (sombra em elementos) ->** *[aula722](./aula_box_shadow/)*
 - 723 - **Flexbox - parte 1 ->** *[aula723](./aula_flexbox/)*
+- 724 - **Flexbox - parte 2 ->** *[aula724](./aula_flexbox/)*
+- 725 - **Flexbox - parte 3 ->** *[aula725](./aula_flexbox/)*
+- 726 - **Flexbox - parte 4 ->** *[aula726](./aula_flexbox/)*
