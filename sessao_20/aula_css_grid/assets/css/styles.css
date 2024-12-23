@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: sans-serif;
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* grid-template-columns -> primeiro valor -> valor da primeira coluna segundo valor -> valor da segunda coluna e etc...
+    o fr significa que a coluna vai crescer proporcionalmente conforme o espaço disponível*/
+    /* grid-template-columns: 200px 1fr 2fr; */
+    /* função repeat, indica quantas vezes a coluna vai ser repetida e qual o tamanho */
+    /* grid-template-columns: repeat(3, 1fr 2fr); */
+    /* auto-fill -> cria colunas conforme o espaço disponível 
+    minmax -> define o tamanho minimo e maximo da coluna*/
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* grid-template-rows: 2fr 1fr; */
+    gap: 30px;
+}
+
+.grid div {
+    background: tomato;
+}
+
+.grid div:nth-child(5) {
+    background: darkblue;
+    /* funciona como o colspan da table */
+    /* grid-column-start: 2; */
+    /* grid-column-end: 4; */
+    /* atalho para grid-column-start e grid-column-end */
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+@media (max-width: 768px) {
+    .grid div:nth-child(5) {
+        grid-column: span 1;
+    }
+}
