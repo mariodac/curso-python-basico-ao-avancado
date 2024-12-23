@@ -20,8 +20,10 @@ body {
     /* grid-template-columns: repeat(3, 1fr 2fr); */
     /* auto-fill -> cria colunas conforme o espaço disponível 
     minmax -> define o tamanho minimo e maximo da coluna*/
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); */
     /* grid-template-rows: 2fr 1fr; */
+    /* nomeando colunas */
+    grid-template-columns: [one] 1fr [two] 1fr [three] 1fr [four] 1fr;
     gap: 30px;
 }
 
@@ -34,13 +36,21 @@ body {
     /* funciona como o colspan da table */
     /* grid-column-start: 2; */
     /* grid-column-end: 4; */
-    /* atalho para grid-column-start e grid-column-end */
-    grid-column: span 2;
-    grid-row: span 2;
+    /* atalho para grid-column-start/grid-row-start e grid-column-end/grid-row-end */
+    /* grid-column: span 2;
+    grid-row: span 2; */
+    /* com colunas nomeados, podemos referencia pelo nome ao inves de numero */
+    /* grid-column-start: one;
+    grid-column-end: three; */
+    /* atalho para grid-column-start/grid-row-start e grid-column-end/grid-row-end */
+    /* grid-column: one / three; */
+    /* atalho para grid-column-start e grid-row-start e grid-column-end e grid-row-end */
+    grid-area: 1 / 1 / 4 / 4;
+
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .grid div:nth-child(5) {
         grid-column: span 1;
     }
-}
+} */
