@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: sans-serif;
+    font-size: 40px;
+}
+
+/* maneira alternativa de usar o gap */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    /* maneira alternativa para o gap com o calc */
+    /* width: calc(100% + 30px); */
+    /* maneira alternativa para o gap sem o calc */
+    margin-right: -30px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* gap -> espaco entre as linhas e colunas (atalho) */
+    /* gap: 30px; */
+    /* row-gap -> espaco entre as linhas */
+    /* row-gap: 30px; */
+    /* column-gap -> espaco entre as colunas */
+    /* column-gap: 10px; */
+}
+
+.grid div {
+    background: tomato;
+    min-height: 100px;
+    min-height: 100px;
+    /* maneira alternativa para o gap */
+    margin-right: 30px;
+    margin-bottom : 30px;
+}
+
+.grid div:nth-child(5) {
+    background: darkblue;
+
+}

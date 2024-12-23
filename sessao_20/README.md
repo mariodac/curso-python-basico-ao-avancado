@@ -42,3 +42,4 @@
 - 726 - **Flexbox - parte 4 ->** *[aula726](./aula_flexbox/)*
 - 727 - **CSS Grid - Parte 1 ->** *[aula727](./aula_css_grid/)*
 - 728 - **CSS Grid - Parte 2 ->** *[aula728](./aula_css_grid/)*
+- 729 - **Espaçamento entre linhas e colunas - GAP ->** *[aula729](./aula_css_grid/)*
