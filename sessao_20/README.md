@@ -43,3 +43,4 @@
 - 727 - **CSS Grid - Parte 1 ->** *[aula727](./aula_css_grid/)*
 - 728 - **CSS Grid - Parte 2 ->** *[aula728](./aula_css_grid/)*
 - 729 - **Espaçamento entre linhas e colunas - GAP ->** *[aula729](./aula_css_grid/)*
+- 730 - **Grid template areas ->** *[aula730](./aula_css_grid_template_areas/)*
