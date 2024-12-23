@@ -40,3 +40,4 @@
 - 724 - **Flexbox - parte 2 ->** *[aula724](./aula_flexbox/)*
 - 725 - **Flexbox - parte 3 ->** *[aula725](./aula_flexbox/)*
 - 726 - **Flexbox - parte 4 ->** *[aula726](./aula_flexbox/)*
+- 727 - **CSS Grid - Parte 1 ->** *[aula727](./aula_css_grid/)*
