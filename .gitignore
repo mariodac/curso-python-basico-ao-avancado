@@ -7,7 +7,7 @@ chromedriver*
 _*.txt
 _*.png
 _*.jpg
-_*.py
+# _*.py
 pessoa.json
 data.json
 lista_tarefas.json
