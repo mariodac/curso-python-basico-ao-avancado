@@ -9,3 +9,4 @@
 - 424 - **Entenda os motivos de uma VIEW receber uma Request e retornar uma Response ->** *[aula424](./ola_django/)*
 - 425 - **Criando apps com manage.py startapp do Django ->** *[aula425](./ola_django/)*
 - 426 - **Movendo as function based views para o arquivo views.py dos novos apps no Django ->** *[aula426](./ola_django/)*
+- 427 - **Aninhando URLs com path, include e urls.py dos apps do Django ->** *[aula427](./ola_django/)*
