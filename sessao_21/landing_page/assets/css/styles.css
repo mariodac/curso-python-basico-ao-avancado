@@ -76,7 +76,7 @@ a {
 }
 
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -93,7 +93,7 @@ a {
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 1px solid var(--border-color-menu);
+    border-bottom: 0.1rem solid var(--border-color-menu);
 }
 
 .menu h1 {
