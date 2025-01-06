@@ -3,3 +3,4 @@
 - 733 - **Links -** *[aula_733](./aula_733.md)*
 - 734 - **Landing Page - Menu ->** *[aula_734](./landing_page/)*
 - 735 - **Landing Page - Correções e separação do CSS ->** *[aula_735](./landing_page/)*
+- 736 - **Landing Page - Seção Intro ->** *[aula_736](./landing_page/)*
