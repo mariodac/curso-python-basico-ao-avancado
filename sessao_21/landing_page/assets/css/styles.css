@@ -22,6 +22,7 @@ font-family: "Open Sans", serif;
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +65,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 3rem;
+}
+
 /* Background image by SVGBackgrounds.com -> https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
 .main-bg {
     background-image: url("../img/main-bkg.svg");
@@ -74,6 +79,7 @@ a {
 
 .white-bg {
     background: #ffffff;
+    color: var(--primary-color);
 }
 
 .main-content {
@@ -88,6 +94,7 @@ a {
 
 
 .menu {
+    z-index: 1;
     background: var(--font-bg-color);
     position: fixed;
     top: 0;
@@ -169,7 +176,18 @@ a {
     line-height: 1.2;
 }
 
-.intro-img img {
+.intro-img img,
+.intro-img svg {
     max-width: 100%;
     height: auto;
+}
+
+
+.post-intro-content {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
 }
