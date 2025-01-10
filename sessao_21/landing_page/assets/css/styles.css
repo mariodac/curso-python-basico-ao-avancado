@@ -43,6 +43,7 @@ h1 {
 
 h2 {
     font-size: 6rem;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -182,7 +183,6 @@ p {
     height: auto;
 }
 
-
 .post-intro-content {
     max-width: 64rem;
     display: flex;
@@ -190,4 +190,43 @@ p {
     justify-content: center;
     height: 100vh;
     text-align: center;
+}
+
+.grid-topics-content {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.grid-main-heading {
+    margin-bottom: 1rem;
+}
+
+.grid-description {
+    padding-bottom: 5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    counter-reset: grid-counter;
+}
+
+.grid h3 {
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top: -4rem;
+    left: -2rem;
+    transform: rotate(5deg);
 }

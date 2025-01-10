@@ -5,3 +5,4 @@
 - 735 - **Landing Page - Correções e separação do CSS ->** *[aula_735](./landing_page/)*
 - 736 - **Landing Page - Seção Intro ->** *[aula_736](./landing_page/)*
 - 737 - **Landing Page - Seção Top 3 ->** *[aula_737](./landing_page/)*
+- 738 - **Landing page - Seção grid ->** *[aula_738](./landing_page/)*
