@@ -212,6 +212,7 @@ p {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
     counter-reset: grid-counter;
 }
 
