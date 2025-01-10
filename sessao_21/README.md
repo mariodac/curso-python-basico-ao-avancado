@@ -6,3 +6,4 @@
 - 736 - **Landing Page - Seção Intro ->** *[aula_736](./landing_page/)*
 - 737 - **Landing Page - Seção Top 3 ->** *[aula_737](./landing_page/)*
 - 738 - **Landing page - Seção grid ->** *[aula_738](./landing_page/)*
+- 739 - **Landing Page - Correções ->** *[aula_739](./landing_page/)*
