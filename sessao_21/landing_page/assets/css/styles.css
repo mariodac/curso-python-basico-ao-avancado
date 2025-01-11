@@ -72,6 +72,34 @@ p {
     margin-bottom: 3rem;
 }
 
+table {
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+table td, table th {
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--border-color-menu);
+}
+
+tfoot td, table th {
+    background: var(--border-color-menu);
+}
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
 /* Background image by SVGBackgrounds.com -> https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
 .main-bg {
     background-image: url("../img/main-bkg.svg");
