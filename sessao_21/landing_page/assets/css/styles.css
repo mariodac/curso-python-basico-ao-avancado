@@ -334,7 +334,7 @@ tfoot td, table th {
 .form-group button:hover {
     background: var(--font-bg-color);
     color: var(--primary-color);
-}
+} 
 
 .form-group ::placeholder {
     color: #d8d8d8;
@@ -363,4 +363,19 @@ tfoot td, table th {
 .footer p {
     margin: 0;
     padding: 3rem;
+}
+
+@media (max-width: 800px) {
+    .intro-content, .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .gallery-img img {
+        width: 100%;
+    }
 }
