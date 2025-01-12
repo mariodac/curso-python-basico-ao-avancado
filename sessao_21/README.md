@@ -10,4 +10,5 @@
 - 740 - **Landing Page - Galeria ->** *[aula_740](./landing_page/)*
 - 741 - **Landing Page - Tabela de preços ->** *[aula_741](./landing_page/)*
 - 742 - **Landing Page - Form de contato e footer ->** *[aula_742](./landing_page/)*
-- 743 - ** Landing Page - Media Queries ->** *[aula_743](./landing_page/)*
+- 743 - **Landing Page - Media Queries ->** *[aula_743](./landing_page/)*
+- 744 - **Menu mobile e back to top ->** *[aula_743](./landing_page/)*
