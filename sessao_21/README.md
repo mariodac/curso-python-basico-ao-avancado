@@ -11,4 +11,5 @@
 - 741 - **Landing Page - Tabela de preços ->** *[aula_741](./landing_page/)*
 - 742 - **Landing Page - Form de contato e footer ->** *[aula_742](./landing_page/)*
 - 743 - **Landing Page - Media Queries ->** *[aula_743](./landing_page/)*
-- 744 - **Menu mobile e back to top ->** *[aula_743](./landing_page/)*
+- 744 - **Menu mobile e back to top ->** *[aula_744](./landing_page/)*
+- 745 - **Fazendo deploy da nossa landing page em Netlify (colocando no ar para o mundo) ->** *[aula_745](./landing_page/)*
