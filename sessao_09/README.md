@@ -12,3 +12,4 @@
 - 427 - **Aninhando URLs com path, include e urls.py dos apps do Django ->** *[aula427](./ola_django/)*
 - 428 - **Renderizando HTML, render, templates, INSTALLED_APPS e TemplateDoesNotExist ->** *[aula428](./ola_django/)*
 - 429 - **Configurando templates globais com DIRS + extends para herança de templates ->** *[aula429](./ola_django/)*
+- 430 - **Arquivos parciais e include para separar trechos dos templates (partials) ->** *[aula430](./ola_django/)*
