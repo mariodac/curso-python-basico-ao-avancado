@@ -16,3 +16,4 @@
 - 431 - **Arquivos estáticos (staticfiles), STATIC_URL, STATICFILES_DIRS e load static ->** *[aula431](./ola_django/)*
 - 432 - **Usando o context para enviar dados para dentro dos templates do Django ->** *[aula432](./ola_django/)*
 - 433 - **Trabalhando com URLs dinâmicas em urls.py e nos templates HTML do Django ->** *[aula433](./ola_django/)*
+- 434 - **Movendo todos os estilos de CSS para global/css/style.css ->** *[aula434](./ola_django/)*
