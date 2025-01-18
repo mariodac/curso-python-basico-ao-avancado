@@ -3,4 +3,12 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    return render(request, 'home/home.html')
+    context = {
+            'text': 'Olá Mundo!',
+            'title': 'Bem-vindo'
+        }
+    return render(
+        request, 
+        'home/home.html',
+        context,
+    )

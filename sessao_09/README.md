@@ -14,3 +14,4 @@
 - 429 - **Configurando templates globais com DIRS + extends para herança de templates ->** *[aula429](./ola_django/)*
 - 430 - **Arquivos parciais e include para separar trechos dos templates (partials) ->** *[aula430](./ola_django/)*
 - 431 - **Arquivos estáticos (staticfiles), STATIC_URL, STATICFILES_DIRS e load static ->** *[aula431](./ola_django/)*
+- 432 - **Usando o context para enviar dados para dentro dos templates do Django ->** *[aula432](./ola_django/)*
