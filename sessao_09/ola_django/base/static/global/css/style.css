@@ -25,6 +25,7 @@ body {
     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
+    background: #f1f1f1;
 }
 
 a {
@@ -81,4 +82,22 @@ a {
 
 .menu-spacing {
     height: 6.5rem;
+}
+
+.content {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.post {
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0.5rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 600px) {
+    .content {
+        grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    }
 }
