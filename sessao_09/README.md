@@ -21,3 +21,4 @@
 - 436 - **Usando block para criar blocos de posts e home->** *[aula436](./ola_django/)*
 - 437 - **Entendendo o seu HTML final + adicionando CSS aos posts ->** *[aula437](./ola_django/)*
 - 438 - **Criando os dados de posts (data.py) e usando o loop for no template Django ->** *[aula438](./ola_django/)*
+- 439 - **Usando if, elif e else dentro do template HTML do Django ->** *[aula439](./ola_django/)*

@@ -5,7 +5,6 @@ from blog.data import get_posts
 def index(request):
     data = get_posts()
     content = {
-        'text' : 'Bem-vindo ao blog!',
         'title' : 'Todos os posts',
         'posts' : data
     }
