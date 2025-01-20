@@ -22,3 +22,4 @@
 - 437 - **Entendendo o seu HTML final + adicionando CSS aos posts ->** *[aula437](./ola_django/)*
 - 438 - **Criando os dados de posts (data.py) e usando o loop for no template Django ->** *[aula438](./ola_django/)*
 - 439 - **Usando if, elif e else dentro do template HTML do Django ->** *[aula439](./ola_django/)*
+- 440 - **Criando urls dinâmicas no Django URL Dispatcher, view e template ->** *[aula440](./ola_django/)*

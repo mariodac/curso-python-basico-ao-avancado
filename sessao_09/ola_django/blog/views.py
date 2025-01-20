@@ -26,3 +26,15 @@ def exemplo(request):
         "blog/exemplo.html",
         content
     )
+
+def post(request, id):
+    data = get_posts()
+    content = {
+        'title' : f'Post {id}',
+        'posts' : data
+    }
+    return render(
+        request,
+        "blog/blog.html",
+        content
+    )
