@@ -18,3 +18,4 @@
 - 433 - **Trabalhando com URLs dinâmicas em urls.py e nos templates HTML do Django ->** *[aula433](./ola_django/)*
 - 434 - **Movendo todos os estilos de CSS para global/css/style.css ->** *[aula434](./ola_django/)*
 - 435 - **Criando o partial postblock.html e usando include ->** *[aula435](./ola_django/)*
+- 436 - **Usando block para criar blocos de posts e home->** *[aula436](./ola_django/)*
