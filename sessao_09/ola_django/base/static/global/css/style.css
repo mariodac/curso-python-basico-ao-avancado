@@ -96,6 +96,12 @@ a {
     box-shadow: 0.5rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
+.main-title {
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media (min-width: 600px) {
     .content {
         grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
