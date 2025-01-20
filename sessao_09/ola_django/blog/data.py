@@ -6,5 +6,11 @@ def get_posts():
     data_json = response.json()
     return data_json
 
+def search_by_id(list_dict:list, id:int):
+    for dic in list_dict:
+        if dic['id'] == id:
+            return list_dict.index(dic)
+    return None
+
 if __name__ == '__main__':
     print(get_posts())

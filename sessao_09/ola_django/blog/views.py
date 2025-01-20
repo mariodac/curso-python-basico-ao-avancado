@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from blog.data import get_posts
+from blog.data import get_posts, search_by_id
 
 # Create your views here.
 def index(request):
@@ -29,8 +29,10 @@ def exemplo(request):
 
 def post(request, id):
     data = get_posts()
+    index = search_by_id(data, id)
     content = {
-        'title' : f'Post {id}',
+        # 'title' : f'Post {id}',
+        'title' : f'Post {data[index]["title"]}',
         'posts' : data
     }
     return render(
