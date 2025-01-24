@@ -7,7 +7,7 @@
     "editor.fontFamily": "Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
     "terminal.integrated.fontFamily": "",
     "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.tabSize": 4,
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
@@ -28,5 +28,8 @@
       "reportUnknownParameterType": "none",
     },
     "python.analysis.typeCheckingMode": "basic",
+    "cSpell.words": [
+      "django"
+    ],
   }
   

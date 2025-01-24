@@ -1,5 +1,7 @@
+from typing import Any
+from django.http import HttpRequest
 from django.shortcuts import render
-from blog.data import get_posts, search_by_id
+from blog.data import get_posts
 
 # Create your views here.
 def index(request):
@@ -27,16 +29,23 @@ def exemplo(request):
         content
     )
 
-def post(request, id):
+def post(request: HttpRequest, post_id):
+    found_post: dict[str, Any] | None = None
     data = get_posts()
-    index = search_by_id(data, id)
+    for post_item in data:
+        if post_item['id'] == post_id:
+            found_post = post_item
+            break
+    print(found_post)
+    if found_post is None:
+        raise Exception("Post não encontrado")
     content = {
         # 'title' : f'Post {id}',
-        'title' : f'Post {data[index]["title"]}',
-        'posts' : data
+        'title' : f'Post {found_post["title"]}',
+        'post' : found_post
     }
     return render(
         request,
-        "blog/blog.html",
+        "blog/post.html",
         content
     )
