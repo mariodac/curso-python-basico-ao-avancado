@@ -25,3 +25,4 @@
 - 440 - **Criando urls dinâmicas no Django URL Dispatcher, view e template ->** *[aula440](./ola_django/)*
 - 441 - **Usando a mesma URL de forma estática e dinâmica ->** *[aula441](./ola_django/)*
 - 442 - **Configurando um post único no template post.html com a nova view e CSS ->** *[aula442](./ola_django/)*
+- 443 - **Exibindo o erro 404 (página não encontrada) com django.http.Http404 (Not Found) ->** *[aula443](./ola_django/)*

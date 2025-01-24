@@ -1,5 +1,5 @@
 from typing import Any
-from django.http import HttpRequest
+from django.http import HttpRequest, Http404
 from django.shortcuts import render
 from blog.data import get_posts
 
@@ -38,9 +38,8 @@ def post(request: HttpRequest, post_id):
             break
     print(found_post)
     if found_post is None:
-        raise Exception("Post não encontrado")
+        raise Http404("Post não encontrado")
     content = {
-        # 'title' : f'Post {id}',
         'title' : f'Post {found_post["title"]}',
         'post' : found_post
     }
