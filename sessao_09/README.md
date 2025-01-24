@@ -27,3 +27,4 @@
 - 442 - **Configurando um post único no template post.html com a nova view e CSS ->** *[aula442](./ola_django/)*
 - 443 - **Exibindo o erro 404 (página não encontrada) com django.http.Http404 (Not Found) ->** *[aula443](./ola_django/)*
 - 444 - **Estilizando o CSS da nav de menu ->** *[aula444](./ola_django/)*
+- 445 - **Básico sobre os arquivos estáticos, DEBUG e ALLOWED_HOSTS (local e em produção) ->** *[aula445](./ola_django/)*
