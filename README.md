@@ -20,8 +20,12 @@ Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design P
 - Curso com atualizações garantidas pelo instrutor
 
 ### Conteúdo do Curso
+- Repositórios do instrutor Luiz Otávio Miranda
+    - [Seção 1 a 9](https://github.com/luizomf/cursopython2023/tree/070466ad19d636371ff2a11fa3f54354804d1643)
+    - [Seção 10](https://github.com/luizomf/projeto-agenda-django-23)
+    - [Seção 20 e 21](https://github.com/luizomf/landing-page-cursojs)
 
-**ATENÇÃO** as bibliotecas contidas no [requirements](./requirements.txt) só estão funcionando no Python < 3.12.7
+**ATENÇÃO** as bibliotecas contidas no [requirements](./requirements.txt) só estão funcionando no Python <= 3.12.7
 
 - Seção 1: Informações e avisos importantes + Boas vindas
 - Seção 2: Python + VS Code: Preparando meu ambiente de desenvolvimento
