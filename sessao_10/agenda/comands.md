@@ -9,6 +9,19 @@ python manage.py runserver
 python manage.py startapp contact
 ```
 
+Migrando a base de dados do Django
+
+```powershell
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Criando e modificando a senha de um super usuário
+```powershell
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
+```
+
 Configurar o git -> [Tutorial em vídeo](https://www.youtube.com/watch?v=SnTBOhYFr28&feature=youtu.be)
 
 ```powershell
