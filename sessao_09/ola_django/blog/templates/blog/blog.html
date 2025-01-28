@@ -8,6 +8,10 @@
             {% include "global/partials/postblock.html" %}
         {% endfor %}
     {% else %}
-        <h2 class="main-title">Nenhum post encontrado</h2>
+        <article class="post">
+            <header>
+                <h1 class="single-post">Nenhum post encontrado</h1>
+            </header>
+        </article>
     {% endif %}
 {% endblock posts %}

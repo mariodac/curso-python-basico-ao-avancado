@@ -1,3 +1,17 @@
 {% extends "global/base.html" %}
 
 {% block texto %} {{ text }} {% endblock texto %}
+
+{% block posts %}
+    {% if posts|length > 1 %}
+        {% for post in posts %}
+            {% include "global/partials/postblock.html" %}
+        {% endfor %}
+    {% else %}
+        <article class="post">
+            <header>
+                <h1 class="single-post">Nenhum post encontrado</h1>
+            </header>
+        </article>
+    {% endif %}
+{% endblock posts %}
