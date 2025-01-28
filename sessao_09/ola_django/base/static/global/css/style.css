@@ -106,6 +106,13 @@ a:visited {
     text-align: center;
 }
 
+.content h2.single-post {
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+    justify-items: center;
+}
+
 @media (min-width: 600px) {
     .content:not(:has(.single-post)) {
         grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
