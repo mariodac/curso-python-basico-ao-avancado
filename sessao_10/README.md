@@ -7,3 +7,4 @@
 - 450 - **Pasta base de templates e arquivos estáticos (base_templates, base_static) ->** *[aula450](./agenda/)*
 - 451 - **Criando e editando a senha de um super usuário Django ->**
 - 452 - **Sobre base de dados, tabelas e documentação do Django ->**
+- 453 - **Django Models - Criando seu primeiro model, makemigrations e migrate ->** *[aula453](./agenda/)*
