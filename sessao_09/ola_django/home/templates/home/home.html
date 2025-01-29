@@ -5,7 +5,11 @@
 {% block posts %}
     {% if posts|length > 1 %}
         {% for post in posts %}
-            {% include "global/partials/postblock.html" %}
+            {% if post.id|divisibleby:2 %}
+                {% include "global/partials/postblock.html" %}
+            {% else %}
+                {% include "global/partials/albumblock.html" %}
+            {% endif %}
         {% endfor %}
     {% else %}
         <article class="post">
@@ -15,18 +19,3 @@
         </article>
     {% endif %}
 {% endblock posts %}
-
-
-{% block posts_photos %}
-    {% if posts_photos|length > 1 %}
-        {% for post_photo in posts_photos %}
-            {% include "global/partials/albumblock.html" %}
-        {% endfor %}
-    {% else %}
-        <article class="post">
-            <header>
-                <h1 class="single-post">Nenhum post encontrado</h1>
-            </header>
-        </article>
-    {% endif %}
-{% endblock posts_photos %}

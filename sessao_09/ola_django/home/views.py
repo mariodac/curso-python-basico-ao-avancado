@@ -11,9 +11,8 @@ def index(request):
         post["photo"] = f"https://picsum.photos/320?r={post['id']}"
     shuffle(data)
     context = {
-            'text': 'Olá Mundo!',
             'title': 'Bem-vindo',
-            'posts': data[:5],
+            'posts': data[:10],
         }
     return render(
         request, 
