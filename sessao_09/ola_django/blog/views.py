@@ -17,9 +17,14 @@ def index(request):
 
 
 # foi criado o namespace, onde é criado uma pasta com o mesmo nome do app (blog/templates/blog/*), assim evita a colisão de nomes de arquivos iguais em outros apps
-def exemplo(request):
-    content = {"text": "Bem-vindo ao exemplo!", "title": "Página exemplo do blog"}
-    return render(request, "blog/exemplo.html", content)
+def album(request):
+    data = get_posts()
+    for post in data:
+        post["title"] = ' '.join(post["title"].split(" ")[0:2])
+        post["photo"] = f"https://picsum.photos/320?r={post['id']}"
+    shuffle(data)
+    content = {"text": "Bem-vindo ao álbum!", "title": "Página álbum do blog", "posts": data,}
+    return render(request, "blog/album.html", content)
 
 
 def post(request: HttpRequest, post_id):

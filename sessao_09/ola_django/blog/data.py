@@ -13,4 +13,9 @@ def search_by_id(list_dict:list, id:int):
     return None
 
 if __name__ == '__main__':
-    print(get_posts())
+    # print(get_posts())
+    posts = get_posts()
+    for post in posts:
+        post['photo'] = f'https://picsum.photos/300?r={post["id"]}'
+        print(post['title'])
+    print(posts)

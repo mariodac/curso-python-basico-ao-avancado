@@ -6,6 +6,9 @@ from random import shuffle
 
 def index(request):
     data = get_posts()
+    for post in data:
+        post["title"] = ' '.join(post["title"].split(" ")[0:2])
+        post["photo"] = f"https://picsum.photos/320?r={post['id']}"
     shuffle(data)
     context = {
             'text': 'Olá Mundo!',

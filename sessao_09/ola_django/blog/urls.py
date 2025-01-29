@@ -9,6 +9,6 @@ app_name = "blog"
 # https://docs.djangoproject.com/en/5.1/topics/http/urls/
 urlpatterns = [
     path("post/<int:post_id>/", views.post, name="post"), 
-    path("exemplo/", views.exemplo, name="exemplo"),
+    path("album/", views.album, name="album"),
     path("", views.index, name="home"), 
 ]

@@ -18,7 +18,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: "Open Sans", serif;
     font-size: 2rem;
@@ -101,8 +100,8 @@ a:visited {
 }
 
 .main-title {
-    padding: 2rem;
-    margin: 0 auto;
+    padding: 1rem;
+    /* margin: 0 auto; */
     text-align: center;
 }
 

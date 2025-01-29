@@ -1,0 +1,12 @@
+<article class="post">
+    <header>
+        <h2 class="post__title">
+            <a class="post__link" href="{% url 'blog:post' post.id %}">
+                {{ post.title }}
+            </a>
+        </h2>
+    </header>
+    <div class="gallery-img">
+        <img src="{{ post.photo }}" alt="random image from Lorem Picsum">
+    </div>
+</article>
