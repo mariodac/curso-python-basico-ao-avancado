@@ -9,3 +9,4 @@
 - 452 - **Sobre base de dados, tabelas e documentação do Django ->**
 - 453 - **Django Models - Criando seu primeiro model, makemigrations e migrate ->** *[aula453](./agenda/)*
 - 454 - **Registrando meu model na área administrativa do Django (admin.py e register) ->** *[aula454](./agenda/)*
+- 455 - **Customizando as opções admin.ModelAdmin (Área administrativa do Django) ->** *[aula455](./agenda/)*
