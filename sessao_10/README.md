@@ -8,3 +8,4 @@
 - 451 - **Criando e editando a senha de um super usuário Django ->**
 - 452 - **Sobre base de dados, tabelas e documentação do Django ->**
 - 453 - **Django Models - Criando seu primeiro model, makemigrations e migrate ->** *[aula453](./agenda/)*
+- 454 - **Registrando meu model na área administrativa do Django (admin.py e register) ->** *[aula454](./agenda/)*
