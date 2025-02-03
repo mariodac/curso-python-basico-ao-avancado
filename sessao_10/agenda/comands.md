@@ -22,6 +22,24 @@ python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
 
+Shell interativo do Django
+```python
+python manage.py shell
+from contact.models import Contact
+c = Contact(first_name="Simone")
+c.save() # salva na base de dados
+c.last_name = 'Teixeira' # edita o campo last_name
+c.phone='2225959201' # edita o campo phone
+c.save() # salva as alterações na base de dados
+c.delete() # apaga o registro da base de dados
+c.save() # cria novamente o contato mas com um novo id
+c = Contact.objects.get(id=1) # retorna um contato da base de dados pelo id
+c.pk # retorna o id (primary key) do contato
+c = Contact.objects.all() # retorna todos os contatos da base de dados
+c = Contact.objects.filter(id=10) # retorna os contato filtrado pelo parametro informado
+c = Contact.objects.all().order_by('-id') # retorna todos os contatos da base de dados em ordem decrescente
+```
+
 Configurar o git -> [Tutorial em vídeo](https://www.youtube.com/watch?v=SnTBOhYFr28&feature=youtu.be)
 
 ```powershell
