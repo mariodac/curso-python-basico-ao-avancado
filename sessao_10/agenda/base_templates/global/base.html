@@ -7,6 +7,11 @@
     <title>{% block title %}{% endblock title %} - Agendix</title>
 </head>
 <body>
-    <h1>{% block content %}OLÁ MUNDO{% endblock content %}</h1>
+    <h1>
+        {% block content %}{% endblock content %}
+    </h1>
+    <h2>
+        {% trans "Helo world" %}
+    </h2>
 </body>
 </html>
