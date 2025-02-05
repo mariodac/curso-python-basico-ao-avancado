@@ -12,3 +12,4 @@
 - 455 - **Customizando as opções admin.ModelAdmin (Área administrativa do Django) ->** *[aula455](./agenda/)*
 - 456 - **CRUD usando o Django shell interativo e o model Contact ->** *[aula456](./agenda/)*
 - 457 - **Criando um ImageField e configurando MEDIA_URL e MEDIA_ROOT no settings.py ->** *[aula457](./agenda/)*
+- 458 - **ForeignKey - criando o Model Category e fazendo a ligação com chave estrangeira ->** *[aula458](./agenda/)*
