@@ -12,6 +12,8 @@ pessoa.json
 data.json
 lista_tarefas.json
 static_files/
+static/
+media/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

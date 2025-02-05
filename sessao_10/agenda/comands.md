@@ -26,8 +26,8 @@ Shell interativo do Django
 ```python
 python manage.py shell
 from contact.models import Contact
-c = Contact(first_name="Simone")
-c.save() # salva na base de dados
+c = Contact(first_name="Simone") # cria um contato (lazy)
+c.save() # salva na base de dados, cria um contato (não lazy)
 c.last_name = 'Teixeira' # edita o campo last_name
 c.phone='2225959201' # edita o campo phone
 c.save() # salva as alterações na base de dados
