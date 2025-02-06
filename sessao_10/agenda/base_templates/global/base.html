@@ -1,5 +1,6 @@
+{% load i18n %}
 {% load static %}<!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,8 @@
 </head>
 <body>
     <h1>
-        {% block content %}{% endblock content %}
+        {% block content %}{% translate "Hello World" %}{% endblock content %}
     </h1>
-    <h2>
-        {% trans "Helo world" %}
-    </h2>
+    <h2>{% trans "How are you?" %}</h2>
 </body>
 </html>
