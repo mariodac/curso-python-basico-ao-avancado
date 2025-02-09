@@ -15,3 +15,4 @@
 - 458 - **ForeignKey - criando o Model Category e fazendo a ligação com chave estrangeira ->** *[aula458](./agenda/)*
 - 459 - **Model Meta options, verbose_name e verbose_name_plural no Django ->** *[aula459](./agenda/)* | *[Tutorial YouTube](https://www.youtube.com/watch?v=iIsLwz_vkzA)*
 - 460 - **Criando o campo owner usando o model User do Django ->** *[aula460](./agenda/)*
+- 461 - **Script Python que gera dados aleatórios no Django com o Faker ->** *[aula461](./agenda/)*
