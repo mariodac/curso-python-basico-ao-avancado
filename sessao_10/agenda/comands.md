@@ -22,6 +22,12 @@ python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
 
+Traduções com Django
+```powershell
+python manage.py compilemessages -l "pt_BR" -i 'venv_django' #-i para ignorar arquivos do ambiente virtual
+python manage.py makemessages -l "pt_BR"
+```
+
 Shell interativo do Django
 ```python
 python manage.py shell
@@ -38,6 +44,11 @@ c.pk # retorna o id (primary key) do contato
 c = Contact.objects.all() # retorna todos os contatos da base de dados
 c = Contact.objects.filter(id=10) # retorna os contato filtrado pelo parametro informado
 c = Contact.objects.all().order_by('-id') # retorna todos os contatos da base de dados em ordem decrescente
+from django.contrib.auth.models import User
+user = User.objects.create_user(username='usuario', password='123456') # cria um usuário com username e password (não lazy)
+user.is_staff = True # habilita usuário como membro staff
+user.save() # salva alterações
+user.delete() # apaga o usuário
 ```
 
 Configurar o git -> [Tutorial em vídeo](https://www.youtube.com/watch?v=SnTBOhYFr28&feature=youtu.be)
