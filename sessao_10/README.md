@@ -18,3 +18,4 @@
 - 461 - **Script Python que gera dados aleatórios no Django com o Faker ->** *[aula461](./agenda/)*
 - 462 - **Usando local_settings.py para sobrescrever variáveis de settings.py ->** *[aula462](./agenda/)*
 - 463 - **Organizando view.py em um package Python sem quebrar o código ->** *[aula463](./agenda/)*
+- 464 - **Usando o nosso CSS completo (já criado) ->** *[aula464](./agenda/)*
