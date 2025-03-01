@@ -8,9 +8,15 @@
     <title>{% block title %}{% endblock title %} - Agendix</title>
 </head>
 <body>
-    <h1>
-        {% block content %}{% translate "Hello World" %}{% endblock content %}
+    {% comment %} bloco para tradução de conteúdos  {% endcomment %}
+    {% comment %} <h1>
+        {% block content_trans %}{% translate "Hello World" %}{% endblock content_trans %}
     </h1>
-    <h2>{% trans "How are you?" %}</h2>
+    <h2>{% trans "How are you?" %}</h2> {% endcomment %}
+
+    <main class="content">
+        {% block content %}{% endblock content %}
+    </main>
+
 </body>
 </html>
