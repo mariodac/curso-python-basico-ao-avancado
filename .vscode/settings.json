@@ -29,10 +29,18 @@
     },
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
+      "Agendix",
       "changepassword",
+      "compilemessages",
       "createsuperuser",
       "django",
+      "endcomment",
+      "makemessages",
       "makemigrations",
+      "stylesheet",
+      "tbody",
+      "thead",
+      "usuario",
       "venv"
     ],
   }

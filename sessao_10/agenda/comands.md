@@ -42,7 +42,7 @@ c.save() # cria novamente o contato mas com um novo id
 c = Contact.objects.get(id=1) # retorna um contato da base de dados pelo id
 c.pk # retorna o id (primary key) do contato
 c = Contact.objects.all() # retorna todos os contatos da base de dados
-c = Contact.objects.filter(id=10) # retorna os contato filtrado pelo parametro informado
+c = Contact.objects.filter(id=10) # retorna os contato filtrado pelo parâmetro informado
 c = Contact.objects.all().order_by('-id') # retorna todos os contatos da base de dados em ordem decrescente
 from django.contrib.auth.models import User
 user = User.objects.create_user(username='usuario', password='123456') # cria um usuário com username e password (não lazy)
