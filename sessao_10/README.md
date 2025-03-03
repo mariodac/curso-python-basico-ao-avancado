@@ -20,3 +20,4 @@
 - 463 - **Organizando view.py em um package Python sem quebrar o código ->** *[aula463](./agenda/)*
 - 464 - **Usando o nosso CSS completo (já criado) ->** *[aula464](./agenda/)*
 - 465 - **Injetando todos os contatos dentro do contexto do template index.html ->** *[aula465](./agenda/)* 
+- 466 - **Criando a tabela que exibe os contatos no index.html ->** *[aula466](./agenda/)*
