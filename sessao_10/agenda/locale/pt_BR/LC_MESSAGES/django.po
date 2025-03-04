@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 20:34-0300\n"
+"POT-Creation-Date: 2025-03-04 12:07-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,58 +18,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\base_templates\global\base.html:12
-msgid "Hello World"
-msgstr "Olá Mundo"
+#: .\base_templates\global\base.html:8
+msgid "Hello"
+msgstr "Olá"
 
-#: .\base_templates\global\base.html:14
-msgid "How are you?"
-msgstr "Como está você?"
-
-#: .\contact\models.py:14 .\contact\models.py:33
+#: .\contact\models.py:15 .\contact\models.py:46
 msgid "Category"
 msgstr "Categoria"
 
-#: .\contact\models.py:15
+#: .\contact\models.py:16
 msgid "Categories"
 msgstr "Categorias"
 
-#: .\contact\models.py:16
+#: .\contact\models.py:18
 msgid "Name"
 msgstr "Nome"
 
-#: .\contact\models.py:23
+#: .\contact\models.py:26
 msgid "Contact"
 msgstr "Contato"
 
-#: .\contact\models.py:24
+#: .\contact\models.py:27 .\contact\templates\contact\index.html:7
+#: .\contact\views\contact_views.py:10 .\contact\views\contact_views.py:24
 msgid "Contacts"
 msgstr "Contatos"
 
-#: .\contact\models.py:25
+#: .\contact\models.py:29 .\contact\templates\contact\index.html:13
 msgid "First Name"
 msgstr "Primeiro Nome"
 
-#: .\contact\models.py:26
+#: .\contact\models.py:30 .\contact\templates\contact\index.html:14
 msgid "Last Name"
 msgstr "Sobrenome"
 
-#: .\contact\models.py:27
+#: .\contact\models.py:31 .\contact\templates\contact\index.html:15
 msgid "Phone"
 msgstr "Telefone"
 
-#: .\contact\models.py:29
+#: .\contact\models.py:34
 msgid "Created Date"
 msgstr "Data de Criação"
 
-#: .\contact\models.py:30
+#: .\contact\models.py:36
 msgid "Description"
 msgstr "Descrição"
 
-#: .\contact\models.py:31
+#: .\contact\models.py:37
 msgid "Show"
 msgstr "Exibir"
 
-#: .\contact\models.py:32
+#: .\contact\models.py:39
 msgid "Picture"
 msgstr "Imagem"

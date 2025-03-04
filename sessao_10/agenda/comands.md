@@ -25,7 +25,7 @@ python manage.py changepassword USERNAME
 Traduções com Django
 ```powershell
 python manage.py compilemessages -l "pt_BR" -i 'venv_django' #-i para ignorar arquivos do ambiente virtual
-python manage.py makemessages -l "pt_BR"
+python manage.py makemessages -l "pt_BR" -i 'venv_django' #-i para ignorar arquivos do ambiente virtual
 ```
 
 Shell interativo do Django

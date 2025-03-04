@@ -22,3 +22,4 @@
 - 465 - **Injetando todos os contatos dentro do contexto do template index.html ->** *[aula465](./agenda/)* 
 - 466 - **Criando a tabela que exibe os contatos no index.html ->** *[aula466](./agenda/)*
 - 467 - **Manipulando QuerySets Django com filter, order_by e fatiamento ->** *[aula467](./agenda/)*
+- 468 - **Criando o template, a view e a url para exibir contato único ->** *[aula468](./agenda/)*
