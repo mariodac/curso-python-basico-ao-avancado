@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 12:07-0300\n"
+"POT-Creation-Date: 2025-03-04 20:25-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
 #: .\base_templates\global\base.html:8
 msgid "Hello"
-msgstr "Olá"
+msgstr ""
+
+#: .\base_templates\global\base.html:36
+msgid "Search"
+msgstr "Pesquisar"
 
 #: .\contact\models.py:15 .\contact\models.py:46
+#: .\contact\templates\contact\contact.html:15
 msgid "Category"
 msgstr "Categoria"
 
@@ -34,12 +38,12 @@ msgstr "Categorias"
 msgid "Name"
 msgstr "Nome"
 
-#: .\contact\models.py:26
+#: .\contact\models.py:26 .\contact\views\contact_views.py:34
 msgid "Contact"
 msgstr "Contato"
 
 #: .\contact\models.py:27 .\contact\templates\contact\index.html:7
-#: .\contact\views\contact_views.py:10 .\contact\views\contact_views.py:24
+#: .\contact\views\contact_views.py:12
 msgid "Contacts"
 msgstr "Contatos"
 
@@ -51,15 +55,16 @@ msgstr "Primeiro Nome"
 msgid "Last Name"
 msgstr "Sobrenome"
 
-#: .\contact\models.py:31 .\contact\templates\contact\index.html:15
+#: .\contact\models.py:31 .\contact\templates\contact\contact.html:11
+#: .\contact\templates\contact\index.html:15
 msgid "Phone"
 msgstr "Telefone"
 
-#: .\contact\models.py:34
+#: .\contact\models.py:34 .\contact\templates\contact\contact.html:13
 msgid "Created Date"
 msgstr "Data de Criação"
 
-#: .\contact\models.py:36
+#: .\contact\models.py:36 .\contact\templates\contact\contact.html:14
 msgid "Description"
 msgstr "Descrição"
 
