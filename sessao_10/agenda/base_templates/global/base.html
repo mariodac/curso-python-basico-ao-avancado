@@ -1,42 +1,11 @@
-{% load i18n %}
-{% load static %}<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="{{ html_language }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'global/css/style.css' %}">
-    <title>{{ title }} - {% translate "Hello" %} Agenda</title>
+    {% include "global/partials/_head.html" %}
 </head>
 <body>
 
-    <header class="header">
-        <h1 class="header-heading">
-            <a href="{% url 'contact:index' %}" class="header-link">
-                Agenda
-            </a>
-        </h1>
-
-        <nav class="menu">
-            <ul class="menu-list">
-                <li class="menuitem">
-                    <a href="" class="menu-link">
-                        Link 1
-                    </a>
-                </li>
-                <li class="menuitem">
-                    <a href="" class="menu-link">
-                        Link 2
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="search">
-            <form action="" method="get">
-                <input type="text" name="search" id="search" class="search-input" placeholder="{% translate "Search" %}">
-            </form>
-        </div>
-    </header>
+    {% include "global/partials/_header.html" %}
 
     <main class="content">
         {% block content %}{% endblock content %}

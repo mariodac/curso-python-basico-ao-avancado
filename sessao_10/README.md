@@ -24,3 +24,4 @@
 - 467 - **Manipulando QuerySets Django com filter, order_by e fatiamento ->** *[aula467](./agenda/)*
 - 468 - **Criando o template, a view e a url para exibir contato único ->** *[aula468](./agenda/)*
 - 469 - **Criando o cabeçalho principal do site (header) ->** *[aula469](./agenda/)*
+- 470 - **Criando arquivos parciais para usar com include nos templates ->** *[aula470](./agenda/)*
