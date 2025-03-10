@@ -26,3 +26,4 @@
 - 469 - **Criando o cabeçalho principal do site (header) ->** *[aula469](./agenda/)*
 - 470 - **Criando arquivos parciais para usar com include nos templates ->** *[aula470](./agenda/)*
 - 471 - **Filtrando valores com Q e OR para o campo de pesquisa ->** *[aula471](./agenda/)*
+- 472 - **Usando a request no template para pegar o valor de GET ->** *[aula472](./agenda/)*

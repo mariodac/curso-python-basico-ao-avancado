@@ -51,6 +51,7 @@ def search(request):
         'contacts': contacts,
         'title': _('Search'),
         'html_language': translation.get_language(),
+        'search_term': search_term
     }
     return render(
         request,
