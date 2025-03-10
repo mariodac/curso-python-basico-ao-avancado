@@ -27,3 +27,4 @@
 - 470 - **Criando arquivos parciais para usar com include nos templates ->** *[aula470](./agenda/)*
 - 471 - **Filtrando valores com Q e OR para o campo de pesquisa ->** *[aula471](./agenda/)*
 - 472 - **Usando a request no template para pegar o valor de GET ->** *[aula472](./agenda/)*
+- 473 - **Usando a classe Paginator para paginação no Django ->** *[aula473](./agenda/)*

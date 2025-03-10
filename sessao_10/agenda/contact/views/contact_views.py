@@ -3,15 +3,19 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import translation
 from django.utils.translation import gettext as _
 from django.db.models import Q
+from django.core.paginator import Paginator
 
 from contact.models import Contact
 
 def index(request):
-    contacts = Contact.objects.all().filter(show=True).order_by('id')[:10]
+    contacts = Contact.objects.all().filter(show=True).order_by('id')
+    paginator = Paginator(contacts, 10)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
     context = {
-        'contacts': contacts,
         'title': _('Contacts'),
         'html_language': translation.get_language(),
+        'page_obj': page_obj,
     }
     return render(
         request,
@@ -43,12 +47,15 @@ def contact(request, contact_id):
 
 
 def search(request):
-    search_term = request.GET.get('search', '').strip()
+    search_term = request.GET.get('query', '').strip()
     if search_term == '':
         return redirect('contact:index')
     contacts = Contact.objects.all().filter(show=True).filter(Q(first_name__icontains=search_term) | Q(last_name__icontains=search_term) | Q(phone__icontains=search_term) | Q(email__icontains=search_term)).order_by('id')
+    paginator = Paginator(contacts, 10)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
     context = {
-        'contacts': contacts,
+        'page_obj': page_obj,
         'title': _('Search'),
         'html_language': translation.get_language(),
         'search_term': search_term

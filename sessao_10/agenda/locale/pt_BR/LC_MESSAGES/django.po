@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 20:25-0300\n"
+"POT-Creation-Date: 2025-03-09 21:28-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-#: .\base_templates\global\base.html:8
-msgid "Hello"
-msgstr ""
 
-#: .\base_templates\global\base.html:36
+#: .\base_templates\global\partials\_head.html:6
+msgid "Hello"
+msgstr "Olá"
+
+#: .\base_templates\global\partials\_header.html:26
+#: .\contact\views\contact_views.py:59
 msgid "Search"
 msgstr "Pesquisar"
+
+#: .\base_templates\global\partials\_pagination.html:6
+msgid "first"
+msgstr "primeiro"
+
+#: .\base_templates\global\partials\_pagination.html:7
+msgid "previous"
+msgstr "anterior"
+
+#: .\base_templates\global\partials\_pagination.html:11
+msgid "Page"
+msgstr "Página"
+
+#: .\base_templates\global\partials\_pagination.html:11
+msgid "of"
+msgstr "de"
+
+#: .\base_templates\global\partials\_pagination.html:15
+msgid "next"
+msgstr "próximo"
+
+#: .\base_templates\global\partials\_pagination.html:16
+msgid "last"
+msgstr "último"
 
 #: .\contact\models.py:15 .\contact\models.py:46
 #: .\contact\templates\contact\contact.html:15
@@ -38,25 +64,25 @@ msgstr "Categorias"
 msgid "Name"
 msgstr "Nome"
 
-#: .\contact\models.py:26 .\contact\views\contact_views.py:34
+#: .\contact\models.py:26 .\contact\views\contact_views.py:39
 msgid "Contact"
 msgstr "Contato"
 
-#: .\contact\models.py:27 .\contact\templates\contact\index.html:7
-#: .\contact\views\contact_views.py:12
+#: .\contact\models.py:27 .\contact\templates\contact\index.html:8
+#: .\contact\views\contact_views.py:16
 msgid "Contacts"
 msgstr "Contatos"
 
-#: .\contact\models.py:29 .\contact\templates\contact\index.html:13
+#: .\contact\models.py:29 .\contact\templates\contact\index.html:14
 msgid "First Name"
 msgstr "Primeiro Nome"
 
-#: .\contact\models.py:30 .\contact\templates\contact\index.html:14
+#: .\contact\models.py:30 .\contact\templates\contact\index.html:15
 msgid "Last Name"
 msgstr "Sobrenome"
 
 #: .\contact\models.py:31 .\contact\templates\contact\contact.html:11
-#: .\contact\templates\contact\index.html:15
+#: .\contact\templates\contact\index.html:16
 msgid "Phone"
 msgstr "Telefone"
 

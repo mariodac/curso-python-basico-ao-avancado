@@ -1,0 +1,20 @@
+{% load i18n %}
+{% if page_obj %}
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+                <a href="?page=1&query={{ request.GET.query.strip }}">&laquo; {% translate "first" %}</a>
+                <a href="?page={{ page_obj.previous_page_number }}&query={{ request.GET.query.strip }}">{% translate "previous" %}</a>
+            {% endif %}
+
+            <span class="current">
+                {% translate "Page" %} {{ page_obj.number }} {% translate "of" %} {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}&query={{ request.GET.query.strip }}">{% translate "next" %}</a>
+                <a href="?page={{ page_obj.paginator.num_pages }}&query={{ request.GET.query.strip }}">{% translate "last" %} &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+{% endif %}

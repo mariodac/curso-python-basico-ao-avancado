@@ -23,7 +23,7 @@
 
     <div class="search">
         <form action="{% url "contact:search" %}" method="get">
-            <input type="text" name="search" id="search" value="{{ search_term }}" class="search-input" placeholder="{% translate "Search" %}">
+            <input type="text" name="query" id="query" value="{{ request.GET.query.strip }}" class="search-input" placeholder="{% translate "Search" %}">
         </form>
     </div>
 </header>
