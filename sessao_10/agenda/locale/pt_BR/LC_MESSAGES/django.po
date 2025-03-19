@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-09 21:28-0300\n"
+"POT-Creation-Date: 2025-03-19 05:05-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "Contact"
 msgstr "Contato"
 
 #: .\contact\models.py:27 .\contact\templates\contact\index.html:8
-#: .\contact\views\contact_views.py:16
+#: .\contact\views\contact_forms.py:7 .\contact\views\contact_views.py:16
 msgid "Contacts"
 msgstr "Contatos"
 
@@ -101,3 +101,11 @@ msgstr "Exibir"
 #: .\contact\models.py:39
 msgid "Picture"
 msgstr "Imagem"
+
+#: .\contact\templates\contact\create.html:5
+msgid "Create Contact"
+msgstr "Criar Contato"
+
+#: .\contact\templates\contact\create.html:16
+msgid "Send"
+msgstr "Enviar"

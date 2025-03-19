@@ -1,0 +1,21 @@
+{% extends "global/base.html" %} 
+{% load i18n %} 
+{% block content %}
+    <div class="form-wrapper">
+        <h2>{% translate "Create Contact" %}</h2>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="form-content">
+                <div class="form-group">
+                    <label for="id_first_name">LABEL</label>
+                    <input type="text" name="first_name" id="id_first_name" maxlength="255"/>
+                </div>
+            </div>
+
+            <div class="form-content">
+                <div class="form-group">
+                    <button class="btn" type="submit">{% translate "Send" %}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock content %}

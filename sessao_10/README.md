@@ -29,3 +29,5 @@
 - 472 - **Usando a request no template para pegar o valor de GET ->** *[aula472](./agenda/)*
 - 473 - **Usando a classe Paginator para paginação no Django ->** *[aula473](./agenda/)*
 - 474 - **Usando um padrão comum para URLs de CRUD ->** *[aula474](./agenda/)*
+- 475 - **Criando a URL, view e template para criar um contato (CREATE) ->** *[aula475](./agenda/)*
+-
