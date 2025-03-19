@@ -28,3 +28,4 @@
 - 471 - **Filtrando valores com Q e OR para o campo de pesquisa ->** *[aula471](./agenda/)*
 - 472 - **Usando a request no template para pegar o valor de GET ->** *[aula472](./agenda/)*
 - 473 - **Usando a classe Paginator para paginação no Django ->** *[aula473](./agenda/)*
+- 474 - **Usando um padrão comum para URLs de CRUD ->** *[aula474](./agenda/)*
