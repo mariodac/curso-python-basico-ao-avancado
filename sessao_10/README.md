@@ -30,4 +30,5 @@
 - 473 - **Usando a classe Paginator para paginação no Django ->** *[aula473](./agenda/)*
 - 474 - **Usando um padrão comum para URLs de CRUD ->** *[aula474](./agenda/)*
 - 475 - **Criando a URL, view e template para criar um contato (CREATE) ->** *[aula475](./agenda/)*
+- 476 - **HTML e CSS do nosso formulário create.html ->** *[aula476](./agenda/)*
 -
