@@ -31,4 +31,5 @@
 - 474 - **Usando um padrão comum para URLs de CRUD ->** *[aula474](./agenda/)*
 - 475 - **Criando a URL, view e template para criar um contato (CREATE) ->** *[aula475](./agenda/)*
 - 476 - **HTML e CSS do nosso formulário create.html ->** *[aula476](./agenda/)*
--
+- 477 - **csrf_token - a proteção do Django contra ataques Cross Site Request Forgery ->** *[aula477](./agenda/)*
+- 478 - **Usando request.method e request.POST para saber quando o formulário é postado ->** *[aula478](./agenda/)*
