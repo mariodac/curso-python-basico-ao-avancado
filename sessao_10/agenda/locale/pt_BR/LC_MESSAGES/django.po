@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 05:05-0300\n"
+"POT-Creation-Date: 2025-03-24 20:43-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,18 @@ msgstr "próximo"
 msgid "last"
 msgstr "último"
 
+#: .\contact\forms.py:11 .\contact\forms.py:12
+msgid "Your last name"
+msgstr "Seu último nome"
+
+#: .\contact\forms.py:13
+msgid "Help text"
+msgstr "Texto de ajuda"
+
+#: .\contact\forms.py:29
+msgid "Your first name"
+msgstr "Seu primeiro nome"
+
 #: .\contact\models.py:15 .\contact\models.py:46
 #: .\contact\templates\contact\contact.html:15
 msgid "Category"
@@ -69,7 +81,7 @@ msgid "Contact"
 msgstr "Contato"
 
 #: .\contact\models.py:27 .\contact\templates\contact\index.html:8
-#: .\contact\views\contact_forms.py:7 .\contact\views\contact_views.py:16
+#: .\contact\views\contact_views.py:16
 msgid "Contacts"
 msgstr "Contatos"
 
@@ -103,9 +115,10 @@ msgid "Picture"
 msgstr "Imagem"
 
 #: .\contact\templates\contact\create.html:5
+#: .\contact\views\contact_forms.py:11 .\contact\views\contact_forms.py:22
 msgid "Create Contact"
 msgstr "Criar Contato"
 
-#: .\contact\templates\contact\create.html:16
+#: .\contact\templates\contact\create.html:34
 msgid "Send"
 msgstr "Enviar"

@@ -36,3 +36,4 @@
 - 479 - **Criando um formulário dinâmico com forms.ModelForm do Django (parte 1) ->** *[aula479](./agenda/)*
 - 480 - **Criando um formulário dinâmico com forms.ModelForm do Django (parte 2) ->** *[aula480](./agenda/)*
 - 481 - **Movendo o ContactForm para forms.py ->** *[aula481](./agenda/)*
+- 482 - **Configurando os campos e widgets do formulário ->** *[aula482](./agenda/)*
