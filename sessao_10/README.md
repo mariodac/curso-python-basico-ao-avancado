@@ -34,3 +34,4 @@
 - 477 - **csrf_token - a proteção do Django contra ataques Cross Site Request Forgery ->** *[aula477](./agenda/)*
 - 478 - **Usando request.method e request.POST para saber quando o formulário é postado ->** *[aula478](./agenda/)*
 - 479 - **Criando um formulário dinâmico com forms.ModelForm do Django (parte 1) ->** *[aula479](./agenda/)*
+- 480 - **Criando um formulário dinâmico com forms.ModelForm do Django (parte 2) ->** *[aula480](./agenda/)*
