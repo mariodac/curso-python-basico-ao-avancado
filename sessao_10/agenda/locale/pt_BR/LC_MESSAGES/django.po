@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 20:43-0300\n"
+"POT-Creation-Date: 2025-03-24 22:21-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,17 +51,21 @@ msgstr "próximo"
 msgid "last"
 msgstr "último"
 
-#: .\contact\forms.py:11 .\contact\forms.py:12
+#: .\contact\forms.py:13 .\contact\forms.py:14
 msgid "Your last name"
 msgstr "Seu último nome"
 
-#: .\contact\forms.py:13
-msgid "Help text"
-msgstr "Texto de ajuda"
-
-#: .\contact\forms.py:29
+#: .\contact\forms.py:19 .\contact\forms.py:20
 msgid "Your first name"
 msgstr "Seu primeiro nome"
+
+#: .\contact\forms.py:55
+msgid "First name and last name cannot be the same"
+msgstr "Primeiro nome e último nome não podem ser iguais"
+
+#: .\contact\forms.py:72
+msgid "First name cannot contain numbers"
+msgstr "Primeiro nome não pode conter números"
 
 #: .\contact\models.py:15 .\contact\models.py:46
 #: .\contact\templates\contact\contact.html:15
@@ -122,3 +126,6 @@ msgstr "Criar Contato"
 #: .\contact\templates\contact\create.html:34
 msgid "Send"
 msgstr "Enviar"
+
+#~ msgid "Help text"
+#~ msgstr "Texto de ajuda"
