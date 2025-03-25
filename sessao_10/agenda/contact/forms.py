@@ -11,8 +11,7 @@ class ContactForm(forms.ModelForm):
     # Nessa forma pode alterar tudo dentro do campo, pode adicionar até campos que não estão na model
     last_name = forms.CharField(
         widget=forms.TextInput(attrs={"placeholder": _("Your last name")}),
-        label=_("Your last name"),
-        required=False,
+        label=_("Your last name")
     )
 
     first_name = forms.CharField(
@@ -20,7 +19,9 @@ class ContactForm(forms.ModelForm):
         label=_("Your first name"),
     )
 
-    phone = forms.CharField(required=False)
+    phone = forms.CharField(
+        widget=forms.TextInput(attrs={"placeholder": "(DD) 9 9999-9999"}),
+    )
 
     # example_field = forms.CharField(
     #     widget=forms.TextInput(attrs={"placeholder": _("Example")}),
@@ -39,6 +40,8 @@ class ContactForm(forms.ModelForm):
             "last_name",
             "phone",
             "email",
+            "description",
+            "category",
         )
         # terceira forma de adicionar widget ao form
         # widgets = {
