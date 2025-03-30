@@ -39,3 +39,4 @@
 - 482 - **Configurando os campos e widgets do formulário ->** *[aula482](./agenda/)*
 - 483 - **Validando campos do formulário com clean, clean_field e ValidationError ->** *[aula483](./agenda/)*
 - 484 - **Adicionando mais campos no formulário de contato ->** *[aula484](./agenda/)*
+- 485 - **Verificando form.is_valid, salvando com form.save e redirecionando a página ->** *[aula485](./agenda/)*

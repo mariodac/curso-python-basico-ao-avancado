@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 22:21-0300\n"
+"POT-Creation-Date: 2025-03-30 20:06-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +51,40 @@ msgstr "próximo"
 msgid "last"
 msgstr "último"
 
-#: .\contact\forms.py:13 .\contact\forms.py:14
+#: .\contact\forms.py:13
 msgid "Your last name"
 msgstr "Seu último nome"
 
-#: .\contact\forms.py:19 .\contact\forms.py:20
+#: .\contact\forms.py:14
+msgid "Last name"
+msgstr "Sobrenome"
+
+#: .\contact\forms.py:18
 msgid "Your first name"
 msgstr "Seu primeiro nome"
 
-#: .\contact\forms.py:55
+#: .\contact\forms.py:19
+msgid "First name"
+msgstr "Primeiro Nome"
+
+#: .\contact\forms.py:31
+msgid "Describe the contact to be saved"
+msgstr "Descreva o contato a ser salvo"
+
+#: .\contact\forms.py:32 .\contact\models.py:36
+#: .\contact\templates\contact\contact.html:14
+msgid "Description"
+msgstr "Descrição"
+
+#: .\contact\forms.py:67
 msgid "First name and last name cannot be the same"
 msgstr "Primeiro nome e último nome não podem ser iguais"
 
-#: .\contact\forms.py:72
+#: .\contact\forms.py:76
+msgid "Last name cannot contain numbers"
+msgstr "Primeiro nome não pode conter números"
+
+#: .\contact\forms.py:91
 msgid "First name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
@@ -106,10 +127,6 @@ msgstr "Telefone"
 msgid "Created Date"
 msgstr "Data de Criação"
 
-#: .\contact\models.py:36 .\contact\templates\contact\contact.html:14
-msgid "Description"
-msgstr "Descrição"
-
 #: .\contact\models.py:37
 msgid "Show"
 msgstr "Exibir"
@@ -119,7 +136,7 @@ msgid "Picture"
 msgstr "Imagem"
 
 #: .\contact\templates\contact\create.html:5
-#: .\contact\views\contact_forms.py:11 .\contact\views\contact_forms.py:22
+#: .\contact\views\contact_forms.py:12 .\contact\views\contact_forms.py:27
 msgid "Create Contact"
 msgstr "Criar Contato"
 

@@ -11,16 +11,25 @@ class ContactForm(forms.ModelForm):
     # Nessa forma pode alterar tudo dentro do campo, pode adicionar até campos que não estão na model
     last_name = forms.CharField(
         widget=forms.TextInput(attrs={"placeholder": _("Your last name")}),
-        label=_("Your last name")
+        label=_("Last name")
     )
 
     first_name = forms.CharField(
         widget=forms.TextInput(attrs={"placeholder": _("Your first name")}),
-        label=_("Your first name"),
+        label=_("First name"),
     )
 
     phone = forms.CharField(
         widget=forms.TextInput(attrs={"placeholder": "(DD) 9 9999-9999"}),
+    )
+
+    email = forms.EmailField(
+        widget=forms.EmailInput(attrs={"placeholder": "youremail@serveremail.com"}),
+    )
+
+    description = forms.CharField(
+        widget=forms.Textarea(attrs={"placeholder": _("Describe the contact to be saved")}),
+        label=_("Description"),
     )
 
     # example_field = forms.CharField(
