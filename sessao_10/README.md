@@ -40,3 +40,4 @@
 - 483 - **Validando campos do formulário com clean, clean_field e ValidationError ->** *[aula483](./agenda/)*
 - 484 - **Adicionando mais campos no formulário de contato ->** *[aula484](./agenda/)*
 - 485 - **Verificando form.is_valid, salvando com form.save e redirecionando a página ->** *[aula485](./agenda/)*
+- 486 - **Usando instance do ModelForm para atualizar dados de um contato ->** *[aula486](./agenda/)*
