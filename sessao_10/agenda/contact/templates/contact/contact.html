@@ -14,5 +14,19 @@
         <p><b>{% translate "Description" %}: </b> {{ contact.description }}</p>
         <p><b>{% translate "Category" %}: </b> {{ contact.category.name }}</p>
 
+        <div class="contact-links">
+            <a class="btn btn-link" href="{% url 'contact:update' contact.id %}">{% translate "Update" %}</a>
+
+            <form action="{% url 'contact:delete' contact.id %}" method="POST">
+                {% csrf_token %}
+                {% if confirmation == 'no' %}
+                    <input type="hidden" name="confirmation" value="yes">
+                    <button class="btn btn-link btn-delete" type="submit">{% translate "Confirm" %}?</button>
+                {% else %}
+                    <button class="btn btn-link btn-delete" type="submit">{% translate "Delete" %}</button>
+                {% endif %}
+            </form>
+        </div>
+
     </div>
 {% endblock content %}
