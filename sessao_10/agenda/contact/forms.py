@@ -32,6 +32,16 @@ class ContactForm(forms.ModelForm):
         label=_("Description"),
     )
 
+    picture = forms.ImageField(
+        widget=forms.FileInput(
+            attrs={
+                'accept': 'image/*',
+            }
+        ),
+        label=_("Picture"),
+        required=False,
+    )
+
     # example_field = forms.CharField(
     #     widget=forms.TextInput(attrs={"placeholder": _("Example")}),
     #     help_text= _("Help text")
@@ -51,6 +61,7 @@ class ContactForm(forms.ModelForm):
             "email",
             "description",
             "category",
+            "picture",
         )
         # terceira forma de adicionar widget ao form
         # widgets = {
