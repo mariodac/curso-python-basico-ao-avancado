@@ -5,6 +5,7 @@ from django.utils.translation import gettext as _
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
+
 from contact.models import Contact
 
 
@@ -113,9 +114,7 @@ class ContactForm(forms.ModelForm):
 class RegisterForm(UserCreationForm):
     first_name = forms.CharField(required=True, min_length=3, label=_("First Name"))
     last_name = forms.CharField(required=True, min_length=3, label=_("Last Name"))
-    email = forms.EmailField(
-        required=True,
-    )
+    email = forms.EmailField()
 
     class Meta:
         model = User
@@ -132,6 +131,7 @@ class RegisterForm(UserCreationForm):
         email = self.cleaned_data.get("email")
         if User.objects.filter(email=email).exists():
             self.add_error(
-                "email", ValidationError(_("Email already exists"), code="invalid")
+                "email", ValidationError("Já existe este e-mail", code="invalid")
             )
+
         return email
