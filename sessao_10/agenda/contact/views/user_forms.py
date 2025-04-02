@@ -23,4 +23,12 @@ def register(request):
             return redirect("contact:index")
         # else:
         #     messages.error(request, _("Error registering user!"))
-    return render(request, "contact/register.html", context)
+    return render(
+        request,
+        "contact/register.html",
+        {
+            "form": form,
+            "title": _("Register User"),
+            "html_language": translation.get_language(),
+        },
+    )

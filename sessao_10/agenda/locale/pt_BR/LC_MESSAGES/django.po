@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: .\contact\templates\contact\register.html:35
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 00:38-0300\n"
+"POT-Creation-Date: 2025-04-02 05:35-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,66 +56,56 @@ msgstr "próximo"
 msgid "last"
 msgstr "último"
 
-#: .\contact\forms.py:15
+#: .\contact\forms.py:16
 msgid "Your last name"
 msgstr "Seu último nome"
 
-#: .\contact\forms.py:16
+#: .\contact\forms.py:17 .\contact\forms.py:123
 msgid "Last name"
 msgstr "Sobrenome"
 
-#: .\contact\forms.py:20
+#: .\contact\forms.py:21
 msgid "Your first name"
 msgstr "Seu primeiro nome"
 
-#: .\contact\forms.py:21
+#: .\contact\forms.py:22 .\contact\forms.py:118
 msgid "First name"
 msgstr "Primeiro Nome"
 
-#: .\contact\forms.py:26 .\contact\models.py:31
+#: .\contact\forms.py:31 .\contact\models.py:31
 #: .\contact\templates\contact\contact.html:11
 #: .\contact\templates\contact\index.html:16
 msgid "Phone"
 msgstr "Telefone"
 
-#: .\contact\forms.py:35
+#: .\contact\forms.py:40
 msgid "Describe the contact to be saved"
 msgstr "Descreva o contato a ser salvo"
 
-#: .\contact\forms.py:37 .\contact\models.py:36
+#: .\contact\forms.py:42 .\contact\models.py:36
 #: .\contact\templates\contact\contact.html:14
 msgid "Description"
 msgstr "Descrição"
 
-#: .\contact\forms.py:46 .\contact\models.py:39
+#: .\contact\forms.py:51 .\contact\models.py:39
 msgid "Picture"
 msgstr "Imagem"
 
-#: .\contact\forms.py:82
+#: .\contact\forms.py:87
 msgid "First name and last name cannot be the same"
 msgstr "Primeiro nome e último nome não podem ser iguais"
 
-#: .\contact\forms.py:89
+#: .\contact\forms.py:94
 msgid "Last name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
-#: .\contact\forms.py:103
+#: .\contact\forms.py:108
 msgid "First name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
-#: .\contact\forms.py:110 .\contact\models.py:29
-#: .\contact\templates\contact\index.html:14
-msgid "First Name"
-msgstr "Primeiro Nome"
-
-#: .\contact\forms.py:111 .\contact\models.py:30
-#: .\contact\templates\contact\index.html:15
-msgid "Last Name"
-msgstr "Sobrenome"
-
-#: .\contact\forms.py:131
-msgid "Email already exists"
-msgstr "Email já existe"
+#: .\contact\forms.py:143
+msgid "A user with this username already exists."
+msgstr "Um usuário com este email já existe."
 
 #: .\contact\models.py:15 .\contact\models.py:46
 #: .\contact\templates\contact\contact.html:15
@@ -137,6 +128,14 @@ msgstr "Contato"
 #: .\contact\views\contact_views.py:17
 msgid "Contacts"
 msgstr "Contatos"
+
+#: .\contact\models.py:29 .\contact\templates\contact\index.html:14
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: .\contact\models.py:30 .\contact\templates\contact\index.html:15
+msgid "Last Name"
+msgstr "Sobrenome"
 
 #: .\contact\models.py:34 .\contact\templates\contact\contact.html:13
 msgid "Created Date"
@@ -164,11 +163,11 @@ msgid "Create Contact"
 msgstr "Criar Contato"
 
 #: .\contact\templates\contact\create.html:40
-#: .\contact\templates\contact\register.html:35
 msgid "Send"
 msgstr "Enviar"
 
-#: .\contact\templates\contact\register.html:5 .\contact\views\user_forms.py:12
+#: .\contact\templates\contact\register.html:6 .\contact\views\user_forms.py:14
+#: .\contact\views\user_forms.py:31
 msgid "Register User"
 msgstr "Registrar Usuário"
 
@@ -176,6 +175,13 @@ msgstr "Registrar Usuário"
 #: .\contact\views\contact_forms.py:91
 msgid "Update Contact"
 msgstr "Atualizar Contato"
+
+#: .\contact\views\user_forms.py:22
+msgid "User registered successfully!"
+msgstr "Usuário registrado com sucesso!"
+
+#~ msgid "Email already exists"
+#~ msgstr "Email já existe"
 
 #~ msgid "Help text"
 #~ msgstr "Texto de ajuda"
