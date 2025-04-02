@@ -12,4 +12,9 @@ def register(request):
         "title": _("Register User"),
         "html_language": translation.get_language(),
     }
-    return render(request, 'contact/register.html', context)
+
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            form.save()
+    return render(request, 'user/register.html', context)

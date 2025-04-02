@@ -44,3 +44,4 @@
 - 487 - **Criando a view, url e template para "delete" (apagar contatos) ->** *[aula487](./agenda/)*
 - 488 - **Trabalhando com ImageField no template e nos forms ->** *[aula488](./agenda/)*
 - 489 - **Usando UserCreationForm para criar novos usuários no Django ->** *[aula489](./agenda/)*
+- 490 - **Validando campos de first_name, last_name e email do Usuário ->** *[aula490](./agenda/)*

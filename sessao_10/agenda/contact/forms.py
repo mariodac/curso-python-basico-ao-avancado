@@ -3,6 +3,7 @@ from django import forms
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext as _
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
 
 from contact.models import Contact
 
@@ -12,7 +13,7 @@ class ContactForm(forms.ModelForm):
     # Nessa forma pode alterar tudo dentro do campo, pode adicionar até campos que não estão na model
     last_name = forms.CharField(
         widget=forms.TextInput(attrs={"placeholder": _("Your last name")}),
-        label=_("Last name")
+        label=_("Last name"),
     )
 
     first_name = forms.CharField(
@@ -21,7 +22,12 @@ class ContactForm(forms.ModelForm):
     )
 
     phone = forms.CharField(
-        widget=forms.TextInput(attrs={"placeholder": "(DD) 9 9999-9999"}),
+        widget=forms.TextInput(
+            attrs={
+                "placeholder": "(DD) 9 9999-9999",
+            }
+        ),
+        label=_("Phone"),
     )
 
     email = forms.EmailField(
@@ -29,14 +35,16 @@ class ContactForm(forms.ModelForm):
     )
 
     description = forms.CharField(
-        widget=forms.Textarea(attrs={"placeholder": _("Describe the contact to be saved")}),
+        widget=forms.Textarea(
+            attrs={"placeholder": _("Describe the contact to be saved")}
+        ),
         label=_("Description"),
     )
 
     picture = forms.ImageField(
         widget=forms.FileInput(
             attrs={
-                'accept': 'image/*',
+                "accept": "image/*",
             }
         ),
         label=_("Picture"),
@@ -74,20 +82,16 @@ class ContactForm(forms.ModelForm):
         first_name = self.cleaned_data.get("first_name")
         last_name = self.cleaned_data.get("last_name")
         if first_name == last_name:
-            msg = (
-                ValidationError(
-                    _("First name and last name cannot be the same"), code="invalid"
-                )
+            msg = ValidationError(
+                _("First name and last name cannot be the same"), code="invalid"
             )
             self.add_error("first_name", msg)
             self.add_error("last_name", msg)
         if last_name is not None and re.search(r"\d", last_name):
             self.add_error(
-                    "last_name",
-                    ValidationError(
-                        _("Last name cannot contain numbers"), code="invalid"
-                    ),
-                )
+                "last_name",
+                ValidationError(_("Last name cannot contain numbers"), code="invalid"),
+            )
         # self.add_error("first_name", ValidationError(_("Error"), code="invalid"))
         # self.add_error(None, ValidationError(_("Error 2"), code="invalid"))
         # self.add_error(None, ValidationError(_("Error 3"), code="invalid"))
@@ -105,6 +109,29 @@ class ContactForm(forms.ModelForm):
                 )
         return first_name
 
+
 class RegisterForm(UserCreationForm):
-    
-    ...
+    first_name = forms.CharField(required=True, min_length=3, label=_("First Name"))
+    last_name = forms.CharField(required=True, min_length=3, label=_("Last Name"))
+    email = forms.EmailField(
+        required=True,
+    )
+
+    class Meta:
+        model = User
+        fields = (
+            "first_name",
+            "last_name",
+            "email",
+            "username",
+            "password1",
+            "password2",
+        )
+
+    def clean_email(self):
+        email = self.cleaned_data.get("email")
+        if User.objects.filter(email=email).exists():
+            self.add_error(
+                "email", ValidationError(_("Email already exists"), code="invalid")
+            )
+        return email
