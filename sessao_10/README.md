@@ -43,3 +43,4 @@
 - 486 - **Usando instance do ModelForm para atualizar dados de um contato ->** *[aula486](./agenda/)*
 - 487 - **Criando a view, url e template para "delete" (apagar contatos) ->** *[aula487](./agenda/)*
 - 488 - **Trabalhando com ImageField no template e nos forms ->** *[aula488](./agenda/)*
+- 489 - **Usando UserCreationForm para criar novos usuários no Django ->** *[aula489](./agenda/)*

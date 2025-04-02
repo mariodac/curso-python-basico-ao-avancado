@@ -2,6 +2,7 @@ import re
 from django import forms
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext as _
+from django.contrib.auth.forms import UserCreationForm
 
 from contact.models import Contact
 
@@ -103,3 +104,7 @@ class ContactForm(forms.ModelForm):
                     ),
                 )
         return first_name
+
+class RegisterForm(UserCreationForm):
+    
+    ...
