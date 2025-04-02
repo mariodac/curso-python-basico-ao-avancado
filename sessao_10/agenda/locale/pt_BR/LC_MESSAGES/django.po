@@ -104,7 +104,7 @@ msgid "First name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
 #: .\contact\forms.py:143
-msgid "A user with this username already exists."
+msgid "A user with this email already exists."
 msgstr "Um usuário com este email já existe."
 
 #: .\contact\models.py:15 .\contact\models.py:46

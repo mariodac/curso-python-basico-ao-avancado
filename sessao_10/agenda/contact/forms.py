@@ -115,12 +115,12 @@ class RegisterForm(UserCreationForm):
     first_name = forms.CharField(
         required=True,
         min_length=3,
-        label = _("First name"),
+        label=_("First name"),
     )
     last_name = forms.CharField(
         required=True,
         min_length=3,
-        label = _("Last name"),
+        label=_("Last name"),
     )
     # email = forms.EmailField()
 
@@ -140,7 +140,10 @@ class RegisterForm(UserCreationForm):
 
         if User.objects.filter(email=email).exists():
             self.add_error(
-                "email", ValidationError(_("A user with this username already exists."), code="invalid")
+                "email",
+                ValidationError(
+                    _("A user with this email already exists."), code="invalid"
+                ),
             )
 
         return email
