@@ -17,6 +17,7 @@ def register(request):
 
     if request.method == "POST":
         form = RegisterForm(request.POST)
+        context.update({"form": form})
         if form.is_valid():
             form.save()
             messages.success(request, _("User registered successfully!"))
