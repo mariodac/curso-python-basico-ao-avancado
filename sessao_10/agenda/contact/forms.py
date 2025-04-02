@@ -122,7 +122,7 @@ class RegisterForm(UserCreationForm):
         min_length=3,
         label=_("Last name"),
     )
-    # email = forms.EmailField()
+    email = forms.EmailField()
 
     class Meta:
         model = User
