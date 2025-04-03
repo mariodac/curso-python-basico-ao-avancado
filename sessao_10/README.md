@@ -46,3 +46,4 @@
 - 489 - **Usando UserCreationForm para criar novos usuários no Django ->** *[aula489](./agenda/)*
 - 490 - **Validando campos de first_name, last_name e email do Usuário ->** *[aula490](./agenda/)*
 - 491 - **Usando django.contrib.messages para enviar mensagens ->** *[aula491](./agenda/)*
+- 492 - **Criando o sistema de login e logout + AuthenticationForm e django.contrib.auth ->** *[aula492](./agenda/)*

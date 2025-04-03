@@ -1,0 +1,18 @@
+{% extends 'global/base.html' %} 
+{% block content %}
+{% load i18n %} 
+<div class="form-wrapper">
+    <h2>Login</h2>
+
+    {% if user.is_authenticated %}
+    <p>
+        {% translate "You are logged in as " %} {{ user.username }}.
+        {% translate "Click" %} <a href="{% url "contact:logout" %}">{% translate "here" %}</a> {% translate "to logout" %}
+    </p>
+    {% else %}
+        {% include "contact/partials/_user-form.html" %}
+    {% endif %}
+    </form>
+</div>
+
+{% endblock content %}

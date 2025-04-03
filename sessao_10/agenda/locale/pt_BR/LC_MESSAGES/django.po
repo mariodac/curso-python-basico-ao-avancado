@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\contact\templates\contact\register.html:35
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 05:35-0300\n"
+"POT-Creation-Date: 2025-04-02 22:16-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +23,10 @@ msgid "Hello"
 msgstr "Olá"
 
 #: .\base_templates\global\partials\_header.html:13
-msgid "Create"
-msgstr "Criar"
+#: .\contact\templates\contact\create.html:5
+#: .\contact\views\contact_forms.py:17 .\contact\views\contact_forms.py:37
+msgid "Create Contact"
+msgstr "Criar Contato"
 
 #: .\base_templates\global\partials\_header.html:26
 #: .\contact\views\contact_views.py:70
@@ -103,7 +104,7 @@ msgstr "Primeiro nome não pode conter números"
 msgid "First name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
-#: .\contact\forms.py:143
+#: .\contact\forms.py:145
 msgid "A user with this email already exists."
 msgstr "Um usuário com este email já existe."
 
@@ -157,17 +158,29 @@ msgstr "Confirmar"
 msgid "Delete"
 msgstr "Apagar"
 
-#: .\contact\templates\contact\create.html:5
-#: .\contact\views\contact_forms.py:17 .\contact\views\contact_forms.py:37
-msgid "Create Contact"
-msgstr "Criar Contato"
-
 #: .\contact\templates\contact\create.html:40
+#: .\contact\templates\contact\partials\_user-form.html:29
 msgid "Send"
 msgstr "Enviar"
 
-#: .\contact\templates\contact\register.html:6 .\contact\views\user_forms.py:14
-#: .\contact\views\user_forms.py:31
+#: .\contact\templates\contact\login.html:9
+msgid "You are logged in as "
+msgstr "Você está logado como"
+
+#: .\contact\templates\contact\login.html:10
+msgid "Click"
+msgstr "Clique"
+
+#: .\contact\templates\contact\login.html:10
+msgid "here"
+msgstr "aqui"
+
+#: .\contact\templates\contact\login.html:10
+msgid "to logout"
+msgstr "para sair"
+
+#: .\contact\templates\contact\register.html:6 .\contact\views\user_forms.py:15
+#: .\contact\views\user_forms.py:38
 msgid "Register User"
 msgstr "Registrar Usuário"
 
@@ -176,9 +189,20 @@ msgstr "Registrar Usuário"
 msgid "Update Contact"
 msgstr "Atualizar Contato"
 
-#: .\contact\views\user_forms.py:22
+#: .\contact\views\user_forms.py:24
 msgid "User registered successfully!"
 msgstr "Usuário registrado com sucesso!"
+
+#: .\contact\views\user_forms.py:48
+msgid "User logged in successfully!"
+msgstr "Usuário logado com sucesso!"
+
+#: .\contact\views\user_forms.py:51
+msgid "Invalid Login!"
+msgstr "Login inválido"
+
+#~ msgid "Create"
+#~ msgstr "Criar"
 
 #~ msgid "Email already exists"
 #~ msgstr "Email já existe"
