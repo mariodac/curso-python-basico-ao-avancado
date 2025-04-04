@@ -4,7 +4,7 @@ from django.utils.translation import gettext as _
 from django.contrib import messages, auth
 from django.contrib.auth.forms import AuthenticationForm
 
-from contact.forms import RegisterForm
+from contact.forms import RegisterForm, RegisterUpdateForm
 
 
 def register(request):
@@ -30,6 +30,7 @@ def register(request):
         "contact/register.html",
         context,
     )
+
 
 def login_view(request):
     form = AuthenticationForm(request)
@@ -59,3 +60,32 @@ def login_view(request):
 def logout_view(request):
     auth.logout(request)
     return redirect("contact:login")
+
+
+def user_update(request):
+    form = RegisterUpdateForm(instance=request.user)
+    context = {
+        "form": form,
+        "title": _("Update User"),
+        "html_language": translation.get_language(),
+    }
+    if request.method != "POST":
+        return render(
+            request,
+            "contact/user_update.html",
+            context,
+        )
+    
+    form = RegisterUpdateForm(data=request.POST, instance=request.user)
+    context.update({"form": form})
+
+    if not form.is_valid():
+        return render(
+            request,
+            "contact/user_update.html",
+            context,
+        )
+    
+    form.save()
+    messages.success(request, _("User updated successfully!"))
+    return redirect('contact:user_update')

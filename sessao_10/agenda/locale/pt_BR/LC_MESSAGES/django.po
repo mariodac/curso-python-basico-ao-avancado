@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 22:16-0300\n"
+"POT-Creation-Date: 2025-04-04 01:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,17 @@ msgstr "Olá"
 msgid "Create Contact"
 msgstr "Criar Contato"
 
-#: .\base_templates\global\partials\_header.html:26
+#: .\base_templates\global\partials\_header.html:19
+#: .\contact\templates\contact\user_update.html:6
+#: .\contact\views\user_forms.py:69
+msgid "Update User"
+msgstr "Atualizar usuário"
+
+#: .\base_templates\global\partials\_header.html:32
+msgid "Logout"
+msgstr "Sair"
+
+#: .\base_templates\global\partials\_header.html:42
 #: .\contact\views\contact_views.py:70
 msgid "Search"
 msgstr "Pesquisar"
@@ -57,56 +67,84 @@ msgstr "próximo"
 msgid "last"
 msgstr "último"
 
-#: .\contact\forms.py:16
+#: .\contact\forms.py:17
 msgid "Your last name"
 msgstr "Seu último nome"
 
-#: .\contact\forms.py:17 .\contact\forms.py:123
+#: .\contact\forms.py:18 .\contact\forms.py:124
 msgid "Last name"
 msgstr "Sobrenome"
 
-#: .\contact\forms.py:21
+#: .\contact\forms.py:22
 msgid "Your first name"
 msgstr "Seu primeiro nome"
 
-#: .\contact\forms.py:22 .\contact\forms.py:118
+#: .\contact\forms.py:23 .\contact\forms.py:119
 msgid "First name"
 msgstr "Primeiro Nome"
 
-#: .\contact\forms.py:31 .\contact\models.py:31
+#: .\contact\forms.py:32 .\contact\models.py:31
 #: .\contact\templates\contact\contact.html:11
 #: .\contact\templates\contact\index.html:16
 msgid "Phone"
 msgstr "Telefone"
 
-#: .\contact\forms.py:40
+#: .\contact\forms.py:41
 msgid "Describe the contact to be saved"
 msgstr "Descreva o contato a ser salvo"
 
-#: .\contact\forms.py:42 .\contact\models.py:36
+#: .\contact\forms.py:43 .\contact\models.py:36
 #: .\contact\templates\contact\contact.html:14
 msgid "Description"
 msgstr "Descrição"
 
-#: .\contact\forms.py:51 .\contact\models.py:39
+#: .\contact\forms.py:52 .\contact\models.py:39
 msgid "Picture"
 msgstr "Imagem"
 
-#: .\contact\forms.py:87
+#: .\contact\forms.py:88
 msgid "First name and last name cannot be the same"
 msgstr "Primeiro nome e último nome não podem ser iguais"
 
-#: .\contact\forms.py:94
+#: .\contact\forms.py:95
 msgid "Last name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
-#: .\contact\forms.py:108
+#: .\contact\forms.py:109
 msgid "First name cannot contain numbers"
 msgstr "Primeiro nome não pode conter números"
 
-#: .\contact\forms.py:145
+#: .\contact\forms.py:146 .\contact\forms.py:236
 msgid "A user with this email already exists."
 msgstr "Um usuário com este email já existe."
+
+#: .\contact\forms.py:158 .\contact\forms.py:168
+msgid "Required."
+msgstr "Obrigatório"
+
+#: .\contact\forms.py:160
+msgid "First name must have at least 2 characters."
+msgstr "O primeiro nome deve ter pelo menos 2 caracteres."
+
+#: .\contact\forms.py:170
+msgid "Last name must have at least 2 characters."
+msgstr "O último nome deve ter pelo menos 2 caracteres."
+
+#: .\contact\forms.py:175
+msgid "Password"
+msgstr "Senha"
+
+#: .\contact\forms.py:183
+msgid "Password 2"
+msgstr "Senha 2"
+
+#: .\contact\forms.py:187
+msgid "Use the same password as before."
+msgstr "Use a mesma senha de antes."
+
+#: .\contact\forms.py:220
+msgid "The two password fields didn’t match."
+msgstr "Os dois campos de senha não correspondem."
 
 #: .\contact\models.py:15 .\contact\models.py:46
 #: .\contact\templates\contact\contact.html:15
@@ -180,7 +218,7 @@ msgid "to logout"
 msgstr "para sair"
 
 #: .\contact\templates\contact\register.html:6 .\contact\views\user_forms.py:15
-#: .\contact\views\user_forms.py:38
+#: .\contact\views\user_forms.py:39
 msgid "Register User"
 msgstr "Registrar Usuário"
 
@@ -193,13 +231,17 @@ msgstr "Atualizar Contato"
 msgid "User registered successfully!"
 msgstr "Usuário registrado com sucesso!"
 
-#: .\contact\views\user_forms.py:48
+#: .\contact\views\user_forms.py:49
 msgid "User logged in successfully!"
 msgstr "Usuário logado com sucesso!"
 
-#: .\contact\views\user_forms.py:51
+#: .\contact\views\user_forms.py:52
 msgid "Invalid Login!"
 msgstr "Login inválido"
+
+#: .\contact\views\user_forms.py:90
+msgid "User updated successfully!"
+msgstr "Usuário atualizado com sucesso!"
 
 #~ msgid "Create"
 #~ msgstr "Criar"

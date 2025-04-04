@@ -47,3 +47,5 @@
 - 490 - **Validando campos de first_name, last_name e email do Usuário ->** *[aula490](./agenda/)*
 - 491 - **Usando django.contrib.messages para enviar mensagens ->** *[aula491](./agenda/)*
 - 492 - **Criando o sistema de login e logout + AuthenticationForm e django.contrib.auth ->** *[aula492](./agenda/)*
+- 493 - **Criando um formulário para atualizar dados do usuário (Parte 1) ->** *[aula493](./agenda/)*
+- 494 - **Criando um formulário para atualizar dados do usuário (Parte 2) ->** *[aula494](./agenda/)*
