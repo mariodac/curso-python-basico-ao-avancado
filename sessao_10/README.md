@@ -50,3 +50,4 @@
 - 493 - **Criando um formulário para atualizar dados do usuário (Parte 1) ->** *[aula493](./agenda/)*
 - 494 - **Criando um formulário para atualizar dados do usuário (Parte 2) ->** *[aula494](./agenda/)*
 - 495 - **Usando user.is_authenticated para diferenciar usuários logados ou não logados ->** *[aula495](./agenda/)*
+- 496 - **login_required - garantindo que o usuário está logado para acessar views ->** *[aula496](./agenda/)*
