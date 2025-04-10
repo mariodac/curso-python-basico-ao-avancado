@@ -75,7 +75,7 @@ def user_update(request):
             "contact/user_update.html",
             context,
         )
-    
+
     form = RegisterUpdateForm(data=request.POST, instance=request.user)
     context.update({"form": form})
 
@@ -85,7 +85,7 @@ def user_update(request):
             "contact/user_update.html",
             context,
         )
-    
+
     form.save()
     messages.success(request, _("User updated successfully!"))
-    return redirect('contact:user_update')
+    return redirect("contact:login")

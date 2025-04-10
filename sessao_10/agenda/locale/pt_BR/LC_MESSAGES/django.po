@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 01:40-0300\n"
+"POT-Creation-Date: 2025-04-09 21:43-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,23 +22,25 @@ msgstr ""
 msgid "Hello"
 msgstr "Olá"
 
-#: .\base_templates\global\partials\_header.html:13
+#: .\base_templates\global\partials\_header.html:14
 #: .\contact\templates\contact\create.html:5
 #: .\contact\views\contact_forms.py:17 .\contact\views\contact_forms.py:37
 msgid "Create Contact"
 msgstr "Criar Contato"
 
 #: .\base_templates\global\partials\_header.html:19
-#: .\contact\templates\contact\user_update.html:6
-#: .\contact\views\user_forms.py:69
-msgid "Update User"
-msgstr "Atualizar usuário"
+msgid "Profile"
+msgstr "Perfil"
 
-#: .\base_templates\global\partials\_header.html:32
+#: .\base_templates\global\partials\_header.html:24
 msgid "Logout"
 msgstr "Sair"
 
-#: .\base_templates\global\partials\_header.html:42
+#: .\base_templates\global\partials\_header.html:35
+msgid "Register"
+msgstr "Registrar"
+
+#: .\base_templates\global\partials\_header.html:45
 #: .\contact\views\contact_views.py:70
 msgid "Search"
 msgstr "Pesquisar"
@@ -221,6 +223,11 @@ msgstr "para sair"
 #: .\contact\views\user_forms.py:39
 msgid "Register User"
 msgstr "Registrar Usuário"
+
+#: .\contact\templates\contact\user_update.html:6
+#: .\contact\views\user_forms.py:69
+msgid "Update User"
+msgstr "Atualizar usuário"
 
 #: .\contact\views\contact_forms.py:55 .\contact\views\contact_forms.py:75
 #: .\contact\views\contact_forms.py:91

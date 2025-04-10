@@ -8,30 +8,33 @@
 
     <nav class="menu">
         <ul class="menu-list">
-            <li class="menuitem">
-                <a href="{% url 'contact:create' %}" class="menu-link">
-                    {% translate "Create Contact" %}
-                </a>
-            </li>
             {% if user.is_authenticated %}
                 <li class="menuitem">
-                    <a href="{% url 'contact:user_update' %}" class="menu-link">
-                        {% translate "Update User" %}
+                    <a href="{% url 'contact:create' %}" class="menu-link">
+                        {% translate "Create Contact" %}
                     </a>
                 </li>
-            {% endif %}
-            {% if not user.is_authenticated %}
+                <li class="menuitem">
+                    <a href="{% url 'contact:user_update' %}" class="menu-link">
+                        {% translate "Profile" %}
+                    </a>
+                </li>
+                <li class="menuitem">
+                    <a href="{% url 'contact:logout' %}" class="menu-link">
+                        {% translate "Logout" %}
+                    </a>
+                </li>
+            {% else %}
                 <li class="menuitem">
                     <a href="{% url 'contact:login' %}" class="menu-link">
                         Login
                     </a>
                 </li>
-            {% else %}
-            <li class="menuitem">
-                <a href="{% url 'contact:logout' %}" class="menu-link">
-                    {% translate "Logout" %}
-                </a>
-            </li>
+                <li class="menuitem">
+                    <a href="{% url 'contact:register' %}" class="menu-link">
+                        {% translate "Register" %}
+                    </a>
+                </li>
             {% endif %}
             
         </ul>
