@@ -52,3 +52,4 @@
 - 495 - **Usando user.is_authenticated para diferenciar usuários logados ou não logados ->** *[aula495](./agenda/)*
 - 496 - **login_required - garantindo que o usuário está logado para acessar views ->** *[aula496](./agenda/)*
 - 497 - **Criando a relação entre contact e owner (request.user) ->** *[aula497](./agenda/)*
+- 498 - **Ocultando links de update e delete de não owner dos contatos ->** *[aula498](./agenda/)*

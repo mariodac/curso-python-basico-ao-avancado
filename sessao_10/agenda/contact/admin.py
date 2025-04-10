@@ -13,7 +13,7 @@ class ContactAdmin(admin.ModelAdmin):
         "created_date",
         "show",
     )
-    ordering = ("-first_name",)
+    ordering = ("-id",)
     list_filter = ("created_date", "category")
     search_fields = (
         "first_name",
@@ -38,6 +38,6 @@ class CategoryAdmin(admin.ModelAdmin):
         "name",
     )
     ordering = (
-        "id",
+        "-id",
         "name",
     )
