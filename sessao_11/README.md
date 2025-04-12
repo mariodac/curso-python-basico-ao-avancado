@@ -6,4 +6,5 @@
 - 502 - **Instalando pacotes e configurando o git no servidor**
 - 503 - **Configurando o PostgreSQL e criando local_settings.py no servidor**
 - 504 - **Subindo o Django para Deploy no servidor**
-- 505 - **Configurando agenda.socket e agenda.service para o Django Gunicorn**
+- 505 - **Configurando agenda.socket e agenda.service para o Django Gunicorn ->** *[aula505](./gunicorn.txt)*
+- 506 - **Configurando o Nginx para receber requisições HTTP ->** *[aula506](./nginx.txt)*
