@@ -6,3 +6,4 @@
 - 502 - **Instalando pacotes e configurando o git no servidor**
 - 503 - **Configurando o PostgreSQL e criando local_settings.py no servidor**
 - 504 - **Subindo o Django para Deploy no servidor**
+- 505 - **Configurando agenda.socket e agenda.service para o Django Gunicorn**
