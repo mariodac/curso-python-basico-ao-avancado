@@ -5,3 +5,4 @@
 - 501 - **Preparando o local_settings.py + arquivos do tutorial (comandos) ->** *[aula501](./SERVER.md)* 
 - 502 - **Instalando pacotes e configurando o git no servidor**
 - 503 - **Configurando o PostgreSQL e criando local_settings.py no servidor**
+- 504 - **Subindo o Django para Deploy no servidor**
