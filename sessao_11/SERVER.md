@@ -133,7 +133,7 @@ O conteúdo `/etc/nginx/sites-available/agenda` deve ser configurado de acordo c
 ```
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo nano /etc/nginx/sites-available/agenda
-sudo ln -s /etc/nginx/sites-available/agenda /etc/nginx/sites-enabled/agenda
+sudo ln -s /etc/nginx/sites-available/agenda /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
