@@ -10,3 +10,4 @@
 - 506 - **Configurando o Nginx para receber requisições HTTP ->** *[aula506](./nginx.txt)*
 - 507 - **Como faço alterações no site usando o git, gunicorn e nginx?**
 - 508 - **Refazendo a configuração do nginx com um domínio da internet ->** *[aula508](https://www.otaviomiranda.com.br/2018/dominio-e-hospedagem-guia-para-leigos/)*
+- 509 - **Configurando certificados SSL da LetsEncrypt gratuitamente para HTTPS no Nginx ->** *[aula509](./nginx-https.txt)*
