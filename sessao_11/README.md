@@ -8,3 +8,4 @@
 - 504 - **Subindo o Django para Deploy no servidor**
 - 505 - **Configurando agenda.socket e agenda.service para o Django Gunicorn ->** *[aula505](./gunicorn.txt)*
 - 506 - **Configurando o Nginx para receber requisições HTTP ->** *[aula506](./nginx.txt)*
+- 507 - **Como faço alterações no site usando o git, gunicorn e nginx?**
