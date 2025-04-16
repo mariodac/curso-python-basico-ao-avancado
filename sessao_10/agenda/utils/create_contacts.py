@@ -43,7 +43,10 @@ if __name__ == "__main__":
         created_date: datetime = fake.date_this_year()  # type: ignore
         description = fake.text(max_nb_chars=100)
         category = choice(django_categories)
-        image_path = os.path.join(os.environ.get("temp"), f"random-image-{index}.jpg")  # type: ignore
+        if os.name == "nt":
+            image_path = os.path.join(os.environ.get("temp"), f"random-image-{index}.jpg")  # type: ignore
+        else:
+            image_path = os.path.join("/tmp", f"random-image-{index}.jpg")
         with open(image_path, "wb") as image_file:
             file_content = fake.image()
             image_file.write(file_content)

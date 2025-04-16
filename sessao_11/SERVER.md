@@ -128,6 +128,15 @@ python manage.py collectstatic
 python manage.py createsuperuser
 ```
 
+## Configurando o nginx
+O conteúdo `/etc/nginx/sites-available/agenda` deve ser configurado de acordo com [arquivo](./nginx-http.txt)
+```
+sudo rm -f /etc/nginx/sites-enabled/default
+sudo nano /etc/nginx/sites-available/agenda
+sudo ln -s /etc/nginx/sites-available/agenda /etc/nginx/sites-enabled/
+sudo systemctl restart nginx
+```
+
 ## Permitir arquivos maiores no nginx
 
 ```
