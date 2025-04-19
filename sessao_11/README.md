@@ -11,3 +11,5 @@
 - 507 - **Como faço alterações no site usando o git, gunicorn e nginx?**
 - 508 - **Refazendo a configuração do nginx com um domínio da internet ->** *[aula508](https://www.otaviomiranda.com.br/2018/dominio-e-hospedagem-guia-para-leigos/)*
 - 509 - **Configurando certificados SSL da LetsEncrypt gratuitamente para HTTPS no Nginx ->** *[aula509](./nginx-https.txt)*
+- 510 - **Sobre o bônus gratuito e como executar comandos com SSH por fora do servidor**
+- 511 - **Corrigindo o erro 403 - Verificação CSRF falhou. Pedido cancelado ->** *[aula511](./aula511.md)*
