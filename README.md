@@ -37,6 +37,8 @@ Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design P
 - [Seção 8: Bases de dados com Python - SQLite (sqlite3) e MySQL (pymysql)](./sessao_08/README.md)
 - [Seção 9: Django no Python - Básico](./sessao_09/README.md)
 - [Seção 10: Django no Python - Projeto Agenda](./sessao_10/README.md)
+- [Seção 11: Django no Python - Primeiro Deploy (Linux)](./sessao_11/README.md)
+- [Seção 12: Django com Python - Projeto Blog](./sessao_12/README.md)
 - [Seção 20: HTML5 e CSS3](./sessao_20/README.md)
 - [Seção 21: #EXTRA Grátis - Landing Page com HTML5 e CSS3](./sessao_21/README.md)
 
