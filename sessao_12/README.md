@@ -4,3 +4,4 @@
 - 513 - **O que vamos fazer nessa seção? (Blog - Projeto Real)**
 - 514 - **Iniciando o projeto e configurando git, GitHub e .gitignore**
 - 515 - **Configurando o VS Code (.vscode/settings.json)**
+- 516 - **Iniciando o projeto Django com django-admin startproject**
