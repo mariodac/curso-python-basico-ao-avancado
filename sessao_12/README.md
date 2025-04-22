@@ -2,3 +2,4 @@
 
 - 512 - **SEÇÃO EM ATUALIZAÇÃO: AVISO IMPORTANTE**
 - 513 - **O que vamos fazer nessa seção? (Blog - Projeto Real)**
+- 514 - **Iniciando o projeto e configurando git, GitHub e .gitignore**
