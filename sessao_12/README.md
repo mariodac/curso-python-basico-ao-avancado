@@ -5,3 +5,4 @@
 - 514 - **Iniciando o projeto e configurando git, GitHub e .gitignore**
 - 515 - **Configurando o VS Code (.vscode/settings.json)**
 - 516 - **Iniciando o projeto Django com django-admin startproject**
+- 517 - **Criando arquivos requirements.txt e .dockerignore**
