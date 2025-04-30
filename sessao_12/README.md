@@ -8,3 +8,4 @@
 - 517 - **Criando arquivos requirements.txt e .dockerignore ->** *[aula517](./)*
 - 518 - **Configurando variáveis de ambiente com .env e o settings.py do projeto Django ->** *[aula518](./)*
 - 519 - **Configurando o Dockerfile para gerar nossa imagem Docker Django ->** *[aula519](./Dockerfile)*
+- 520 - **Configurando os containers do Docker com Docker Compose (docker-compose.yml) ->** *[aula520](./docker-compose.yml)*
