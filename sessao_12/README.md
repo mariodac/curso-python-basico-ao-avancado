@@ -14,3 +14,4 @@
 - 523 - **Criando o partial _head.html e carregando o estilo de CSS style.css ->** *[aula523](./djangoapp/blog/templates/blog/partials/_head.html)*
 - 524 - **Separando os parciais header, pagination e footer ->** *[aula524](./djangoapp/blog/templates/blog/partials/)*
 - 525 - **Criando o app site_setup, o model MenuLink com sua admin ->** *[aula525](./djangoapp/site_setup/)*
+- 526 - **Criando o model SiteSetup e registrando na admin do Django ->** *[aula526](./djangoapp/site_setup/)*
