@@ -11,3 +11,4 @@
 - 520 - **Configurando os containers do Docker com Docker Compose (docker-compose.yml) ->** *[aula520](./docker-compose.yml)*
 - 521 - **Executando comandos em um container Docker ->** *[aula521](./commands.md)*
 - 522 - **Criando e configurando o app "blog" com startapp do Django ->** *[aula522](./djangoapp/blog/)*
+- 523 - **Criando o partial _head.html e carregando o estilo de CSS style.css ->** *[aula523](./djangoapp/blog/templates/blog/_head.html)*
