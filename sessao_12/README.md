@@ -10,3 +10,4 @@
 - 519 - **Configurando o Dockerfile para gerar nossa imagem Docker Django ->** *[aula519](./Dockerfile)*
 - 520 - **Configurando os containers do Docker com Docker Compose (docker-compose.yml) ->** *[aula520](./docker-compose.yml)*
 - 521 - **Executando comandos em um container Docker ->** *[aula521](./commands.md)*
+- 522 - **Criando e configurando o app "blog" com startapp do Django ->** *[aula522](./djangoapp/blog/)*

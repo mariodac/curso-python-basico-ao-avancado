@@ -15,7 +15,7 @@ pessoa.json
 data.json
 lista_tarefas.json
 static_files/
-static/
+sessao_10/agenda/static/
 media/
 # Byte-compiled / optimized / DLL files
 __pycache__/
