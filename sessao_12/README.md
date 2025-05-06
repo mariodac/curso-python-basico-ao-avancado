@@ -15,3 +15,4 @@
 - 524 - **Separando os parciais header, pagination e footer ->** *[aula524](./djangoapp/blog/templates/blog/partials/)*
 - 525 - **Criando o app site_setup, o model MenuLink com sua admin ->** *[aula525](./djangoapp/site_setup/)*
 - 526 - **Criando o model SiteSetup e registrando na admin do Django ->** *[aula526](./djangoapp/site_setup/)*
+- 527 - **Relação de ForeignKey e inlines com admin.TabularInline no Django ->** *[aula527](./djangoapp/site_setup/)*

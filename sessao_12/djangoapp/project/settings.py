@@ -17,7 +17,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 # /data/web/static
 # /data/web/media
-DATA_DIR = BASE_DIR / "data" / "web"
+DATA_DIR = BASE_DIR.parent / "data" / "web"
 
 
 # Quick-start development settings - unsuitable for production

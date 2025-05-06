@@ -10,6 +10,10 @@ class MenuLinkAdmin(admin.ModelAdmin):
     search_fields = ("id", "text", "url_or_path")
 
 
+class MenuLinkInLine(admin.TabularInline):
+    model = MenuLink
+    extra = 1
+
 @admin.register(SiteSetup)
 class SiteSetupAdmin(admin.ModelAdmin):
 
@@ -17,6 +21,7 @@ class SiteSetupAdmin(admin.ModelAdmin):
         "title",
         "description",
     )
+    inlines = MenuLinkInLine,
 
     
     def has_add_permission(self, request):
