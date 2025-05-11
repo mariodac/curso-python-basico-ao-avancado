@@ -10,7 +10,7 @@ def site_setup(request):
     setup = SiteSetup.objects.order_by('-id').first()
     return {
         'site_setup': {
-            'title': setup,
+            'setup': setup,
             'html_language': translation.get_language(),
         },
     }
