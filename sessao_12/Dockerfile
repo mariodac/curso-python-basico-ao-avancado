@@ -1,5 +1,5 @@
 FROM python:3.12.10-alpine
-LABEL mantainer="mdac.mario@gmail.com"
+LABEL maintainer="mdac.mario@gmail.com"
 
 # Essa variável de ambiente é usada para controlar se o Python deve 
 # gravar arquivos de bytecode (.pyc) no disco. 1 = Não, 0 = Sim
@@ -27,17 +27,13 @@ EXPOSE 8000
 # Agrupar os comandos em um único RUN pode reduzir a quantidade de camadas da 
 # imagem e torná-la mais eficiente.
 RUN python -m venv /venv && \
-  /venv/bin/pip install --upgrade pip && \
-  /venv/bin/pip install -r /djangoapp/requirements.txt && \
-  adduser --disabled-password --no-create-home duser && \
-  mkdir -p /data/web/static && \
-  mkdir -p /data/web/media && \
-  chown -R duser:duser /venv && \
-  chown -R duser:duser /data/web/static && \
-  chown -R duser:duser /data/web/media && \
-  chmod -R 755 /data/web/static && \
-  chmod -R 755 /data/web/media && \
-  chmod -R +x /scripts
+    /venv/bin/pip install --upgrade pip && \
+    /venv/bin/pip install -r /djangoapp/requirements.txt && \
+    adduser -D -H -u 1000 duser && \
+    mkdir -p /data/web/static /data/web/media && \
+    chown -R duser:duser /venv /data/web/static /data/web/media && \
+    chmod -R 755 /data/web/static /data/web/media && \
+    chmod +x /scripts/*
 
 # Adiciona a pasta scripts e venv/bin 
 # no $PATH do container.
