@@ -18,3 +18,10 @@
 
 # Rodar comandos no container Docker com shellscript
 `docker-compose run --rm djangoapp migrate.sh`
+
+# Sempre que alterar volumes, Dockerfile ou variáveis, faça:
+```bash
+docker-compose down -v
+docker-compose build --no-cache
+docker-compose up -d
+```
