@@ -18,3 +18,4 @@
 - 527 - **Relação de ForeignKey e inlines com admin.TabularInline no Django ->** *[aula527](./djangoapp/site_setup/)*
 - 528 - **Usando Context Processors para injetar valores em todos os templates do Django ->** *[aula528](./djangoapp/site_setup/context_processors.py)*
 - 529 - **Criando um campo ImageField para Favicon no Django ->** *[aula529](./djangoapp/site_setup/)*
+- 530 - **Usando field validators, sobrescrevendo save do Model e redimensionando imagens ->** *[aula530](./djangoapp/utils/)*
