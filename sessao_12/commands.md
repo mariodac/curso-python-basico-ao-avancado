@@ -1,7 +1,7 @@
-# Contruir container Docker
+# Construir container Docker
 `docker-compose up --build`
 
-# Contruir container Docker e forçar recriação
+# Construir container Docker e forçar recriação
 `docker-compose up --build --force-recreate`
 
 # Subir container Docker em segundo plano
