@@ -1,5 +1,7 @@
-# [Curso de Python 3 do básico ao avançado](https://www.udemy.com/course/python-3-do-zero-ao-avancado)
+# [Curso de Python 3 do básico ao avançado](https://www.udemy.com/course/python-3-do-zero-ao-avancado) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/mariodac/curso-python-basico-ao-avancado)
 Curso de Python 3 do básico ao avançado na Udemy, ministrado pelo instrutor Luiz Otávio Miranda
+
+
 
 ## **Sobre este curso**
 Python 3 completo: PySide6, Django, Selenium, Regexp, Testes, TDD, POO, Design Patterns GoF, algoritmos e programação
