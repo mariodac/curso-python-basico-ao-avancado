@@ -20,3 +20,4 @@
 - 529 - **Criando um campo ImageField para Favicon no Django ->** *[aula529](./djangoapp/site_setup/)*
 - 530 - **Usando field validators, sobrescrevendo save do Model e redimensionando imagens ->** *[aula530](./djangoapp/utils/)*
 - 531 - **Iniciando nosso CSS + Reset de CSS ->** *[aula531](./djangoapp/blog/static/)*
+- 532 - **Montei a base do nosso CSS - Vou te explicar os detalhes ->** *[aula532](./djangoapp/blog/static/blog/css/style.css)*
