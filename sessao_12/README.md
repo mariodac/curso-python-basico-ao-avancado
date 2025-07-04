@@ -21,3 +21,4 @@
 - 530 - **Usando field validators, sobrescrevendo save do Model e redimensionando imagens ->** *[aula530](./djangoapp/utils/)*
 - 531 - **Iniciando nosso CSS + Reset de CSS ->** *[aula531](./djangoapp/blog/static/)*
 - 532 - **Montei a base do nosso CSS - Vou te explicar os detalhes ->** *[aula532](./djangoapp/blog/static/blog/css/style.css)*
+- 533 - **Criando os templates necessários para o layout ->** *[aula533](./djangoapp/blog/)*
