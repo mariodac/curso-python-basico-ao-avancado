@@ -22,3 +22,5 @@
 - 531 - **Iniciando nosso CSS + Reset de CSS ->** *[aula531](./djangoapp/blog/static/)*
 - 532 - **Montei a base do nosso CSS - Vou te explicar os detalhes ->** *[aula532](./djangoapp/blog/static/blog/css/style.css)*
 - 533 - **Criando os templates necessários para o layout ->** *[aula533](./djangoapp/blog/)*
+- 534 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
+- 535 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
