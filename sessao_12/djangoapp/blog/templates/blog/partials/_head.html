@@ -1,7 +1,7 @@
 {% load static %}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Titulo</title>
+<title>{{ site_setup.setup.title }}</title>
 {% if site_setup.setup.favicon %}
     <link rel="shortcut icon" href="{{ site_setup.setup.favicon.url }}" type="image/png">
 {% endif %}

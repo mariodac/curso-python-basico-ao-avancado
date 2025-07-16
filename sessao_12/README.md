@@ -24,3 +24,4 @@
 - 533 - **Criando os templates necessários para o layout ->** *[aula533](./djangoapp/blog/)*
 - 534 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
 - 535 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
+- 536 - **Usando o context processor do model site_setup dentro dos templates para config ->** *[aula536](./djangoapp/blog/)*
