@@ -1,3 +1,4 @@
+from typing import Any
 from django.contrib import admin
 from blog.models import Post, Tag, Category, Page
 
@@ -49,3 +50,10 @@ class PostAdmin(admin.ModelAdmin):
     }
     list_editable = ('is_published',)
     list_filter = ('category', 'is_published',)
+
+    def save_model(self, request, obj, form, change):
+        if change:
+            obj.updated_by = request.user
+        else:
+            obj.created_by = request.user
+        obj.save()
