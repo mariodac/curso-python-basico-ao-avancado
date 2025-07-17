@@ -27,3 +27,4 @@
 - 536 - **Usando o context processor do model site_setup dentro dos templates para config ->** *[aula536](./djangoapp/blog/)*
 - 537 - **Criando os models Tag e Category + SlugField, slug e slugify no Django ->** *[aula537](./djangoapp/blog/)*
 - 538 - **Criando o model e admin Page (models.Model e admin.ModelAdmin do Django) ->** *[aula538](./djangoapp/blog/)*
+- 539 - **Criando o model Post, related_name em ForeignKey e outros detalhes ->** *[aula539](./djangoapp/blog/)*
