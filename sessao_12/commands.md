@@ -4,6 +4,9 @@
 # Construir container Docker e forçar recriação
 `docker-compose up --build --force-recreate`
 
+# Construir container Docker e forçar recriação sem criar vários containers
+`docker-compose up --build --force-recreate --remove-orphans --renew-anon-volumes`
+
 # Subir container Docker em segundo plano
 `docker-compose up -d`
 
