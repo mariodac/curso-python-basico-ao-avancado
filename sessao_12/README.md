@@ -29,3 +29,4 @@
 - 538 - **Criando o model e admin Page (models.Model e admin.ModelAdmin do Django) ->** *[aula538](./djangoapp/blog/)*
 - 539 - **Criando o model Post, related_name em ForeignKey e outros detalhes ->** *[aula539](./djangoapp/blog/)*
 - 540 - **Preenchendo created_by e updated_by via admin.ModelAdmin save_model ->** *[aula540](./djangoapp/blog/admin.py)*
+- 541 - **Redimensionamento e otimização de imagens com o Pillow no save do model Django ->** *[aula541](./djangoapp/utils/)*
