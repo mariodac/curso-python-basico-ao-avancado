@@ -4,6 +4,7 @@ from utils.rands import slugify_new
 from utils.images import resize_image
 from django_summernote.models import AbstractAttachment
 
+
 class PostAttachment(AbstractAttachment):
     def save(self, *args, **kwargs):
         if not self.name:
@@ -17,6 +18,7 @@ class PostAttachment(AbstractAttachment):
             resize_image(self.file, 900, True, 90)
 
         return super_save
+
 
 class Tag(models.Model):
     class Meta:
@@ -79,10 +81,16 @@ class Page(models.Model):
         return self.title
 
 
+class PostManager(models.Manager):
+    def get_published(self):
+        return self.filter(is_published=True).order_by("updated_at")
+
 class Post(models.Model):
     class Meta:
         verbose_name = "Post"
         verbose_name_plural = "Posts"
+
+    objects = PostManager()
 
     title = models.CharField(max_length=70)
     slug = models.SlugField(
