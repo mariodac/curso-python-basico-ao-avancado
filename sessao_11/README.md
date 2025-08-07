@@ -13,3 +13,4 @@
 - 509 - **Configurando certificados SSL da LetsEncrypt gratuitamente para HTTPS no Nginx ->** *[aula509](./nginx-https.txt)*
 - 510 - **Sobre o bônus gratuito e como executar comandos com SSH por fora do servidor**
 - 511 - **Corrigindo o erro 403 - Verificação CSRF falhou. Pedido cancelado ->** *[aula511](./aula511.md)*
+- 512 - **Corrigindo o erro 403 - Verificação CSRF falhou. Pedido cancelado ->** *[aula512](./aula512.md)*

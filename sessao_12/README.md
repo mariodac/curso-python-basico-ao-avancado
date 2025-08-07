@@ -1,33 +1,33 @@
 # Seção 12: Django com Python - Projeto Blog
 
-- 512 - **SEÇÃO EM ATUALIZAÇÃO: AVISO IMPORTANTE**
-- 513 - **O que vamos fazer nessa seção? (Blog - Projeto Real)**
-- 514 - **Iniciando o projeto e configurando git, GitHub e .gitignore**
-- 515 - **Configurando o VS Code (.vscode/settings.json)**
-- 516 - **Iniciando o projeto Django com django-admin startproject**
-- 517 - **Criando arquivos requirements.txt e .dockerignore ->** *[aula517](./)*
-- 518 - **Configurando variáveis de ambiente com .env e o settings.py do projeto Django ->** *[aula518](./)*
-- 519 - **Configurando o Dockerfile para gerar nossa imagem Docker Django ->** *[aula519](./Dockerfile)*
-- 520 - **Configurando os containers do Docker com Docker Compose (docker-compose.yml) ->** *[aula520](./docker-compose.yml)*
-- 521 - **Executando comandos em um container Docker ->** *[aula521](./commands.md)*
-- 522 - **Criando e configurando o app "blog" com startapp do Django ->** *[aula522](./djangoapp/blog/)*
-- 523 - **Criando o partial _head.html e carregando o estilo de CSS style.css ->** *[aula523](./djangoapp/blog/templates/blog/partials/_head.html)*
-- 524 - **Separando os parciais header, pagination e footer ->** *[aula524](./djangoapp/blog/templates/blog/partials/)*
-- 525 - **Criando o app site_setup, o model MenuLink com sua admin ->** *[aula525](./djangoapp/site_setup/)*
-- 526 - **Criando o model SiteSetup e registrando na admin do Django ->** *[aula526](./djangoapp/site_setup/)*
-- 527 - **Relação de ForeignKey e inlines com admin.TabularInline no Django ->** *[aula527](./djangoapp/site_setup/)*
-- 528 - **Usando Context Processors para injetar valores em todos os templates do Django ->** *[aula528](./djangoapp/site_setup/context_processors.py)*
-- 529 - **Criando um campo ImageField para Favicon no Django ->** *[aula529](./djangoapp/site_setup/)*
-- 530 - **Usando field validators, sobrescrevendo save do Model e redimensionando imagens ->** *[aula530](./djangoapp/utils/)*
-- 531 - **Iniciando nosso CSS + Reset de CSS ->** *[aula531](./djangoapp/blog/static/)*
-- 532 - **Montei a base do nosso CSS - Vou te explicar os detalhes ->** *[aula532](./djangoapp/blog/static/blog/css/style.css)*
-- 533 - **Criando os templates necessários para o layout ->** *[aula533](./djangoapp/blog/)*
-- 534 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
+- 513 - **SEÇÃO EM ATUALIZAÇÃO: AVISO IMPORTANTE**
+- 514 - **O que vamos fazer nessa seção? (Blog - Projeto Real)**
+- 515 - **Iniciando o projeto e configurando git, GitHub e .gitignore**
+- 516 - **Configurando o VS Code (.vscode/settings.json)**
+- 517 - **Iniciando o projeto Django com django-admin startproject**
+- 518 - **Criando arquivos requirements.txt e .dockerignore ->** *[aula517](./)*
+- 519 - **Configurando variáveis de ambiente com .env e o settings.py do projeto Django ->** *[aula518](./)*
+- 520 - **Configurando o Dockerfile para gerar nossa imagem Docker Django ->** *[aula519](./Dockerfile)*
+- 521 - **Configurando os containers do Docker com Docker Compose (docker-compose.yml) ->** *[aula520](./docker-compose.yml)*
+- 522 - **Executando comandos em um container Docker ->** *[aula521](./commands.md)*
+- 523 - **Criando e configurando o app "blog" com startapp do Django ->** *[aula522](./djangoapp/blog/)*
+- 524 - **Criando o partial _head.html e carregando o estilo de CSS style.css ->** *[aula523](./djangoapp/blog/templates/blog/partials/_head.html)*
+- 525 - **Separando os parciais header, pagination e footer ->** *[aula524](./djangoapp/blog/templates/blog/partials/)*
+- 526 - **Criando o app site_setup, o model MenuLink com sua admin ->** *[aula525](./djangoapp/site_setup/)*
+- 527 - **Criando o model SiteSetup e registrando na admin do Django ->** *[aula526](./djangoapp/site_setup/)*
+- 528 - **Relação de ForeignKey e inlines com admin.TabularInline no Django ->** *[aula527](./djangoapp/site_setup/)*
+- 529 - **Usando Context Processors para injetar valores em todos os templates do Django ->** *[aula528](./djangoapp/site_setup/context_processors.py)*
+- 530 - **Criando um campo ImageField para Favicon no Django ->** *[aula529](./djangoapp/site_setup/)*
+- 531 - **Usando field validators, sobrescrevendo save do Model e redimensionando imagens ->** *[aula530](./djangoapp/utils/)*
+- 532 - **Iniciando nosso CSS + Reset de CSS ->** *[aula531](./djangoapp/blog/static/)*
+- 533 - **Montei a base do nosso CSS - Vou te explicar os detalhes ->** *[aula532](./djangoapp/blog/static/blog/css/style.css)*
+- 534 - **Criando os templates necessários para o layout ->** *[aula533](./djangoapp/blog/)*
 - 535 - **Layout do blog pronto e explicado em detalhes (Parte 1) ->** *[aula534](./djangoapp/blog/)*
-- 536 - **Usando o context processor do model site_setup dentro dos templates para config ->** *[aula536](./djangoapp/blog/)*
-- 537 - **Criando os models Tag e Category + SlugField, slug e slugify no Django ->** *[aula537](./djangoapp/blog/)*
-- 538 - **Criando o model e admin Page (models.Model e admin.ModelAdmin do Django) ->** *[aula538](./djangoapp/blog/)*
-- 539 - **Criando o model Post, related_name em ForeignKey e outros detalhes ->** *[aula539](./djangoapp/blog/)*
-- 540 - **Preenchendo created_by e updated_by via admin.ModelAdmin save_model ->** *[aula540](./djangoapp/blog/admin.py)*
-- 541 - **Redimensionamento e otimização de imagens com o Pillow no save do model Django ->** *[aula541](./djangoapp/blog/models.py)*
-- 542 - **Configurando o django-summernote como editor HTML em TextField nos models Django ->** *[aula542](./djangoapp/blog/)*
+- 536 - **Layout do blog pronto e explicado em detalhes (Parte 2) ->** *[aula534](./djangoapp/blog/)*
+- 537 - **Usando o context processor do model site_setup dentro dos templates para config ->** *[aula536](./djangoapp/blog/)*
+- 538 - **Criando os models Tag e Category + SlugField, slug e slugify no Django ->** *[aula537](./djangoapp/blog/)*
+- 539 - **Criando o model e admin Page (models.Model e admin.ModelAdmin do Django) ->** *[aula538](./djangoapp/blog/)*
+- 540 - **Criando o model Post, related_name em ForeignKey e outros detalhes ->** *[aula539](./djangoapp/blog/)*
+- 541 - **Preenchendo created_by e updated_by via admin.ModelAdmin save_model ->** *[aula540](./djangoapp/blog/admin.py)*
+- 542 - **Redimensionamento e otimização de imagens com o Pillow no save do model Django ->** *[aula541](./djangoapp/blog/models.py)*
+- 543 - **Configurando o django-summernote como editor HTML em TextField nos models Django ->** *[aula542](./djangoapp/blog/)*
