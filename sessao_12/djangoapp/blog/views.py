@@ -6,7 +6,7 @@ PER_PAGE = 9
 
 
 def index(request):
-    posts = Post.objects.get_published() #type: ignore
+    posts = Post.objects.get_published()
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
