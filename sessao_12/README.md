@@ -31,3 +31,4 @@
 - 541 - **Preenchendo created_by e updated_by via admin.ModelAdmin save_model ->** *[aula540](./djangoapp/blog/admin.py)*
 - 542 - **Redimensionamento e otimização de imagens com o Pillow no save do model Django ->** *[aula541](./djangoapp/blog/models.py)*
 - 543 - **Configurando o django-summernote como editor HTML em TextField nos models Django ->** *[aula542](./djangoapp/blog/)*
+- 544 - **Filtrando e ordenando os posts enviados para o template da view do Django ->** *[aula543](./djangoapp/blog/)*
