@@ -6,7 +6,7 @@ third-color: #855325
 */
 :root {
   --primary-color: #0a1128;
-  --second-color: crimson;
+  --second-color: rgb(220, 20, 60);
   --font-bg-color: #ffffff;
   --border-color-menu: #eeeeee;
   --gap: 3rem;

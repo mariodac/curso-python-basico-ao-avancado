@@ -2,11 +2,20 @@
 <main class="main-content section-wrapper">
     <div class="section-content-wide">
         <div class="section-gap">
-            <div class="card-grid">
-                {% for post in page_obj %} 
-                    {% include 'blog/partials/_post-card.html' with i=forloop.counter0 %} 
-                {% endfor %}
-            </div>
+            {% if page_obj %}
+                <div class="card-grid">
+                    {% for post in page_obj %} 
+                        {% include 'blog/partials/_post-card.html' with i=forloop.counter0 %} 
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="not-found center">
+                    <h1>Not found 😫</h1>
+                    <p>
+                        I didn't find anything in this link, please click on another link from our blog or go to the <a href="{% url "blog:index" %}">Home</a>
+                    </p>
+                </div>
+            {% endif %}
         </div>
     </div>
 </main>

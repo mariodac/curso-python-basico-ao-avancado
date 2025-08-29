@@ -33,3 +33,4 @@
 - 543 - **Configurando o django-summernote como editor HTML em TextField nos models Django ->** *[aula543](./djangoapp/blog/)*
 - 544 - **Filtrando e ordenando os posts enviados para o template da view do Django ->** *[aula544](./djangoapp/blog/)*
 - 545 - **Criando um manager personalizado com models.Manager do Django ->** *[aula545](./djangoapp/blog/managers.py)*
+- 546 - **get_absolute_url + criando um campo readonly na admin do Django ->** *[aula546](./djangoapp/blog/)*
