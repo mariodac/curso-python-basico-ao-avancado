@@ -36,3 +36,4 @@
 - 546 - **get_absolute_url + criando um campo readonly na admin do Django ->** *[aula546](./djangoapp/blog/)*
 - 547 - **Iniciando a parte interna do Post (vários detalhes interessantes) ->** *[aula547](./djangoapp/blog/)*
 - 548 - **Formatando datas no template com date ->** *[aula548](./djangoapp/blog/)*
+- 549 - **Renderizando HTML dentro do template do Django com safe ->** *[aula549](./djangoapp/blog/)*
