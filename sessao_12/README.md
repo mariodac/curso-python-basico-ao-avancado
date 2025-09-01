@@ -38,3 +38,4 @@
 - 548 - **Formatando datas no template com date ->** *[aula548](./djangoapp/blog/)*
 - 549 - **Renderizando HTML dentro do template do Django com safe ->** *[aula549](./djangoapp/blog/)*
 - 550 - **Adicionando o CodeMirror para exibir tags pre (código) no template ->** *[aula550](./djangoapp/blog/)*
+- 551 - **Tags: usando ManyToManyField dentro do template do Django ->** *[aula551](./djangoapp/blog/)*
