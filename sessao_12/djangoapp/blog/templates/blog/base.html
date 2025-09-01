@@ -2,6 +2,8 @@
 <html lang={{ site_setup.html_language }}>
 <head>
     {% include "blog/partials/_head.html" %}
+    {% comment %} block não funciona quando se usa o include {% endcomment %}
+    {% block additional_head %}{% endblock additional_head %}
 </head>
 <body>
     <div class="blog-wrapper">
