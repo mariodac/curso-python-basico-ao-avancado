@@ -35,3 +35,4 @@
 - 545 - **Criando um manager personalizado com models.Manager do Django ->** *[aula545](./djangoapp/blog/managers.py)*
 - 546 - **get_absolute_url + criando um campo readonly na admin do Django ->** *[aula546](./djangoapp/blog/)*
 - 547 - **Iniciando a parte interna do Post (vários detalhes interessantes) ->** *[aula547](./djangoapp/blog/)*
+- 548 - **Formatando datas no template com date ->** *[aula548](./djangoapp/blog/)*
