@@ -1,3 +1,4 @@
+from django.http import Http404
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.db.models import Q
@@ -11,15 +12,35 @@ def index(request):
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
-    return render(request, "blog/pages/index.html", {"page_obj": page_obj})
+    return render(
+        request,
+        "blog/pages/index.html",
+        {
+            "page_obj": page_obj,
+            "page_title": "Home - ",
+        },
+    )
 
 
 def created_by(request, author_id):
+    author = Post.objects.get_published().filter(created_by__pk=author_id).first()
     posts = Post.objects.get_published().filter(created_by__pk=author_id)
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
-    return render(request, "blog/pages/index.html", {"page_obj": page_obj})
+    if author is None:
+        raise Http404()
+    page_title = (
+        f"Posts de {author.created_by.first_name} {author.created_by.last_name}"
+    )
+    return render(
+        request,
+        "blog/pages/index.html",
+        {
+            "page_obj": page_obj,
+            "page_title": page_title,
+        },
+    )
 
 
 def category(request, slug):
@@ -27,7 +48,17 @@ def category(request, slug):
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
-    return render(request, "blog/pages/index.html", {"page_obj": page_obj})
+    if page_obj is None:
+        raise Http404()
+    page_title = f"Categoria - {page_obj[0].category.name} - "
+    return render(
+        request,
+        "blog/pages/index.html",
+        {
+            "page_obj": page_obj,
+            "page_title": page_title,
+        },
+    )
 
 
 def tag(request, slug):
@@ -35,17 +66,47 @@ def tag(request, slug):
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
-    return render(request, "blog/pages/index.html", {"page_obj": page_obj})
+    if page_obj is None:
+        raise Http404()
+    page_title = f"Tag - {page_obj[0].tags.first().name} - "
+    return render(
+        request,
+        "blog/pages/index.html",
+        {
+            "page_obj": page_obj,
+            "page_title": page_title,
+        },
+    )
 
 
 def page(request, slug):
-    page = Page.objects.filter(is_published=True).filter(slug=slug).first()
-    return render(request, "blog/pages/page.html", {"page": page})
+    page_obj = Page.objects.filter(is_published=True).filter(slug=slug).first()
+    if page_obj is None:
+        raise Http404()
+    page_title = f"Page - {page_obj.title} - "
+    return render(
+        request,
+        "blog/pages/page.html",
+        {
+            "page": page_obj,
+            "page_title": page_title,
+        },
+    )
 
 
 def post(request, slug):
-    post = Post.objects.get_published().filter(slug=slug).first()
-    return render(request, "blog/pages/post.html", {"post": post})
+    post_obj = Post.objects.get_published().filter(slug=slug).first()
+    if post_obj is None:
+        raise Http404()
+    page_title = f"Post - {post_obj.title} - "
+    return render(
+        request,
+        "blog/pages/post.html",
+        {
+            "post": post_obj,
+            "page_title": page_title,
+        },
+    )
 
 
 def search(request):
@@ -60,11 +121,15 @@ def search(request):
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
+    if page_obj is None:
+        raise Http404()
+    page_title = f"Busca - {search_value[:20]} - "
     return render(
         request,
         "blog/pages/index.html",
         {
             "page_obj": page_obj,
             "search_value": search_value,
+            "page_title": page_title,
         },
     )
