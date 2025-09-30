@@ -40,3 +40,4 @@
 - 550 - **Adicionando o CodeMirror para exibir tags pre (código) no template ->** *[aula550](./djangoapp/blog/)*
 - 551 - **Tags: usando ManyToManyField dentro do template do Django ->** *[aula551](./djangoapp/blog/)*
 - 552 - **Search: usando django.db.models.Q para consultas com OU (OR) ->** *[aula552](./djangoapp/blog/)*
+- 553 - **Completando o nosso model Page para páginas livres com HTML ->** *[aula553](./djangoapp/blog/)* 
