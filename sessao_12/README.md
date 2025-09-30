@@ -39,3 +39,4 @@
 - 549 - **Renderizando HTML dentro do template do Django com safe ->** *[aula549](./djangoapp/blog/)*
 - 550 - **Adicionando o CodeMirror para exibir tags pre (código) no template ->** *[aula550](./djangoapp/blog/)*
 - 551 - **Tags: usando ManyToManyField dentro do template do Django ->** *[aula551](./djangoapp/blog/)*
+- 552 - **Search: usando django.db.models.Q para consultas com OU (OR) ->** *[aula552](./djangoapp/blog/)*
