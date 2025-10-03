@@ -1,10 +1,10 @@
 from django.urls import path
-from blog.views import category, created_by, index, page, post, tag, search
+from blog.views import category, created_by, page, post, tag, search, PostListView
 
 app_name = "blog"
 
 urlpatterns = [
-    path("", index, name="index"),
+    path("", PostListView.as_view(), name="index"),
     path("post/<slug:slug>/", post, name="post"),
     path("page/", page, name="single_page"),
     path("page/<slug:slug>/", page, name="page"),

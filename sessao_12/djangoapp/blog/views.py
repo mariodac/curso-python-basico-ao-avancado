@@ -3,8 +3,22 @@ from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.db.models import Q
 from blog.models import Post, Page
-
+from django.views.generic import ListView
 PER_PAGE = 9
+
+
+class PostListView(ListView):
+    model = Post
+    template_name = "blog/pages/index.html"
+    context_object_name = "posts"
+    ordering = "-pk",
+    paginate_by = PER_PAGE
+    queryset = Post.objects.get_published()
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context.update({"page_title": "Home - "})
+        return context
 
 
 def index(request):
