@@ -42,3 +42,4 @@
 - 552 - **Search: usando django.db.models.Q para consultas com OU (OR) ->** *[aula552](./djangoapp/blog/)*
 - 553 - **Completando o nosso model Page para páginas livres com HTML ->** *[aula553](./djangoapp/blog/)* 
 - 554 - **Criando os títulos das páginas e usando Http404 para páginas não encontradas ->** *[aula554](./djangoapp/blog/)*
+- 555 - **Documentação e teoria sobre Class Based Views no Django ->** *[aula555](./djangoapp/blog/)*

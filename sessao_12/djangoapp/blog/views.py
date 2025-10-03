@@ -8,6 +8,17 @@ PER_PAGE = 9
 
 
 def index(request):
+    # Function Based Views -> São funções
+    # Class Based Views -> São classes (POO) https://docs.djangoproject.com/pt-br/4.2/ref/class-based-views/
+    # se a view é simples, somente lê os dados e renderiza os templates, use function based views
+    # se a view é mais complexa, use class based views
+
+    # Obter dados do model
+    # Esses dados são uma lista de objetos
+    # Paginação
+    # Renderizando um template
+    # Manipulando o contexto
+
     posts = Post.objects.get_published()
     paginator = Paginator(posts, PER_PAGE)
     page_number = request.GET.get("page")
