@@ -39,7 +39,7 @@ class CreatedByListView(PostListView):
     
     def get_queryset(self):
         queryset = super().get_queryset()
-        queryset = queryset.filter(created_by__pk=self._tmp_context["user"].pk)
+        queryset = queryset.filter(created_by__pk=self._tmp_context["author_id"])
         return queryset
 
     
