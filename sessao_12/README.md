@@ -44,3 +44,4 @@
 - 554 - **Criando os títulos das páginas e usando Http404 para páginas não encontradas ->** *[aula554](./djangoapp/blog/)*
 - 555 - **Documentação e teoria sobre Class Based Views no Django ->** *[aula555](./djangoapp/blog/)*
 - 556 - **Migrando a view index para Class Based View django.views.generic.list.ListView ->** *[aula556](./djangoapp/blog/)*
+- 557 - **Usando self.kwargs para argumentos de URL e ordem de chamada dos métodos em CBV ->** *[aula557](./djangoapp/blog/)*

@@ -2,7 +2,7 @@ from django.http import Http404
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from django.db.models import Q
-from blog.models import Post, Page
+from blog.models import Post, Page, User
 from django.views.generic import ListView
 PER_PAGE = 9
 
@@ -20,6 +20,41 @@ class PostListView(ListView):
         context.update({"page_title": "Home - "})
         return context
 
+
+class CreatedByListView(PostListView):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self._tmp_context = {}
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        user = self._tmp_context["user"]
+        user_fullname = user.username
+        if user.first_name:
+            user_fullname = f"{user.first_name} {user.last_name}"
+        context.update({
+            "page_title": f"Posts de {user_fullname} - ",
+        })
+        return context
+    
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        queryset = queryset.filter(created_by__pk=self._tmp_context["user"].pk)
+        return queryset
+
+    
+    def get(self, request, *args, **kwargs):
+        author_pk = self.kwargs.get("author_id")
+        user = User.objects.filter(pk=author_pk).first()
+
+        if user is None:
+            raise Http404()
+        
+        self._tmp_context.update({
+            "author_id": author_pk,
+            "user": user,
+        })
+        return super().get(request, *args, **kwargs)
 
 def index(request):
     # Function Based Views -> São funções
