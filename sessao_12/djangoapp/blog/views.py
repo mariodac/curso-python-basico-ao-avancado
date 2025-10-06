@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from django.core.paginator import Paginator
 from django.db.models import Q
 from blog.models import Post, Page, User
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 PER_PAGE = 9
 
 
@@ -131,6 +131,24 @@ class SearchListView(PostListView):
         if not self._search_value:
             return redirect("blog:index")
         return super().get(request, *args, **kwargs)
+    
+
+class PageDetailView(DetailView):
+    model = Page
+    template_name = "blog/pages/page.html"
+    context_object_name = "page"
+    slug_field = "slug"
+
+    def get_queryset(self):
+        return super().get_queryset().filter(is_published=True)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        page = context["page"]
+        context.update({
+            "page_title": f"{page.title} - Página - ",
+        })
+        return context
 
 def index(request):
     # Function Based Views -> São funções
