@@ -1,7 +1,7 @@
 from typing import Any
 from django.db.models.query import QuerySet
-from django.http import Http404
-from django.shortcuts import render
+from django.http import Http404, HttpRequest
+from django.shortcuts import render, redirect
 from django.core.paginator import Paginator
 from django.db.models import Q
 from blog.models import Post, Page, User
@@ -69,12 +69,12 @@ class CategoryListView(PostListView):
         context = super().get_context_data(**kwargs)
         # metodo 1
         context.update({
-            "page_title": f"Categoria - {context['posts'][0].category.name} - ",
+            "page_title": f"{context['posts'][0].category.name} - Categoria - ",
         })
 
         # metodo 2
         # context.update({
-        #     "page_title": f"Categoria - {self.object_list[0].category.name} - ", #type: ignore
+        #     "page_title": f"{self.object_list[0].category.name} - Categoria - ", #type: ignore
         # })
         
         return context
@@ -90,15 +90,47 @@ class TagListView(PostListView):
         context = super().get_context_data(**kwargs)
         # metodo 1
         context.update({
-            "page_title": f"Categoria - {context['posts'][0].tags.first().name} - ",
+            "page_title": f"{context['posts'][0].tags.first().name} - Tag - ",
         })
 
         # metodo 2
-        context.update({
-            "page_title": f"Categoria - {self.object_list[0].tags.first().name} - ", #type: ignore
-        })
+        # context.update({
+        #     "page_title": f"{self.object_list[0].tags.first().name} - Tag - ", #type: ignore
+        # })
         
         return context
+    
+
+class SearchListView(PostListView):
+    def __init__(self, *args, **kwargs: Any) -> None:
+        super().__init__(*args, **kwargs)
+        self._search_value = ""
+
+    def setup(self, request: HttpRequest, *args: Any, **kwargs: Any) -> None:
+        self._search_value = request.GET.get("search", "").strip()
+        return super().setup(request, *args, **kwargs)
+
+    def get_queryset(self) -> QuerySet[Any]:
+        search_value = self.request.GET.get("search", "").strip()
+        return super().get_queryset().filter(
+            Q(title__icontains=search_value)
+            | Q(excerpt__icontains=search_value)
+            | Q(content__icontains=search_value)
+        )
+    
+    def get_context_data(self, **kwargs: Any):
+        context = super().get_context_data(**kwargs)
+        search_value = self.request.GET.get("search", "").strip()
+        context.update({
+            "search_value": search_value,
+            "page_title": f"{search_value[:20]} - Busca - ",
+        })
+        return context
+    
+    def get(self, request, *args: Any, **kwargs: Any):
+        if not self._search_value:
+            return redirect("blog:index")
+        return super().get(request, *args, **kwargs)
 
 def index(request):
     # Function Based Views -> São funções

@@ -47,3 +47,4 @@
 - 557 - **Usando self.kwargs para argumentos de URL e ordem de chamada dos métodos em CBV ->** *[aula557](./djangoapp/blog/)*
 - 558 - **Migrando a view category para ListView e usando allow_empty para 404 ->** *[aula558](./djangoapp/blog/)*
 - 559 - **Migrando a view tag para Class Based View (CBV) ListView no views.py do Django ->** *[aula559](./djangoapp/blog/)*
+- 560 - **Migrando a view search para Class Base View (CBV) ListView em views.py do Django ->** *[aula560](./djangoapp/blog/)*
