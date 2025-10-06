@@ -78,6 +78,27 @@ class CategoryListView(PostListView):
         # })
         
         return context
+    
+
+class TagListView(PostListView):
+    allow_empty = False
+
+    def get_queryset(self) -> QuerySet[Any]:
+        return super().get_queryset().filter(tags__slug=self.kwargs.get("slug"))
+    
+    def get_context_data(self, **kwargs):   
+        context = super().get_context_data(**kwargs)
+        # metodo 1
+        context.update({
+            "page_title": f"Categoria - {context['posts'][0].tags.first().name} - ",
+        })
+
+        # metodo 2
+        context.update({
+            "page_title": f"Categoria - {self.object_list[0].tags.first().name} - ", #type: ignore
+        })
+        
+        return context
 
 def index(request):
     # Function Based Views -> São funções

@@ -97,6 +97,7 @@ class PostAdmin(SummernoteModelAdmin):
     list_editable = ("is_published",)
     list_filter = (
         "category",
+        "tags",
         "is_published",
     )
     summernote_fields = ("content",)
