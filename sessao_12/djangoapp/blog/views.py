@@ -6,14 +6,15 @@ from django.core.paginator import Paginator
 from django.db.models import Q
 from blog.models import Post, Page, User
 from django.views.generic import ListView, DetailView
+
 PER_PAGE = 9
 
-
+# Class Based Views -> São classes (POO) https://docs.djangoproject.com/pt-br/4.2/ref/class-based-views/
 class PostListView(ListView):
     model = Post
     template_name = "blog/pages/index.html"
     context_object_name = "posts"
-    ordering = "-pk",
+    ordering = ("-pk",)
     paginate_by = PER_PAGE
     queryset = Post.objects.get_published()
 
@@ -27,35 +28,38 @@ class CreatedByListView(PostListView):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self._tmp_context = {}
-    
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         user = self._tmp_context["user"]
         user_fullname = user.username
         if user.first_name:
             user_fullname = f"{user.first_name} {user.last_name}"
-        context.update({
-            "page_title": f"Posts de {user_fullname} - ",
-        })
+        context.update(
+            {
+                "page_title": f"Posts de {user_fullname} - ",
+            }
+        )
         return context
-    
+
     def get_queryset(self):
         queryset = super().get_queryset()
         queryset = queryset.filter(created_by__pk=self._tmp_context["author_id"])
         return queryset
 
-    
     def get(self, request, *args, **kwargs):
         author_pk = self.kwargs.get("author_id")
         user = User.objects.filter(pk=author_pk).first()
 
         if user is None:
             raise Http404()
-        
-        self._tmp_context.update({
-            "author_id": author_pk,
-            "user": user,
-        })
+
+        self._tmp_context.update(
+            {
+                "author_id": author_pk,
+                "user": user,
+            }
+        )
         return super().get(request, *args, **kwargs)
 
 
@@ -64,42 +68,46 @@ class CategoryListView(PostListView):
 
     def get_queryset(self) -> QuerySet[Any]:
         return super().get_queryset().filter(category__slug=self.kwargs.get("slug"))
-    
-    def get_context_data(self, **kwargs):   
+
+    def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         # metodo 1
-        context.update({
-            "page_title": f"{context['posts'][0].category.name} - Categoria - ",
-        })
+        context.update(
+            {
+                "page_title": f"{context['posts'][0].category.name} - Categoria - ",
+            }
+        )
 
         # metodo 2
         # context.update({
         #     "page_title": f"{self.object_list[0].category.name} - Categoria - ", #type: ignore
         # })
-        
+
         return context
-    
+
 
 class TagListView(PostListView):
     allow_empty = False
 
     def get_queryset(self) -> QuerySet[Any]:
         return super().get_queryset().filter(tags__slug=self.kwargs.get("slug"))
-    
-    def get_context_data(self, **kwargs):   
+
+    def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         # metodo 1
-        context.update({
-            "page_title": f"{context['posts'][0].tags.first().name} - Tag - ",
-        })
+        context.update(
+            {
+                "page_title": f"{context['posts'][0].tags.first().name} - Tag - ",
+            }
+        )
 
         # metodo 2
         # context.update({
         #     "page_title": f"{self.object_list[0].tags.first().name} - Tag - ", #type: ignore
         # })
-        
+
         return context
-    
+
 
 class SearchListView(PostListView):
     def __init__(self, *args, **kwargs: Any) -> None:
@@ -112,26 +120,32 @@ class SearchListView(PostListView):
 
     def get_queryset(self) -> QuerySet[Any]:
         search_value = self.request.GET.get("search", "").strip()
-        return super().get_queryset().filter(
-            Q(title__icontains=search_value)
-            | Q(excerpt__icontains=search_value)
-            | Q(content__icontains=search_value)
+        return (
+            super()
+            .get_queryset()
+            .filter(
+                Q(title__icontains=search_value)
+                | Q(excerpt__icontains=search_value)
+                | Q(content__icontains=search_value)
+            )
         )
-    
+
     def get_context_data(self, **kwargs: Any):
         context = super().get_context_data(**kwargs)
         search_value = self.request.GET.get("search", "").strip()
-        context.update({
-            "search_value": search_value,
-            "page_title": f"{search_value[:20]} - Busca - ",
-        })
+        context.update(
+            {
+                "search_value": search_value,
+                "page_title": f"{search_value[:20]} - Busca - ",
+            }
+        )
         return context
-    
+
     def get(self, request, *args: Any, **kwargs: Any):
         if not self._search_value:
             return redirect("blog:index")
         return super().get(request, *args, **kwargs)
-    
+
 
 class PageDetailView(DetailView):
     model = Page
@@ -145,11 +159,34 @@ class PageDetailView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         page = context["page"]
-        context.update({
-            "page_title": f"{page.title} - Página - ",
-        })
+        context.update(
+            {
+                "page_title": f"{page.title} - Página - ",
+            }
+        )
         return context
 
+
+class PostDetailView(DetailView):
+    model = Post
+    template_name = "blog/pages/post.html"
+    context_object_name = "post"
+    slug_field = "slug"
+
+    def get_queryset(self):
+        return super().get_queryset().filter(is_published=True)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        post = context["post"]
+        context.update(
+            {
+                "page_title": f"{post.title} - Post - ",
+            }
+        )
+        return context
+
+############# Function Based Views
 def index(request):
     # Function Based Views -> São funções
     # Class Based Views -> São classes (POO) https://docs.djangoproject.com/pt-br/4.2/ref/class-based-views/

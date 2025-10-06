@@ -49,3 +49,4 @@
 - 559 - **Migrando a view tag para Class Based View (CBV) ListView no views.py do Django ->** *[aula559](./djangoapp/blog/)*
 - 560 - **Migrando a view search para Class Base View (CBV) ListView em views.py do Django ->** *[aula560](./djangoapp/blog/)*
 - 561 - **Usando DetailView para migrar a view page para PageDetailView ->** *[aula561](./djangoapp/blog/)*
+- 562 - **Usando a CBV DetailView com Post para criar PostDetailView ->** *[aula562](./djangoapp/blog/)*
