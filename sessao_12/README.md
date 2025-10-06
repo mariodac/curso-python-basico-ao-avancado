@@ -45,3 +45,4 @@
 - 555 - **Documentação e teoria sobre Class Based Views no Django ->** *[aula555](./djangoapp/blog/)*
 - 556 - **Migrando a view index para Class Based View django.views.generic.list.ListView ->** *[aula556](./djangoapp/blog/)*
 - 557 - **Usando self.kwargs para argumentos de URL e ordem de chamada dos métodos em CBV ->** *[aula557](./djangoapp/blog/)*
+- 558 - **Migrando a view category para ListView e usando allow_empty para 404 ->** *[aula558](./djangoapp/blog/)*

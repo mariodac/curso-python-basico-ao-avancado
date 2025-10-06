@@ -1,3 +1,5 @@
+from typing import Any
+from django.db.models.query import QuerySet
 from django.http import Http404
 from django.shortcuts import render
 from django.core.paginator import Paginator
@@ -55,6 +57,27 @@ class CreatedByListView(PostListView):
             "user": user,
         })
         return super().get(request, *args, **kwargs)
+
+
+class CategoryListView(PostListView):
+    allow_empty = False
+
+    def get_queryset(self) -> QuerySet[Any]:
+        return super().get_queryset().filter(category__slug=self.kwargs.get("slug"))
+    
+    def get_context_data(self, **kwargs):   
+        context = super().get_context_data(**kwargs)
+        # metodo 1
+        context.update({
+            "page_title": f"Categoria - {context['posts'][0].category.name} - ",
+        })
+
+        # metodo 2
+        # context.update({
+        #     "page_title": f"Categoria - {self.object_list[0].category.name} - ", #type: ignore
+        # })
+        
+        return context
 
 def index(request):
     # Function Based Views -> São funções
