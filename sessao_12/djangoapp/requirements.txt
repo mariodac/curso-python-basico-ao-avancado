@@ -2,3 +2,5 @@ Django>=5.2,<5.3
 psycopg2-binary>=2.9,<2.10
 Pillow>=11.2,<11.3
 django-summernote>=0.8.20.0,<0.8.21.0
+python-dotenv>=1.1.1,<1.2.0
+django-axes>=8.0.0,<8.1.0
