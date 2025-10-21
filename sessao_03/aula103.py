@@ -35,4 +35,5 @@ for _ in range(100):
     segundo_digito = segundo_digito if segundo_digito < 9 else 0
 
     cpf_gerado = f'{nove_digitos[:3]}.{nove_digitos[3:6]}.{nove_digitos[6:]}-{primeiro_digito}{segundo_digito}'
+    cpf_gerado = f'{nove_digitos[:3]}{nove_digitos[3:6]}{nove_digitos[6:]}{primeiro_digito}{segundo_digito}'
     print(cpf_gerado)
